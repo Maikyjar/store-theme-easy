@@ -1,0 +1,57 @@
+{
+  "header-layout.mobile": {
+      "children": [
+        "image#global__header--banner",
+        "sticky-layout#mobile"
+      ]
+    },
+    "sticky-layout#mobile": {
+      "children": ["flex-layout.row#mobile"]
+    },
+    "flex-layout.row#mobile": {
+      "children": [
+        "drawer#header__mobile--menu",
+        "flex-layout.col#logo-mobile",
+        "login",
+        "minicart.v2"
+      ],
+      "props": {
+        "blockClass": "main-header-mobile",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "drawer#header__mobile--menu": {
+      "children": [
+        "menu#header__menu"
+      ]
+    },
+    "flex-layout.col#logo-mobile": {
+      "props": {
+        "verticalAlign": "middle"
+      },
+      "children": [
+        "logo#header-logo--mobile"
+      ]
+    },
+    "logo#header-logo--mobile": {
+      "title": "Logo",
+      "props": {
+        "href": "/",
+        "url": "assets/img/logo-easy.webp",
+        "width": "70"
+      }
+    },
+    "login": {
+      "props": {
+        "emailAndPasswordTitle": "LOG-IN",
+        "accessCodeTitle": "Acess Code LOG-IN",
+        "emailPlaceholder": "e-mail",
+        "passwordPlaceholder": "password",
+        "showPasswordVerificationIntoTooltip": true,
+        "showIconProfile": true,
+        "iconLabel": "hola"
+      }
+    }
+}

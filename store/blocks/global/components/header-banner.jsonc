@@ -1,0 +1,15 @@
+{
+    "image#global__header--banner": {
+        "title": "home banner image",
+        "props": {
+            "src": "assets/img/home-banner/banner-superior-venta-telefonica.webp",
+            "title": "banner superior",
+            "blockClass": "home__banner",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}

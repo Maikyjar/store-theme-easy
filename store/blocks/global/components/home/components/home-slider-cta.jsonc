@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#home__section--test": {
+        "children": [
+            "rich-text#home__section--test"
+        ],
+        "props": {
+            "blockClass": "home__section--test"
+        }
+    },
+    "rich-text#home__section--test": {
+        "title": "Text section test",
+        "props": {
+            "text": "VENTA TELEFONICA:",
+            "blockClass": "section__test--title"
+        }
+    }
+}

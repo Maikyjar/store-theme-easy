@@ -1,0 +1,83 @@
+{
+  /* "flex-layout.row#home__section--two": {
+      "title": "section two",
+      "children": [
+        "flex-layout.col#section__two--image",
+        "flex-layout.col#section__two--text"
+      ],
+      "props": {
+        "blockClass": "home__section--two"
+      }
+    },
+    "flex-layout.col#section__two--image": {
+      "title": "image section two",
+      "children": [
+        "image#home__banner--image"
+      ],
+      "props": {
+        "width": "60%"
+      }
+    },
+    "flex-layout.col#section__two--text": {
+      "title": "text section two",
+      "children": [
+        "rich-text#section__two--title",
+        "rich-text#section__two--paragraph"
+      ],
+      "props": {
+        "verticalAlign": "middle",
+        "width": "grow"
+      }
+    },
+    "rich-text#section__two--title": {
+      "props": {
+        "text": "# Welcome VTEX app"
+      }
+    },
+    "rich-text#section__two--paragraph": {
+      "props": {
+        "text": "hbj kjnkj lklkn klnlknkl nklkn kln kln kn kln knk ln lkn k nkl nl kn kn lkn kl nlk nlk n kln k ml mk lm kl mkmk m lm kl mk m lkml km lkm k lm khjbkj kjbkjbjk ikhoiik hioiojmlk hoihoini"
+      }
+    },
+    "flex-layout.row#home__section--three": {
+      "children": [
+        "flex-layout.col#section__three--item-1",
+        "flex-layout.col#section__three--item-2",
+        "flex-layout.col#section__three--item-3"
+      ],
+      "props": {
+        "preserveLayoutOnMobile": true
+      }
+    },
+    "flex-layout.col#section__three--item-1": {
+      "children": [
+        "image#home__banner--image"
+      ],
+      "props": {
+        "width": "40%"
+      }
+    },
+    "flex-layout.col#section__three--item-2": {
+      "children": [
+        "rich-text#test",
+        "link#home__link--button"
+      ],
+      "props": {
+        "width": "20%"
+      }
+    },
+    "flex-layout.col#section__three--item-3": {
+      "children": [
+        "image#home__slider--two",
+        "image#home__slider--three"
+      ],
+      "props": {
+        "width": "40%"
+      }
+    },
+    "rich-text#test": {
+      "props": {
+        "text": "This is a test text"
+      }
+    } */
+}

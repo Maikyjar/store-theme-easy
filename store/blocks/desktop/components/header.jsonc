@@ -1,0 +1,45 @@
+{
+    "header-layout.desktop": {
+        "children": [
+          "image#global__header--banner",
+          "sticky-layout#desktop"
+        ]
+      },
+      "sticky-layout#desktop": {
+        "props": {
+          "blockClass": "sticky-header"
+        },
+        "children": ["flex-layout.row#desktop"]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "horizontalAlign": "between",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "search-bar",
+          "login",
+          "minicart.v2"
+        ]
+      },
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": [
+          "logo#header-logo--desktop"
+        ]
+      },
+      "logo#header-logo--desktop": {
+        "title": "Logo",
+        "props": {
+          "href": "/",
+          "url": "assets/img/logo-easy.webp",
+          "width": "100"
+        }
+      }
+}

@@ -1,0 +1,79 @@
+{
+  "store.home": { 
+    "blocks": [
+      //"flex-layout.row#home__section--one",
+      //"link#home__link--boton",
+      //"slider-layout#home__slider--children",
+      "list-context.image-list#home__slider--list",
+      "flex-layout.row#global__home",
+      //"flex-layout.row#home__section--three",
+      "responsive-layout.phone#home__info--phone",
+      "responsive-layout.tablet#home__info--tablet",
+      "responsive-layout.desktop#home__info--desktop",
+      "modal-trigger#home__modal--children",
+      "modal-trigger#home__modal--event"
+    ]
+  },
+  "flex-layout.row#global__home": {
+    "title": "home",
+    "children": [
+      "flex-layout.col#global__home"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#global__home": {
+    "title": "home",
+    "children": [
+      "flex-layout.row#section__one--text",
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#section__two--text",
+      "flex-layout.row#home__section--two"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "flex-layout.row#section__two--text": {
+    "title": "text section two",
+    "children": [
+      "rich-text#section__two--title"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "fullWidth": false
+    }
+  },
+  "rich-text#section__two--title": {
+    "props": {
+      "text": "# Grandes ofertas para ti"
+    }
+  },
+  "flex-layout.row#home__section--two": {
+    "children": [
+      "flex-layout.col#section__two--item-1"
+    ]
+  },
+  "flex-layout.col#section__two--item-1": {
+    "children": [
+      "image#home__section--two--image"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+  "image#home__section--two--image": {
+    "title": "home section two image",
+    "props": {
+        "src": "assets/img/home-section-two/grandes_ofertas-19949.webp",
+        "title": "section one",
+        "blockClass": "home__section--two",
+        "link": {
+            "url": "https://developers.vtex.com/",
+            "newTab": true,
+            "attributeNoFollow": true
+        }
+    }
+  }
+}
