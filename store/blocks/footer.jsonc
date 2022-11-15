@@ -9,7 +9,7 @@
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "disclosure-layout-group#mobile__footer-menu"
     ]
   },
   "flex-layout.row#footer": { 
@@ -20,7 +20,30 @@
   "image": {
     "props": {
       "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "src": "assets/img/desktop-home-banner/banner-superior-venta-telefonica.webp"
+    }
+  },
+  "disclosure-layout-group#mobile__footer-menu": {
+    "children": [
+      "disclosure-layout#policies"
+      //"disclosure-layout#about-us",
+      //"disclosure-layout#departments"
+    ]
+  },
+  "disclosure-layout#policies": {
+    "children": [
+      "disclosure-trigger#policies"
+      //"disclosure-content#policies"
+    ]
+  },
+  "disclosure-trigger#policies": {
+    "children": [
+      "rich-text#mobile__policies"
+    ]
+  },
+  "rich-text#mobile__policies": {
+    "props": {
+      "text": "Politicas de la tienda"
     }
   }
 }

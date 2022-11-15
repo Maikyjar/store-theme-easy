@@ -1,0 +1,7 @@
+{
+    "responsive-layout.mobile": {
+        "children": [
+            "list-context.image-list#mobile__home--slider--list"
+        ]
+    }
+}
