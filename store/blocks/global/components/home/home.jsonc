@@ -25,51 +25,21 @@
       "flex-layout.row#section__one--text",
       "flex-layout.row#home__section--one",
       "flex-layout.row#section__two--text",
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#section__three--text",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#section__four--text",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#section__five--text",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six",
+      "flex-layout.row#section__seven--text",
+      "flex-layout.row#home__section--seven",
+      "flex-layout.row#section__eight--text",
+      "flex-layout.row#home__section--eight"
     ],
     "props": {
       "width": "80%"
-    }
-  },
-  "flex-layout.row#section__two--text": {
-    "title": "text section two",
-    "children": [
-      "rich-text#section__two--title"
-    ],
-    "props": {
-      "horizontalAlign": "left",
-      "fullWidth": false
-    }
-  },
-  "rich-text#section__two--title": {
-    "props": {
-      "text": "# Grandes ofertas para ti"
-    }
-  },
-  "flex-layout.row#home__section--two": {
-    "children": [
-      "flex-layout.col#section__two--item-1"
-    ]
-  },
-  "flex-layout.col#section__two--item-1": {
-    "children": [
-      "image#home__section--two--image"
-    ],
-    "props": {
-      "width": "40%"
-    }
-  },
-  "image#home__section--two--image": {
-    "title": "home section two image",
-    "props": {
-        "src": "assets/img/home-section-two/grandes_ofertas-19949.webp",
-        "title": "section one",
-        "blockClass": "home__section--two",
-        "link": {
-            "url": "https://developers.vtex.com/",
-            "newTab": true,
-            "attributeNoFollow": true
-        }
     }
   },
   "search-result-layout.customQuery#global__home-search": {

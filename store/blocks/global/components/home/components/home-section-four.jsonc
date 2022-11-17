@@ -1,0 +1,87 @@
+{
+    "flex-layout.row#section__four--text": {
+        "title": "text section four",
+        "children": [
+            "rich-text#section__four--title"
+        ],
+        "props": {
+            "horizontalAlign": "left",
+            "fullWidth": false
+        }
+    },
+    "rich-text#section__four--title": {
+        "props": {
+            "text": "## Organiza todos tus espacios"
+        }
+    },
+    "flex-layout.row#home__section--four": {
+        "children": [
+            "flex-layout.col#section__four--item-1",
+            "flex-layout.col#section__four--item-2",
+            "flex-layout.col#section__four--item-3"
+        ]
+    },
+    "flex-layout.col#section__four--item-1": {
+        "children": [
+            "image#home__section--four-image-one"
+        ],
+        "props": {
+            "width": "25%"
+        }
+    },
+    "image#home__section--four-image-one": {
+        "title": "home section four image",
+        "props": {
+            "src": "assets/img/home-section-four/limpieza-19928.webp",
+            "title": "section four",
+            "blockClass": "home__section--four",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "flex-layout.col#section__four--item-2": {
+        "children": [
+            "image#home__section--four-image-two"
+        ],
+        "props": {
+            "width": "25%"
+        }
+    },
+    "image#home__section--four-image-two": {
+        "title": "home section four image",
+        "props": {
+            "src": "assets/img/home-section-four/lavanderia-19929.webp",
+            "title": "section four",
+            "blockClass": "home__section--four",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "flex-layout.col#section__four--item-3": {
+        "children": [
+            "image#home__section--four-image-three"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "image#home__section--four-image-three": {
+        "title": "home section four image",
+        "props": {
+            "src": "assets/img/home-section-four/organizacion-19930.webp",
+            "title": "section four",
+            "blockClass": "home__section--four",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}

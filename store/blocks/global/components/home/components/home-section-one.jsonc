@@ -3,8 +3,7 @@
     "title": "section one of home",
     "children": [
       "flex-layout.col#section__one--item-1",
-      "flex-layout.col#section__one--item-2",
-      "flex-layout.col#section__one--item-3"
+      "flex-layout.col#section__one--item-2"
     ],
     "props": {
       "blockClass": "home__section--one",
@@ -16,20 +15,12 @@
       "image#home__section--image--one"
     ],
     "props": {
-      "width": "25%"
+      "width": "50%"
     }
   },
   "flex-layout.col#section__one--item-2": {
     "children": [
       "image#home__section--image--two"
-    ],
-    "props": {
-      "width": "25%"
-    }
-  },
-  "flex-layout.col#section__one--item-3": {
-    "children": [
-      "image#home__section--image--three"
     ],
     "props": {
       "width": "50%"
@@ -38,7 +29,7 @@
   "image#home__section--image--one": {
     "title": "home section image one",
     "props": {
-        "src": "assets/img/home-section-one/descuento_iluminacion-19956.webp",
+        "src": "assets/img/home-section-one/easy_ofertazos-20008.webp",
         "title": "section one",
         "blockClass": "home__section--one",
         "link": {
@@ -51,20 +42,7 @@
   "image#home__section--image--two": {
     "title": "home section image two",
     "props": {
-        "src": "assets/img/home-section-one/descuento_textil_hogar-19957.webp",
-        "title": "section one",
-        "blockClass": "home__section--one",
-        "link": {
-            "url": "https://developers.vtex.com/",
-            "newTab": true,
-            "attributeNoFollow": true
-        }
-    }
-  },
-  "image#home__section--image--three": {
-    "title": "home section image three",
-    "props": {
-        "src": "assets/img/home-section-one/descuento_utensilios_mesa_cocina-19958.webp",
+        "src": "#",
         "title": "section one",
         "blockClass": "home__section--one",
         "link": {
@@ -86,7 +64,7 @@
   },
   "rich-text#section__one--title": {
     "props": {
-      "text": "# Ofertas para cada espacio de tu hogar"
+      "text": "## No te los puedes perder"
     }
   }
 }

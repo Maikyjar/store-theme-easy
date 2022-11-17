@@ -39,7 +39,7 @@
     "props": {
       "href": "/",
       "url": "assets/img/logo-easy.webp",
-      "mobileWidth": "100"
+      "mobileWidth": "100px"
     }
   },
   "search-bar#mobile__header--search": {

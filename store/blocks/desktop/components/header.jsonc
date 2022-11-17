@@ -88,28 +88,5 @@
     "children": [
       "menu#desktop__header--menu"
     ]
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "iconLabel": " "
-    }
-  },
-  "minicart.v2": {
-    "props": {
-      "variation": "link",
-      "MinicartIcon": "icon-cart",
-      "quantityDisplay": "always"
-    }
-  },
-  "icon-cart": {
-    "props": {
-      "size": 40
-    }
   }
 }
