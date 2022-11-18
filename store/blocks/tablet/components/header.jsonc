@@ -1,0 +1,75 @@
+{
+    "responsive-layout.tablet#tablet__header": {
+        "children": [
+            "image#global__header--banner",
+            "flex-layout.row#tablet"
+        ]
+    },
+    "flex-layout.row#tablet": {
+        "children": [
+          "drawer#header__tablet--menu",
+          "flex-layout.col#tablet__logo",
+          "flex-layout.col#tablet__search-bar--header",
+          "flex-layout.col#tablet__login-minicart--header"
+        ],
+        "props": {
+          "blockClass": "main-header-tablet",
+          "preventHorizontalStretch": true,
+          "preserveLayoutOntablet": true,
+          "fullWidth": true
+        }
+      },
+      "drawer#header__tablet--menu": {
+        "children": [
+          "menu#header__menu"
+        ],
+        "props": {
+          "size": 40,
+          "maxWidth": 200,
+          "slideDirection": "rightToLeft",
+          "blockClass": "drawer__tablet"
+        }
+      },
+      "flex-layout.col#tablet__logo": {
+        "props": {
+          "verticalAlign": "middle",
+          "horizontalAlign": "center"
+        },
+        "children": [
+          "logo#tablet__header--logo"
+        ]
+      },
+      "logo#tablet__header--logo": {
+        "title": "Header Logo",
+        "props": {
+          "href": "/",
+          "url": "assets/img/logo-easy.webp",
+          "width": "100px"
+        }
+      },
+      "flex-layout.col#tablet__search-bar--header": {
+        "children": [
+          "search-bar#tablet__header--search"
+        ],
+        "props": {
+          "verticalAlign": "middle",
+          "width": "70%"
+        }
+      },
+      "search-bar#tablet__header--search": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+          "openAutocompleteOnFocus": true,
+          "displayMode": "search-and-clear-buttons"
+        }
+      },
+      "flex-layout.col#tablet__login-minicart--header": {
+        "children": [
+          "flex-layout.row#desktop__login-minicart--header"
+        ],
+        "props": {
+          "verticalAlign": "middle",
+          "width": "10%"
+        }
+      }
+}

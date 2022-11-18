@@ -1,0 +1,13 @@
+.paragraph--section__one--title {
+    color: aliceblue;
+}
+
+.heading--subtitle__home {
+    font-size: 1.80rem;
+}
+
+@media screen and (max-width: 768px) {
+    .heading--subtitle__home {
+        font-size: 1.1rem;
+    }
+}

@@ -2,3 +2,7 @@
     color: white;
     background-color: #ce2b2b;
 }
+
+.logoImage--logo__mobile {
+    margin-left: -25px;
+}

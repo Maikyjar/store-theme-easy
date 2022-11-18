@@ -11,7 +11,8 @@
     },
     "rich-text#section__two--title": {
         "props": {
-            "text": "## Baños y Cocinas para tu hogar"
+            "text": "## Baños y Cocinas para tu hogar",
+            "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--two": {

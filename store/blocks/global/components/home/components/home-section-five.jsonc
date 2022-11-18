@@ -11,7 +11,8 @@
     },
     "rich-text#section__five--title": {
         "props": {
-            "text": "## Herramientas."
+            "text": "## Herramientas.",
+            "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--five": {

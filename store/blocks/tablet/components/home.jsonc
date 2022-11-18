@@ -1,0 +1,40 @@
+{
+    "responsive-layout.tablet#tablet__home": {
+        "children": [
+            "list-context.image-list#desktop__home--slider--list",
+            "flex-layout.row#tablet__home"
+        ]
+    },
+    "flex-layout.row#tablet__home": {
+        "title": "tablet home",
+        "children": [
+            "flex-layout.col#tablet__home"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#tablet__home": {
+        "title": "tablet home",
+        "children": [
+            "flex-layout.row#section__one--text",
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#section__two--text",
+            "flex-layout.row#home__section--two",
+            "flex-layout.row#section__three--text",
+            "flex-layout.row#home__section--three",
+            "flex-layout.row#section__four--text",
+            "flex-layout.row#home__section--four",
+            "flex-layout.row#section__five--text",
+            "flex-layout.row#home__section--five",
+            "flex-layout.row#home__section--six",
+            "flex-layout.row#section__seven--text",
+            "flex-layout.row#home__section--seven",
+            "flex-layout.row#section__eight--text",
+            "flex-layout.row#home__section--eight"
+        ],
+        "props": {
+            "width": "98%"
+        }
+    }
+}

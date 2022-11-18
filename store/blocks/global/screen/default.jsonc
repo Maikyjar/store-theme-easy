@@ -20,9 +20,9 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
-  },
+  }
 
-  "product-summary.shelf": {
+  /* "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",
       "product-summary-name",
@@ -32,5 +32,5 @@
       "product-identifier.summary",
       "add-to-cart-button"
     ]
-  }
+  } */
 }

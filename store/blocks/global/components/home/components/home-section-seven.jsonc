@@ -11,7 +11,8 @@
     },
     "rich-text#section__seven--title": {
         "props": {
-            "text": "## easy, donde se renueva tu hogar"
+            "text": "## easy, donde se renueva tu hogar",
+            "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--seven": {

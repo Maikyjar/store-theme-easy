@@ -15,7 +15,7 @@
       "image#home__section--image--one"
     ],
     "props": {
-      "width": "50%"
+      "width": "45%"
     }
   },
   "flex-layout.col#section__one--item-2": {
@@ -23,7 +23,7 @@
       "image#home__section--image--two"
     ],
     "props": {
-      "width": "50%"
+      "width": "55%"
     }
   },
   "image#home__section--image--one": {
@@ -64,7 +64,8 @@
   },
   "rich-text#section__one--title": {
     "props": {
-      "text": "## No te los puedes perder"
+      "text": "## No te los puedes perder",
+      "blockClass": "subtitle__home"
     }
   }
 }

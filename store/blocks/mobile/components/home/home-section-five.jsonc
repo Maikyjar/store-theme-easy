@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#mobile__home--section-five": {
+        "children": [
+            "flex-layout.col#mobile__home--section-five--item-1",
+            "flex-layout.col#mobile__home--section-five--item-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#mobile__home--section-five--item-1": {
+        "children": [
+            "image#home__section--five-image-one"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#mobile__home--section-five--item-2": {
+        "children": [
+            "image#home__section--five-image-two"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    }
+}

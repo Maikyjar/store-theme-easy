@@ -39,7 +39,7 @@
       "flex-layout.row#home__section--eight"
     ],
     "props": {
-      "width": "80%"
+      "width": "85%"
     }
   },
   "search-result-layout.customQuery#global__home-search": {

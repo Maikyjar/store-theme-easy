@@ -1,7 +1,18 @@
 {
   "header-layout.mobile": {
     "children": [
+      "responsive-layout.tablet#tablet__header",
+      "responsive-layout.phone#phone__header"
+    ]
+  },
+  "responsive-layout.phone#phone__header": {
+    "children": [
       "image#mobile__header--banner",
+      "sticky-layout#mobile__header"
+    ]
+  },
+  "sticky-layout#mobile__header": {
+    "children": [
       "flex-layout.row#mobile"
     ]
   },
@@ -9,26 +20,33 @@
     "children": [
       "drawer#header__mobile--menu",
       "flex-layout.col#mobile__logo",
-      "search-bar#mobile__header--search",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#mobile__search-bar--header",
+      "flex-layout.col#mobile__login--header",
+      "flex-layout.col#mobile__minicart--header"
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preventHorizontalStretch": false,
+      "fullWidth": true,
+      "colSizing": "auto"
     }
   },
   "drawer#header__mobile--menu": {
     "children": [
       "menu#header__menu"
-    ]
+    ],
+    "props": {
+      "size": 35,
+      "maxWidth": 200,
+      "slideDirection": "rightToLeft",
+      "blockClass": "drawer__mobile"
+    }
   },
   "flex-layout.col#mobile__logo": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "width": "15%"
     },
     "children": [
       "logo#mobile__header--logo"
@@ -39,7 +57,17 @@
     "props": {
       "href": "/",
       "url": "assets/img/logo-easy.webp",
-      "mobileWidth": "100px"
+      "width": "70px",
+      "blockClass": "logo__mobile"
+    }
+  },
+  "flex-layout.col#mobile__search-bar--header": {
+    "children": [
+      "search-bar#mobile__header--search"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "50%"
     }
   },
   "search-bar#mobile__header--search": {
@@ -47,6 +75,26 @@
     "props": {
       "openAutocompleteOnFocus": true,
       "displayMode": "search-and-clear-buttons"
+    }
+  },
+  "flex-layout.col#mobile__login--header": {
+    "children": [
+      "login#mobile"
+    ],
+    "props": {
+      "width": "10%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#mobile__minicart--header": {
+    "children": [
+      "minicart.v2#mobile"
+    ],
+    "props": {
+      "width": "10%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
     }
   }
 }

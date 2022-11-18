@@ -11,7 +11,8 @@
     },
     "rich-text#section__three--title": {
         "props": {
-            "text": "## Muebles"
+            "text": "## Muebles",
+            "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--three": {

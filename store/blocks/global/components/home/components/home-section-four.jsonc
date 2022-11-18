@@ -11,7 +11,8 @@
     },
     "rich-text#section__four--title": {
         "props": {
-            "text": "## Organiza todos tus espacios"
+            "text": "## Organiza todos tus espacios",
+            "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--four": {

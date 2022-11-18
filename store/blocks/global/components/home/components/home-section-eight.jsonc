@@ -11,7 +11,8 @@
     },
     "rich-text#section__eight--title": {
         "props": {
-            "text": "## Información"
+            "text": "## Información",
+            "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--eight": {

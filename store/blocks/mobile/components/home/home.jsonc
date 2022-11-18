@@ -1,0 +1,50 @@
+{
+    "responsive-layout.mobile": {
+        "children": [
+            "responsive-layout.tablet#tablet__home",
+            "responsive-layout.phone#phone__home"
+        ]
+    },
+    "responsive-layout.phone#phone__home": {
+        "children": [
+            "list-context.image-list#mobile__home--slider--list",
+            "flex-layout.row#mobile__home"
+        ]
+    },
+    "flex-layout.row#mobile__home": {
+        "title": "mobile home",
+        "children": [
+            "flex-layout.col#mobile__home"
+        ]
+    },
+    "flex-layout.col#mobile__home": {
+        "title": "mobile home",
+        "children": [
+            "flex-layout.row#section__one--text",
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#section__two--text",
+            "flex-layout.row#mobile__home--section-two",
+            "image#home__section--two-image-three",
+            "flex-layout.row#section__three--text",
+            "flex-layout.row#mobile__home--section-three",
+            "image#home__section--three-image-three",
+            "flex-layout.row#section__four--text",
+            "flex-layout.row#mobile__home--section-four",
+            "image#home__section--four-image-three",
+            "flex-layout.row#section__five--text",
+            "flex-layout.row#mobile__home--section-five",
+            "image#home__section--five-image-three",
+            "image#home__section--six-image-one",
+            "flex-layout.row#mobile__home--section-six",
+            "flex-layout.row#section__seven--text",
+            "flex-layout.row#mobile__home--section-seven",
+            "image#home__section--seven-image-three",
+            "flex-layout.row#section__eight--text",
+            "flex-layout.row#mobile__home--section-eight",
+            "image#home__section--eight-image-three"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    }
+}
