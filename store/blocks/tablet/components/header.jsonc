@@ -14,9 +14,10 @@
         ],
         "props": {
           "blockClass": "main-header-tablet",
-          "preventHorizontalStretch": true,
+          "preventHorizontalStretch": false,
           "preserveLayoutOntablet": true,
-          "fullWidth": true
+          "fullWidth": true,
+          "colSizing": "auto"
         }
       },
       "drawer#header__tablet--menu": {
@@ -24,16 +25,17 @@
           "menu#header__menu"
         ],
         "props": {
-          "size": 40,
           "maxWidth": 200,
           "slideDirection": "rightToLeft",
-          "blockClass": "drawer__tablet"
+          "blockClass": "drawer__tablet",
+          "width": "10%"
         }
       },
       "flex-layout.col#tablet__logo": {
         "props": {
           "verticalAlign": "middle",
-          "horizontalAlign": "center"
+          "horizontalAlign": "center",
+          "width": "15%"
         },
         "children": [
           "logo#tablet__header--logo"
@@ -44,7 +46,8 @@
         "props": {
           "href": "/",
           "url": "assets/img/logo-easy.webp",
-          "width": "100px"
+          "width": "100px",
+          "blockClass": "logo__tablet"
         }
       },
       "flex-layout.col#tablet__search-bar--header": {
@@ -53,7 +56,7 @@
         ],
         "props": {
           "verticalAlign": "middle",
-          "width": "70%"
+          "width": "50%"
         }
       },
       "search-bar#tablet__header--search": {
@@ -69,7 +72,8 @@
         ],
         "props": {
           "verticalAlign": "middle",
-          "width": "10%"
+          "horizontalAlign": "right",
+          "width": "15%"
         }
       }
 }

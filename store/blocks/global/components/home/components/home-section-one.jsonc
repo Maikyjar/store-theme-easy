@@ -1,4 +1,20 @@
 {
+  "flex-layout.row#section__one--text": {
+    "title": "text section one",
+    "children": [
+      "rich-text#section__one--title"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "fullWidth": false
+    }
+  },
+  "rich-text#section__one--title": {
+    "props": {
+      "text": "## No te los puedes perder",
+      "blockClass": "subtitle__home"
+    }
+  },
   "flex-layout.row#home__section--one": {
     "title": "section one of home",
     "children": [
@@ -18,14 +34,6 @@
       "width": "45%"
     }
   },
-  "flex-layout.col#section__one--item-2": {
-    "children": [
-      "image#home__section--image--two"
-    ],
-    "props": {
-      "width": "55%"
-    }
-  },
   "image#home__section--image--one": {
     "title": "home section image one",
     "props": {
@@ -39,33 +47,30 @@
         }
     }
   },
-  "image#home__section--image--two": {
-    "title": "home section image two",
-    "props": {
-        "src": "#",
-        "title": "section one",
-        "blockClass": "home__section--one",
-        "link": {
-            "url": "https://developers.vtex.com/",
-            "newTab": true,
-            "attributeNoFollow": true
-        }
-    }
-  },
-  "flex-layout.row#section__one--text": {
-    "title": "text section one",
+  "flex-layout.col#section__one--item-2": {
     "children": [
-      "rich-text#section__one--title"
+      "slider-layout#global__home--slider"
     ],
     "props": {
-      "horizontalAlign": "left",
-      "fullWidth": false
+      "width": "55%"
     }
   },
-  "rich-text#section__one--title": {
+  "slider-layout#global__home--slider": {
+    "title": "Global home slider",
     "props": {
-      "text": "## No te los puedes perder",
-      "blockClass": "subtitle__home"
-    }
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "gallery"
+    ]
   }
 }

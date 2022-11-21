@@ -1,0 +1,137 @@
+{
+    "flex-layout.row#section__nine--text": {
+        "title": "text section nine",
+        "children": [
+            "rich-text#section__nine--title"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "fullWidth": false
+        }
+    },
+    "rich-text#section__nine--title": {
+        "props": {
+            "text": "### Easy: Todo para construir, decorar y remodelar.",
+            "blockClass": "subtitle__home-section-nine",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#home__section--nine": {
+        "children": [
+            "flex-layout.col#section__nine--item-1",
+            "flex-layout.col#section__nine--item-2",
+            "flex-layout.col#section__nine--item-3"
+        ],
+        "props": {
+            "horizontalAlign": "between"
+        }
+    },
+    "flex-layout.col#section__nine--item-1": {
+        "children": [
+            "image#home__section--nine-image-one",
+            "rich-text#home__section--nine-text-one-title",
+            "rich-text#home__section--nine-text-one-subtitle"
+        ],
+        "props": {
+            "width": "25%",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#home__section--nine-image-one": {
+        "title": "home section nine image",
+        "props": {
+            "src": "assets/img/home-section-nine/icono-envio.webp",
+            "title": "section nine",
+            "blockClass": "home__section--nine",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "rich-text#home__section--nine-text-one-title": {
+        "props": {
+            "text": "#### Envío a domicilio",
+            "blockClass": "title_image-section-nine"
+        }
+    },
+    "rich-text#home__section--nine-text-one-subtitle": {
+        "props": {
+            "text": "Recibe en tu casa el producto",
+            "blockClass": "subtitle_image-section-nine"
+        }
+    },
+    "flex-layout.col#section__nine--item-2": {
+        "children": [
+            "image#home__section--nine-image-two",
+            "rich-text#home__section--nine-text-two-title",
+            "rich-text#home__section--nine-text-two-subtitle"
+        ],
+        "props": {
+            "width": "25%",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#home__section--nine-image-two": {
+        "title": "home section nine image",
+        "props": {
+            "src": "assets/img/home-section-nine/icono-recogida.webp",
+            "title": "section nine",
+            "blockClass": "home__section--nine",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "rich-text#home__section--nine-text-two-title": {
+        "props": {
+            "text": "#### Retiro en tienda",
+            "blockClass": "title_image-section-nine"
+        }
+    },
+    "rich-text#home__section--nine-text-two-subtitle": {
+        "props": {
+            "text": "Retira en tu tienda más cercana",
+            "blockClass": "subtitle_image-section-nine"
+        }
+    },
+    "flex-layout.col#section__nine--item-3": {
+        "children": [
+            "image#home__section--nine-image-three",
+            "rich-text#home__section--nine-text-three-title",
+            "rich-text#home__section--nine-text-three-subtitle"
+        ],
+        "props": {
+            "width": "25%",
+            "horizontalAlign": "center"
+        }
+    },
+    "image#home__section--nine-image-three": {
+        "title": "home section nine image",
+        "props": {
+            "src": "assets/img/home-section-nine/icono-seguro.webp",
+            "title": "section nine",
+            "blockClass": "home__section--nine",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "rich-text#home__section--nine-text-three-title": {
+        "props": {
+            "text": "#### Compra fácil",
+            "blockClass": "title_image-section-nine"
+        }
+    },
+    "rich-text#home__section--nine-text-three-subtitle": {
+        "props": {
+            "text": "Rápido y seguro",
+            "blockClass": "subtitle_image-section-nine"
+        }
+    }
+}

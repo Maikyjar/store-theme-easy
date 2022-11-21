@@ -3,3 +3,9 @@
     src: url(assets/fonts/WorkSans-SemiBold.ttf);
     font-weight: 600;
 }
+
+@font-face {
+    font-family: "WorkSansRegular";
+    src: url(assets/fonts/WorkSans-Regular.ttf);
+    font-weight: 400;
+}

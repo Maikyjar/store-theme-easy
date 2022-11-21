@@ -544,12 +544,19 @@
         "props": {
             "id": "category-twenty-two",
             "type": "custom",
+            "highlight": true,
             "itemProps": {
                 "type": "internal",
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Catálogo",
                 "text": "Catálogo"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-catalogue",
+                "size": 20,
+                "viewBox": "0 0 24 24"
             }
         }
     },
@@ -562,7 +569,7 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Venta Telefónica",
-                "text": "Venta Telefónica"
+                "text": "📞 Venta Telefónica"
             }
         }
     },
@@ -575,7 +582,7 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Centro de Ayuda",
-                "text": "Centro de Ayuda"
+                "text": "🎧 Centro de Ayuda"
             }
         }
     },
@@ -588,7 +595,7 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Asistencia Web",
-                "text": "Asistencia Web"
+                "text": "💬 Asistencia Web"
             }
         }
     },

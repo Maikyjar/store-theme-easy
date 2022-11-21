@@ -87,6 +87,10 @@
   "flex-layout.row#desktop__menu": {
     "children": [
       "menu#desktop__header--menu"
-    ]
+    ],
+    "props": {
+      "blockClass": "menu__desktop",
+      "fullWidth": true
+    }
   }
 }

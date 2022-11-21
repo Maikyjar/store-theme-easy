@@ -20,19 +20,21 @@
         "props": {
             "id": "categories",
             "type": "custom",
+            "iconPosition": "right",
+            "iconId": null,
             "itemProps": {
                 "type": "internal",
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "CATEGORÍAS",
-                "text": "CATEGORÍAS"
+                "text": "☰ CATEGORÍAS"
             }
         },
         "blocks": [
-            "submenu.accordion#desktop__categories"
+            "submenu#desktop__categories"
         ]
     },
-    "submenu.accordion#desktop__categories": {
+    "submenu#desktop__categories": {
         "children": [
             "menu#desktop__categories"
         ]

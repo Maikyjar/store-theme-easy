@@ -4,46 +4,90 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#desktop__footer--section-one",
+      "flex-layout.row#desktop__footer--section-two"
     ]
   },
   "footer-layout.mobile": { 
     "children": [
-      "disclosure-layout-group#mobile__footer-menu"
+      //"disclosure-layout-group#mobile__footer-menu"
     ]
   },
-  "flex-layout.row#footer": { 
+  "flex-layout.row#desktop__footer--section-one": {
     "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "flex-layout.col#desktop__footer--section-one-1",
+      "flex-layout.col#desktop__footer--section-one-2",
+      "flex-layout.col#desktop__footer--section-one-3",
+      "flex-layout.col#desktop__footer--section-one-4"
+    ],
     "props": {
-      "width": 100,
-      "src": "assets/img/desktop-home-banner/banner-superior-venta-telefonica.webp"
+      "blockClass": "footer--section-one"
     }
   },
-  "disclosure-layout-group#mobile__footer-menu": {
+  "flex-layout.col#desktop__footer--section-one-1": {
     "children": [
-      "disclosure-layout#policies"
-      //"disclosure-layout#about-us",
-      //"disclosure-layout#departments"
+      "logo#header-logo--desktop",
+      "rich-text#footer--section-one-1",
+      "flex-layout.row#desktop__footer--social-media"
     ]
   },
-  "disclosure-layout#policies": {
-    "children": [
-      "disclosure-trigger#policies"
-      //"disclosure-content#policies"
-    ]
-  },
-  "disclosure-trigger#policies": {
-    "children": [
-      "rich-text#mobile__policies"
-    ]
-  },
-  "rich-text#mobile__policies": {
+  "rich-text#footer--section-one-1": {
     "props": {
-      "text": "Politicas de la tienda"
+      "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar."
+    }
+  },
+  "flex-layout.row#desktop__footer--social-media": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/EasyColombia"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.twitter.com/EasyColOficial"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/easycol/"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/easycolombia"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one-2": {
+    "children": [
+      "rich-text#footer--section-one-1"
+    ]
+  },
+  "flex-layout.col#desktop__footer--section-one-3": {
+    "children": [
+      "rich-text#footer--section-one-1"
+    ]
+  },
+  "flex-layout.col#desktop__footer--section-one-4": {
+    "children": [
+      "rich-text#footer--section-one-1"
+    ]
+  },
+  "flex-layout.row#desktop__footer--section-two": {
+    "children": [
+      /* "flex-layout.col#desktop__footer--section-two-1",
+      "flex-layout.col#desktop__footer--section-two-2",
+      "flex-layout.col#desktop__footer--section-two-3",
+      "flex-layout.col#desktop__footer--section-two-4" */
+    ],
+    "props": {
+      "blockClass": "footer--section-two"
     }
   }
 }
