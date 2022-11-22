@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#mobile__home--section-two": {
+        "children": [
+            "flex-layout.col#mobile__section--two--item-1",
+            "flex-layout.col#mobile__section--two--item-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#mobile__section--two--item-1": {
+        "children": [
+            "image#home__section--two-image-one"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#mobile__section--two--item-2": {
+        "children": [
+            "image#home__section--two-image-two"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    }
+}

@@ -1,9 +1,9 @@
 {
-    "image#global__header--banner": {
+    "image#mobile__header--banner": {
         "title": "home banner image",
         "props": {
-            "src": "assets/img/desktop-home-banner/banner-superior-venta-telefonica.webp",
-            "title": "banner superior",
+            "src": "assets/img/mobile-home-banner/banner-superior-venta-telefonica-mobile.webp",
+            "title": "banner superior movil",
             "blockClass": "home__banner",
             "link": {
                 "url": "https://developers.vtex.com/",

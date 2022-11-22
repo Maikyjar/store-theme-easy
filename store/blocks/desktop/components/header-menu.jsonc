@@ -1,0 +1,70 @@
+{
+    "menu#desktop__header--menu": {
+        "children": [
+            "menu-item#desktop__categories",
+            "menu-item#category__twenty-two",
+            "menu-item#category__twenty-three",
+            "menu-item#category__twenty-four",
+            "menu-item#category__twenty-five",
+            "menu-item#category__twenty-six",
+            "menu-item#category__twenty-seven",
+            "menu-item#category__twenty-eight",
+            "menu-item#category__twenty-nine",
+            "menu-item#category__thirty"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
+    },
+    "menu-item#desktop__categories": {
+        "props": {
+            "id": "categories",
+            "type": "custom",
+            "iconPosition": "right",
+            "iconId": null,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "CATEGORÍAS",
+                "text": "☰ CATEGORÍAS"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__categories"
+        ]
+    },
+    "submenu#desktop__categories": {
+        "children": [
+            "menu#desktop__categories"
+        ]
+    },
+    "menu#desktop__categories": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two",
+            "menu-item#category__three",
+            "menu-item#category__four",
+            "menu-item#category__five",
+            "menu-item#category__six",
+            "menu-item#category__seven",
+            "menu-item#category__eight",
+            "menu-item#category__nine",
+            "menu-item#category__ten",
+            "menu-item#category__eleven",
+            "menu-item#category__twelve",
+            "menu-item#category__thirteen",
+            "menu-item#category__fourteen",
+            "menu-item#category__fifteen",
+            "menu-item#category__sixteen",
+            "menu-item#category__seventeen",
+            "menu-item#category__eighteen",
+            "menu-item#category__nineteen",
+            "menu-item#category__twenty",
+            "menu-item#category__twenty-one"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

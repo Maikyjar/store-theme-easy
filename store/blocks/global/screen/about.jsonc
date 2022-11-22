@@ -1,0 +1,32 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "flex-layout.row#about-us"
+        ]
+    },
+    "flex-layout.row#about-us": {
+        "children": [
+            "flex-layout.col#text-about-us"
+        ]
+    },
+    "flex-layout.col#text-about-us": {
+        "children": [
+            "rich-text#about-title",
+            "rich-text#about-content"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#about-title": {
+        "props": {
+            "text": "# Acerca de Easy"
+        }
+    },
+    "rich-text#about-content": {
+        "props": {
+            "text":
+        "Somos la megatienda del hogar y la construcción, especializada en servicios para la construcción, remodelación y equipamiento de la casa y el jardín, Estamos orgullosos de hacer parte del grupo de capital germano-chileno Cencosud que tiene en su portafolio varias de las empresas más importantes de Latinoamérica en el área de retail: Hipermercados Jumbo, Supermercados Disco, Supermercados Santa Isabel, Parques de Diversión Aventura Center, Tiendas por departamentos PARIS y diferentes centros comerciales en Argentina, Chile, Brasil y Perú . Para conocer más sobre Cencosud www.cencosud.cl, Fundada en el año 1993 en la Argentina, 1994 en Chile, y 2007 en Colombia; Easy ha sido pionera desarrollando un nuevo mercado y satisfaciendo las necesidades de sus clientes en forma completa. Uno de los aspectos destacados es su orientación a las soluciones integrales para quienes quieren desarrollar sus propios proyectos, ya que cada local tiene una oferta de más de 50.000 productos distintos, tanto nacionales como importados, los que se distinguen por su calidad y sus buenos precios. Todas las personas disfrutan haciendo cambios en su hogar. Y si cuentan con alguien que les facilite las cosas, mejor aún. Con este propósito, bajo el concepto 'Hágalo Ud. Mismo', EASY se especializa en productos y materiales para la construcción, remodelación y decoración de casa y jardín. Lo más importante es que, además de productos, brindamos asesoría para que estos proyectos se hagan realidad."
+        }
+    }
+}

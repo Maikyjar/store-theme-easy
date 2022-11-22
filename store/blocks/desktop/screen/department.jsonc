@@ -1,0 +1,12 @@
+{
+    "search-result-layout.desktop#desktop__department": {
+        "children": [
+            "responsive-layout.desktop#desktop__department"
+        ]
+    },
+    "responsive-layout.desktop#desktop__department": {
+        "children": [
+            "flex-layout.row#category__results"
+        ]
+    }
+}

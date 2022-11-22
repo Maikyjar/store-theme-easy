@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#mobile__home--section-four": {
+        "children": [
+            "flex-layout.col#mobile__home--section-four--item-1",
+            "flex-layout.col#mobile__home--section-four--item-2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#mobile__home--section-four--item-1": {
+        "children": [
+            "image#home__section--four-image-one"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#mobile__home--section-four--item-2": {
+        "children": [
+            "image#home__section--four-image-two"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    }
+}

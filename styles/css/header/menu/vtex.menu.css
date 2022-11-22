@@ -1,0 +1,8 @@
+.styledLinkContent {
+    font-weight: bold;
+}
+
+.accordionIcon--isClosed {
+    background: url('https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg');
+}

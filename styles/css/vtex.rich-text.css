@@ -1,0 +1,36 @@
+.paragraph--section__one--title {
+    color: aliceblue;
+}
+
+.heading--subtitle__home {
+    font-size: 1.80rem;
+}
+
+@media screen and (max-width: 768px) {
+    .heading--subtitle__home {
+        font-size: 1.1rem;
+    }
+}
+
+.headingLevel3--subtitle__home-section-nine {
+    color: #8a8989;
+}
+
+.headingLevel4--title_image-section-nine {
+    margin-block-end: 0;
+    font-weight: bold;
+}
+
+.paragraph--subtitle_image-section-nine {
+    margin-top: 0;
+}
+
+.headingLevel4--footer-title_section-one {
+    font-weight: bold;
+    margin-block-end: 0;
+}
+
+.paragraph--product__summary-avaliable {
+    color: #00882c;
+    font-weight: bold;
+}

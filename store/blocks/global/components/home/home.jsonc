@@ -4,14 +4,10 @@
       //"flex-layout.row#home__section--one",
       //"link#home__link--boton",
       //"slider-layout#home__slider--children",
-      "list-context.image-list#home__slider--list",
-      "flex-layout.row#global__home",
       //"flex-layout.row#home__section--three",
-      "responsive-layout.phone#home__info--phone",
-      "responsive-layout.tablet#home__info--tablet",
-      "responsive-layout.desktop#home__info--desktop",
-      "modal-trigger#home__modal--children",
-      "modal-trigger#home__modal--event"
+      "responsive-layout.mobile",
+      "responsive-layout.desktop"
+      
     ]
   },
   "flex-layout.row#global__home": {
@@ -29,51 +25,72 @@
       "flex-layout.row#section__one--text",
       "flex-layout.row#home__section--one",
       "flex-layout.row#section__two--text",
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#section__three--text",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#section__four--text",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#section__five--text",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six",
+      "flex-layout.row#section__seven--text",
+      "flex-layout.row#home__section--seven",
+      "flex-layout.row#section__eight--text",
+      "flex-layout.row#home__section--eight",
+      "flex-layout.row#section__nine--text",
+      "flex-layout.row#home__section--nine"
     ],
     "props": {
-      "width": "80%"
+      "width": "85%"
     }
   },
-  "flex-layout.row#section__two--text": {
-    "title": "text section two",
-    "children": [
-      "rich-text#section__two--title"
-    ],
+  "search-result-layout.customQuery#global__home-search": {
     "props": {
-      "horizontalAlign": "left",
-      "fullWidth": false
-    }
-  },
-  "rich-text#section__two--title": {
-    "props": {
-      "text": "# Grandes ofertas para ti"
-    }
-  },
-  "flex-layout.row#home__section--two": {
-    "children": [
-      "flex-layout.col#section__two--item-1"
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#desktop__home-search",
+      "search-result-layout.mobile#mobile__home-search",
+      "search-not-found-layout"
     ]
   },
-  "flex-layout.col#section__two--item-1": {
+  "search-result-layout.desktop#desktop__home-search": {
     "children": [
-      "image#home__section--two--image"
-    ],
-    "props": {
-      "width": "40%"
-    }
+      "flex-layout.row#desktop__home-result"
+    ]
   },
-  "image#home__section--two--image": {
-    "title": "home section two image",
-    "props": {
-        "src": "assets/img/home-section-two/grandes_ofertas-19949.webp",
-        "title": "section one",
-        "blockClass": "home__section--two",
-        "link": {
-            "url": "https://developers.vtex.com/",
-            "newTab": true,
-            "attributeNoFollow": true
-        }
-    }
+  "search-result-layout.mobile#mobile__home-search": {
+    "children": [
+      "flex-layout.row#desktop__home-result"
+    ]
+  },
+  "search-not-found-layout": {
+    "children": [
+      "rich-text#section__two--title"
+    ]
+  },
+  "flex-layout.row#desktop__home-result": {
+    "children": [
+      "flex-layout.col#desktop__home-result"
+    ]
+  },
+  "flex-layout.col#desktop__home-result": {
+    "children": [
+      "search-content#desktop__home-result"
+    ]
+  },
+  "search-content#desktop__home-result": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
 }

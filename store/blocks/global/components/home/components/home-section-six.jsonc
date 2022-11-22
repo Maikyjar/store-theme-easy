@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#home__section--six": {
+        "children": [
+            "flex-layout.col#section__six--item-1",
+            "flex-layout.col#section__six--item-2",
+            "flex-layout.col#section__six--item-3"
+        ]
+    },
+    "flex-layout.col#section__six--item-1": {
+        "children": [
+            "image#home__section--six-image-one"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "image#home__section--six-image-one": {
+        "title": "home section six image",
+        "props": {
+            "src": "assets/img/home-section-six/hidrolavadoras-19653.webp",
+            "title": "section six",
+            "blockClass": "home__section--six",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "flex-layout.col#section__six--item-2": {
+        "children": [
+            "image#home__section--six-image-two"
+        ],
+        "props": {
+            "width": "25%"
+        }
+    },
+    "image#home__section--six-image-two": {
+        "title": "home section six image",
+        "props": {
+            "src": "assets/img/home-section-six/pistolas_para_pintar-19574.webp",
+            "title": "section six",
+            "blockClass": "home__section--six",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "flex-layout.col#section__six--item-3": {
+        "children": [
+            "image#home__section--six-image-three"
+        ],
+        "props": {
+            "width": "25%"
+        }
+    },
+    "image#home__section--six-image-three": {
+        "title": "home section six image",
+        "props": {
+            "src": "assets/img/home-section-six/herramientas_manuales-19575.webp",
+            "title": "section six",
+            "blockClass": "home__section--six",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+}

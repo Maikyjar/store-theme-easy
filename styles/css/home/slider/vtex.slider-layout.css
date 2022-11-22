@@ -1,0 +1,21 @@
+.sliderLayoutContainer--home__slider {
+    margin: 0 auto 50px;
+}
+
+.paginationDotsContainer--home__slider {
+    transform: translateY(10px);
+}
+
+.paginationDotsContainer--mobile__home--slider {
+    transform: translateY(-10px);
+}
+
+.paginationDot {
+    height: 0.90rem !important;
+   width: 0.90rem !important;
+}
+
+.slide--carousel {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
