@@ -15,13 +15,34 @@
   },
   "flex-layout.row#desktop__footer--section-one": {
     "children": [
+      "flex-layout.col#desktop__footer--section-one"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer--section-one",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one": {
+    "children": [
+      "flex-layout.row#desktop__footer--section-one-internal"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "flex-layout.row#desktop__footer--section-one-internal": {
+    "children": [
       "flex-layout.col#desktop__footer--section-one-1",
       "flex-layout.col#desktop__footer--section-one-2",
       "flex-layout.col#desktop__footer--section-one-3",
       "flex-layout.col#desktop__footer--section-one-4"
     ],
     "props": {
-      "blockClass": "footer--section-one"
+      "blockClass": "footer--section-one-internal",
+      "marginTop": 9,
+      "marginBottom": 5,
+      "colSizing": "auto"
     }
   },
   "flex-layout.col#desktop__footer--section-one-1": {
@@ -29,7 +50,10 @@
       "logo#header-logo--desktop",
       "rich-text#footer--section-one-1",
       "flex-layout.row#desktop__footer--social-media"
-    ]
+    ],
+    "props": {
+      "width": "20%"
+    }
   },
   "rich-text#footer--section-one-1": {
     "props": {
@@ -66,18 +90,89 @@
   },
   "flex-layout.col#desktop__footer--section-one-2": {
     "children": [
-      "rich-text#footer--section-one-1"
-    ]
+      "rich-text#footer__section-one-2-title",
+      "link#footer__section-one-2--link-one",
+      "link#footer__section-one-2--link-two",
+      "link#footer__section-one-2--link-three",
+      "link#footer__section-one-2--link-four",
+      "link#footer__section-one-2--link-five",
+      "link#footer__section-one-2--link-six",
+      "link#footer__section-one-2--link-seven",
+      "link#footer__section-one-2--link-eight"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#footer__section-one-2-title": {
+    "props": {
+      "text": "#### Easy",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "link#footer__section-one-2--link-one": {
+    "props": {
+      "href": "/acerca-de-easy",
+      "label": "Acerca de EASY"
+    }
+  },
+  "link#footer__section-one-2--link-two": {
+    "props": {
+      "href": "/",
+      "label": "Catálogos"
+    }
+  },
+  "link#footer__section-one-2--link-three": {
+    "props": {
+      "href": "/",
+      "label": "Tiendas y Horarios"
+    }
+  },
+  "link#footer__section-one-2--link-four": {
+    "props": {
+      "href": "/",
+      "label": "Mundo Experto"
+    }
+  },
+  "link#footer__section-one-2--link-five": {
+    "props": {
+      "href": "/",
+      "label": "¿Cómo comprar?"
+    }
+  },
+  "link#footer__section-one-2--link-six": {
+    "props": {
+      "href": "/",
+      "label": "Trabaja con Nosotros"
+    }
+  },
+  "link#footer__section-one-2--link-seven": {
+    "props": {
+      "href": "/",
+      "label": "Tarjeta Cencosud"
+    }
+  },
+  "link#footer__section-one-2--link-eight": {
+    "props": {
+      "href": "/",
+      "label": "¿Cómo redimir Bonos Web?"
+    }
   },
   "flex-layout.col#desktop__footer--section-one-3": {
     "children": [
       "rich-text#footer--section-one-1"
-    ]
+    ],
+    "props": {
+      "width": "20%"
+    }
   },
   "flex-layout.col#desktop__footer--section-one-4": {
     "children": [
       "rich-text#footer--section-one-1"
-    ]
+    ],
+    "props": {
+      "width": "20%"
+    }
   },
   "flex-layout.row#desktop__footer--section-two": {
     "children": [
