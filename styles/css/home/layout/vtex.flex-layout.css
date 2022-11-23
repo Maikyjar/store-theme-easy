@@ -1,0 +1,21 @@
+/* .flexRowContent--home__section--one {
+    background-color: whitesmoke;
+} */
+
+.flexRowContent--menu__desktop {
+    background-color: #f7f7f7;
+}
+
+.flexRowContent--footer--section-one {
+    background-color: #e8e8e8;
+}
+
+/* .flexRowContent--footer--section-one-internal {
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+} */
+
+.flexRowContent--footer--section-two {
+    background-color: #cfcfcf;
+}

@@ -14,3 +14,8 @@
     height: 0.90rem !important;
    width: 0.90rem !important;
 }
+
+.slide--carousel {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}

@@ -2,15 +2,15 @@
     "menu#desktop__header--menu": {
         "children": [
             "menu-item#desktop__categories",
-            "menu-item#category__twenty-two",
-            "menu-item#category__twenty-three",
-            "menu-item#category__twenty-four",
-            "menu-item#category__twenty-five",
-            "menu-item#category__twenty-six",
-            "menu-item#category__twenty-seven",
-            "menu-item#category__twenty-eight",
-            "menu-item#category__twenty-nine",
-            "menu-item#category__thirty"
+            "menu-item#desktop__category--twenty-two",
+            "menu-item#desktop__category--twenty-three",
+            "menu-item#desktop__category--twenty-four",
+            "menu-item#desktop__category--twenty-five",
+            "menu-item#desktop__category--twenty-six",
+            "menu-item#desktop__category--twenty-seven",
+            "menu-item#desktop__category--twenty-eight",
+            "menu-item#desktop__category--twenty-nine",
+            "menu-item#desktop__category--thirty"
         ],
         "props": {
             "orientation": "horizontal"
@@ -28,7 +28,8 @@
                 "noFollow": false,
                 "tagTitle": "CATEGORÍAS",
                 "text": "☰ CATEGORÍAS"
-            }
+            },
+            "blockClass": "menu-desktop-categories"
         },
         "blocks": [
             "submenu#desktop__categories"
@@ -36,35 +37,188 @@
     },
     "submenu#desktop__categories": {
         "children": [
-            "menu#desktop__categories"
+            "menu#global__header--menu"
         ]
     },
-    "menu#desktop__categories": {
-        "children": [
-            "menu-item#category__one",
-            "menu-item#category__two",
-            "menu-item#category__three",
-            "menu-item#category__four",
-            "menu-item#category__five",
-            "menu-item#category__six",
-            "menu-item#category__seven",
-            "menu-item#category__eight",
-            "menu-item#category__nine",
-            "menu-item#category__ten",
-            "menu-item#category__eleven",
-            "menu-item#category__twelve",
-            "menu-item#category__thirteen",
-            "menu-item#category__fourteen",
-            "menu-item#category__fifteen",
-            "menu-item#category__sixteen",
-            "menu-item#category__seventeen",
-            "menu-item#category__eighteen",
-            "menu-item#category__nineteen",
-            "menu-item#category__twenty",
-            "menu-item#category__twenty-one"
-        ],
+    "menu-item#desktop__category--twenty-two": {
         "props": {
-            "orientation": "vertical"
+            "id": "category-twenty-two",
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Catálogo",
+                "text": "Catálogo"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-catalogue",
+                "size": 20,
+                "viewBox": "0 0 24 24"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-three": {
+        "props": {
+            "id": "category-twenty-three",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Venta Telefónica",
+                "text": "Venta Telefónica"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-sale",
+                "size": 20,
+                "viewBox": "0 0 220 220"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-four": {
+        "props": {
+            "id": "category-twenty-four",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Centro de Ayuda",
+                "text": "Centro de Ayuda"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-help",
+                "size": 20,
+                "viewBox": "0 0 20 20"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-five": {
+        "props": {
+            "id": "category-twenty-five",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Asistencia Web",
+                "text": "Asistencia Web"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-attendance",
+                "size": 20,
+                "viewBox": "0 0 20 20"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-six": {
+        "props": {
+            "id": "category-twenty-six",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Tiendas",
+                "text": "Tiendas"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-shops",
+                "size": 20,
+                "viewBox": "0 0 120 120"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-seven": {
+        "props": {
+            "id": "category-twenty-seven",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Mundo Experto",
+                "text": "Mundo Experto"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-expert",
+                "size": 20,
+                "viewBox": "0 0 48 48"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-eight": {
+        "props": {
+            "id": "category-twenty-eight",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Venta Empresa",
+                "text": "Venta Empresa"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-company",
+                "size": 20,
+                "viewBox": "0 0 60 60"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--twenty-nine": {
+        "props": {
+            "id": "category-twenty-nine",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Blog",
+                "text": "Blog"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-blog",
+                "size": 20,
+                "viewBox": "0 0 40 40"
+            },
+            "blockClass": "menu-desktop"
+        }
+    },
+    "menu-item#desktop__category--thirty": {
+        "props": {
+            "id": "category-thirty",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Servicios",
+                "text": "Servicios"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-services",
+                "size": 20,
+                "viewBox": "0 0 40 40"
+            },
+            "blockClass": "menu-desktop"
         }
     }
 }
