@@ -1,43 +1,8 @@
+.styledLinkContent {
+    font-weight: bold;
+}
+
 .accordionIcon--isClosed {
     background: url('https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg') no-repeat center center / contain;
     content: url('https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg');
-}
-
-.styledLinkContent--menu-desktop-categories {
-    color: #82020e;
-    font-weight: bold;
-}
-
-.styledLinkContent--menu-desktop {
-    font-weight: bold;
-}
-
-.styledLinkContainer--menu-desktop {
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.5rem;
-}
-
-.styledLinkContainer--menu-desktop-categories {
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.5rem;
-    background-color: white;
-}
-
-.styledLinkContent--menu-mobile {
-    font-weight: bold;
-    color: #82020e;
-}
-
-.styledLinkContainer--menu-mobile {
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    border-bottom: 1px solid #eae8e8;
-}
-
-.styledLinkContent--menu-mobile-categories {
-    font-weight: bold;
 }

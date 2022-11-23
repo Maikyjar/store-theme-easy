@@ -33,7 +33,6 @@
     }
   },
   "drawer#header__mobile--menu": {
-    "blocks": ["drawer-header"],
     "children": [
       "menu#header__menu"
     ],
@@ -42,17 +41,6 @@
       "maxWidth": 200,
       "slideDirection": "rightToLeft",
       "blockClass": "drawer__mobile"
-    }
-  },
-  "drawer-header": {
-    "children": [
-      "rich-text#mobile__title--menu"
-    ]
-  },
-  "rich-text#mobile__title--menu": {
-    "props": {
-      "text": "☰ CATEGORÍAS",
-      "blockClass": "drawer__mobile-title"
     }
   },
   "flex-layout.col#mobile__logo": {
