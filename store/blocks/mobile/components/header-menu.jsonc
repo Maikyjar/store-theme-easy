@@ -1,42 +1,42 @@
 {
     "menu#header__menu": {
         "children": [
-            "menu-item#category__one",
-            "menu-item#category__two",
-            "menu-item#category__three",
-            "menu-item#category__four",
-            "menu-item#category__five",
-            "menu-item#category__six",
-            "menu-item#category__seven",
-            "menu-item#category__eight",
-            "menu-item#category__nine",
-            "menu-item#category__ten",
-            "menu-item#category__eleven",
-            "menu-item#category__twelve",
-            "menu-item#category__thirteen",
-            "menu-item#category__fourteen",
-            "menu-item#category__fifteen",
-            "menu-item#category__sixteen",
-            "menu-item#category__seventeen",
-            "menu-item#category__eighteen",
-            "menu-item#category__nineteen",
-            "menu-item#category__twenty",
-            "menu-item#category__twenty-one",
-            "menu-item#category__twenty-two",
-            "menu-item#category__twenty-three",
-            "menu-item#category__twenty-four",
-            "menu-item#category__twenty-five",
-            "menu-item#category__twenty-six",
-            "menu-item#category__twenty-seven",
-            "menu-item#category__twenty-eight",
-            "menu-item#category__twenty-nine",
-            "menu-item#category__thirty"
+            "menu-item#mobile__category--one",
+            "menu-item#mobile__category--two",
+            "menu-item#mobile__category--three",
+            "menu-item#mobile__category--four",
+            "menu-item#mobile__category--five",
+            "menu-item#mobile__category--six",
+            "menu-item#mobile__category--seven",
+            "menu-item#mobile__category--eight",
+            "menu-item#mobile__category--nine",
+            "menu-item#mobile__category--ten",
+            "menu-item#mobile__category--eleven",
+            "menu-item#mobile__category--twelve",
+            "menu-item#mobile__category--thirteen",
+            "menu-item#mobile__category--fourteen",
+            "menu-item#mobile__category--fifteen",
+            "menu-item#mobile__category--sixteen",
+            "menu-item#mobile__category--seventeen",
+            "menu-item#mobile__category--eighteen",
+            "menu-item#mobile__category--nineteen",
+            "menu-item#mobile__category--twenty",
+            "menu-item#mobile__category--twenty-one",
+            "menu-item#mobile__category--twenty-two",
+            "menu-item#mobile__category--twenty-three",
+            "menu-item#mobile__category--twenty-four",
+            "menu-item#mobile__category--twenty-five",
+            "menu-item#mobile__category--twenty-six",
+            "menu-item#mobile__category--twenty-seven",
+            "menu-item#mobile__category--twenty-eight",
+            "menu-item#mobile__category--twenty-nine",
+            "menu-item#mobile__category--thirty"
         ],
         "props": {
             "orientation": "vertical"
         }
     },
-    "menu-item#category__one": {
+    "menu-item#mobile__category--one": {
         "props": {
             "id": "category-one",
             "type": "custom",
@@ -46,181 +46,14 @@
                 "noFollow": false,
                 "tagTitle": "Muebles",
                 "text": "Muebles"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "submenu.accordion#category__one": {
-        "children": [
-            "menu#category__one"
-        ]
-    },
-    "menu#category__one": {
-        "children": [
-            "menu-item#subcategory__one",
-            "menu-item#subcategory__two",
-            "menu-item#subcategory__three"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-    "menu-item#subcategory__one": {
-        "props": {
-            "id": "subcategory-one",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Butacos",
-                "text": "Butacos"
-            }
-        }
-    },
-    "menu-item#subcategory__two": {
-        "props": {
-            "id": "subcategory-two",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Muebles de Comedor",
-                "text": "Muebles de Comedor"
-            }
-        },
-        "blocks": [
-            "submenu.accordion#subcategory__two"
-        ]
-    },
-    "submenu.accordion#subcategory__two": {
-        "children": [
-            "menu#subcategory__two"
-        ]
-    },
-    "menu#subcategory__two": {
-        "children": [
-            "menu-item#subcategory__two-item-one",
-            "menu-item#subcategory__two-item-two",
-            "menu-item#subcategory__two-item-three"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-    "menu-item#subcategory__two-item-one": {
-        "props": {
-            "id": "item-one",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Juegos de Comedor",
-                "text": "Juegos de Comedor"
-            }
-        }
-    },
-    "menu-item#subcategory__two-item-two": {
-        "props": {
-            "id": "item-two",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Sillas Bar y Auxiliares",
-                "text": "Sillas Bar y Auxiliares"
-            }
-        }
-    },
-    "menu-item#subcategory__two-item-three": {
-        "props": {
-            "id": "item-three",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Sillas Plegables",
-                "text": "Sillas Plegables"
-            }
-        }
-    },
-    "menu-item#subcategory__three": {
-        "props": {
-            "id": "subcategory-three",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Muebles de Dormitorio",
-                "text": "Muebles de Dormitorio"
-            }
-        },
-        "blocks": [
-            "submenu.accordion#subcategory__three"
-        ]
-    },
-    "submenu.accordion#subcategory__three": {
-        "children": [
-            "menu#subcategory__three"
-        ]
-    },
-    "menu#subcategory__three": {
-        "children": [
-            "menu-item#subcategory__three-item-one",
-            "menu-item#subcategory__three-item-two",
-            "menu-item#subcategory__three-item-three"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
-    "menu-item#subcategory__three-item-one": {
-        "props": {
-            "id": "item-one",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Armarios y Closets",
-                "text": "Armarios y Closets"
-            }
-        }
-    },
-    "menu-item#subcategory__three-item-two": {
-        "props": {
-            "id": "item-two",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Cajoneras y Mesas de Noche",
-                "text": "Cajoneras y Mesas de Noche"
-            }
-        }
-    },
-    "menu-item#subcategory__three-item-three": {
-        "props": {
-            "id": "item-three",
-            "type": "custom",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Camas",
-                "text": "Camas"
-            }
-        }
-    },
-    "menu-item#category__two": {
+    "menu-item#mobile__category--two": {
         "props": {
             "id": "category-two",
             "type": "custom",
@@ -230,13 +63,14 @@
                 "noFollow": false,
                 "tagTitle": "Baños",
                 "text": "Baños"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__three": {
+    "menu-item#mobile__category--three": {
         "props": {
             "id": "category-three",
             "type": "custom",
@@ -246,13 +80,14 @@
                 "noFollow": false,
                 "tagTitle": "Cocinas",
                 "text": "Cocinas"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__four": {
+    "menu-item#mobile__category--four": {
         "props": {
             "id": "category-four",
             "type": "custom",
@@ -262,13 +97,14 @@
                 "noFollow": false,
                 "tagTitle": "Electrodomésticos",
                 "text": "Electrodomésticos"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__five": {
+    "menu-item#mobile__category--five": {
         "props": {
             "id": "category-five",
             "type": "custom",
@@ -278,13 +114,14 @@
                 "noFollow": false,
                 "tagTitle": "Tecnología",
                 "text": "Tecnología"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__six": {
+    "menu-item#mobile__category--six": {
         "props": {
             "id": "category-six",
             "type": "custom",
@@ -294,13 +131,14 @@
                 "noFollow": false,
                 "tagTitle": "Herramientas",
                 "text": "Herramientas"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__seven": {
+    "menu-item#mobile__category--seven": {
         "props": {
             "id": "category-seven",
             "type": "custom",
@@ -310,13 +148,14 @@
                 "noFollow": false,
                 "tagTitle": "Pinturas",
                 "text": "Pinturas"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__eight": {
+    "menu-item#mobile__category--eight": {
         "props": {
             "id": "category-eight",
             "type": "custom",
@@ -326,13 +165,14 @@
                 "noFollow": false,
                 "tagTitle": "Automotor",
                 "text": "Automotor"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__nine": {
+    "menu-item#mobile__category--nine": {
         "props": {
             "id": "category-nine",
             "type": "custom",
@@ -342,13 +182,14 @@
                 "noFollow": false,
                 "tagTitle": "Aire Libre",
                 "text": "Aire Libre"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__ten": {
+    "menu-item#mobile__category--ten": {
         "props": {
             "id": "category-ten",
             "type": "custom",
@@ -358,13 +199,14 @@
                 "noFollow": false,
                 "tagTitle": "Aseo y Organizadores",
                 "text": "Aseo y Organizadores"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__eleven": {
+    "menu-item#mobile__category--eleven": {
         "props": {
             "id": "category-eleven",
             "type": "custom",
@@ -374,13 +216,14 @@
                 "noFollow": false,
                 "tagTitle": "Construcción",
                 "text": "Construcción"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__twelve": {
+    "menu-item#mobile__category--twelve": {
         "props": {
             "id": "category-twelve",
             "type": "custom",
@@ -390,13 +233,14 @@
                 "noFollow": false,
                 "tagTitle": "Mascotas",
                 "text": "Mascotas"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__thirteen": {
+    "menu-item#mobile__category--thirteen": {
         "props": {
             "id": "category-thirteen",
             "type": "custom",
@@ -406,13 +250,14 @@
                 "noFollow": false,
                 "tagTitle": "Decohogar",
                 "text": "Decohogar"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__fourteen": {
+    "menu-item#mobile__category--fourteen": {
         "props": {
             "id": "category-fourteen",
             "type": "custom",
@@ -422,13 +267,14 @@
                 "noFollow": false,
                 "tagTitle": "Pisos y Paredes",
                 "text": "Pisos y Paredes"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__fifteen": {
+    "menu-item#mobile__category--fifteen": {
         "props": {
             "id": "category-fifteen",
             "type": "custom",
@@ -438,13 +284,14 @@
                 "noFollow": false,
                 "tagTitle": "Electricidad",
                 "text": "Electricidad"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__sixteen": {
+    "menu-item#mobile__category--sixteen": {
         "props": {
             "id": "category-sixteen",
             "type": "custom",
@@ -454,13 +301,14 @@
                 "noFollow": false,
                 "tagTitle": "Ferretaría",
                 "text": "Ferretaría"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__seventeen": {
+    "menu-item#mobile__category--seventeen": {
         "props": {
             "id": "category-seventeen",
             "type": "custom",
@@ -470,13 +318,14 @@
                 "noFollow": false,
                 "tagTitle": "Iluminación",
                 "text": "Iluminación"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__eighteen": {
+    "menu-item#mobile__category--eighteen": {
         "props": {
             "id": "category-eighteen",
             "type": "custom",
@@ -486,13 +335,14 @@
                 "noFollow": false,
                 "tagTitle": "Jardín",
                 "text": "Jardín"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__nineteen": {
+    "menu-item#mobile__category--nineteen": {
         "props": {
             "id": "category-nineteen",
             "type": "custom",
@@ -502,13 +352,14 @@
                 "noFollow": false,
                 "tagTitle": "Mesa y Cocina",
                 "text": "Mesa y Cocina"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__twenty": {
+    "menu-item#mobile__category--twenty": {
         "props": {
             "id": "category-twenty",
             "type": "custom",
@@ -518,13 +369,14 @@
                 "noFollow": false,
                 "tagTitle": "Plomería",
                 "text": "Plomería"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__twenty-one": {
+    "menu-item#mobile__category--twenty-one": {
         "props": {
             "id": "category-twenty-one",
             "type": "custom",
@@ -534,13 +386,14 @@
                 "noFollow": false,
                 "tagTitle": "Colchones",
                 "text": "Colchones"
-            }
+            },
+            "blockClass": "menu-mobile"
         },
         "blocks": [
             "submenu.accordion#category__one"
         ] 
     },
-    "menu-item#category__twenty-two": {
+    "menu-item#mobile__category--twenty-two": {
         "props": {
             "id": "category-twenty-two",
             "type": "custom",
@@ -557,10 +410,11 @@
                 "id": "sti-catalogue",
                 "size": 20,
                 "viewBox": "0 0 24 24"
-            }
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-three": {
+    "menu-item#mobile__category--twenty-three": {
         "props": {
             "id": "category-twenty-three",
             "type": "custom",
@@ -569,11 +423,18 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Venta Telefónica",
-                "text": "📞 Venta Telefónica"
-            }
+                "text": "Venta Telefónica"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-sale",
+                "size": 20,
+                "viewBox": "0 0 220 220"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-four": {
+    "menu-item#mobile__category--twenty-four": {
         "props": {
             "id": "category-twenty-four",
             "type": "custom",
@@ -582,11 +443,18 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Centro de Ayuda",
-                "text": "🎧 Centro de Ayuda"
-            }
+                "text": "Centro de Ayuda"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-help",
+                "size": 20,
+                "viewBox": "0 0 20 20"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-five": {
+    "menu-item#mobile__category--twenty-five": {
         "props": {
             "id": "category-twenty-five",
             "type": "custom",
@@ -595,11 +463,18 @@
                 "href": "/",
                 "noFollow": false,
                 "tagTitle": "Asistencia Web",
-                "text": "💬 Asistencia Web"
-            }
+                "text": "Asistencia Web"
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-attendance",
+                "size": 20,
+                "viewBox": "0 0 20 20"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-six": {
+    "menu-item#mobile__category--twenty-six": {
         "props": {
             "id": "category-twenty-six",
             "type": "custom",
@@ -609,10 +484,17 @@
                 "noFollow": false,
                 "tagTitle": "Tiendas",
                 "text": "Tiendas"
-            }
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-shops",
+                "size": 20,
+                "viewBox": "0 0 120 120"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-seven": {
+    "menu-item#mobile__category--twenty-seven": {
         "props": {
             "id": "category-twenty-seven",
             "type": "custom",
@@ -622,10 +504,17 @@
                 "noFollow": false,
                 "tagTitle": "Mundo Experto",
                 "text": "Mundo Experto"
-            }
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-expert",
+                "size": 20,
+                "viewBox": "0 0 48 48"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-eight": {
+    "menu-item#mobile__category--twenty-eight": {
         "props": {
             "id": "category-twenty-eight",
             "type": "custom",
@@ -635,10 +524,17 @@
                 "noFollow": false,
                 "tagTitle": "Venta Empresa",
                 "text": "Venta Empresa"
-            }
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-company",
+                "size": 20,
+                "viewBox": "0 0 60 60"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__twenty-nine": {
+    "menu-item#mobile__category--twenty-nine": {
         "props": {
             "id": "category-twenty-nine",
             "type": "custom",
@@ -648,10 +544,17 @@
                 "noFollow": false,
                 "tagTitle": "Blog",
                 "text": "Blog"
-            }
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-blog",
+                "size": 20,
+                "viewBox": "0 0 40 40"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     },
-    "menu-item#category__thirty": {
+    "menu-item#mobile__category--thirty": {
         "props": {
             "id": "category-thirty",
             "type": "custom",
@@ -661,7 +564,14 @@
                 "noFollow": false,
                 "tagTitle": "Servicios",
                 "text": "Servicios"
-            }
+            },
+            "iconProps": {
+                "isActive": true,
+                "id": "sti-services",
+                "size": 20,
+                "viewBox": "0 0 40 40"
+            },
+            "blockClass": "menu-mobile-categories"
         }
     }
 }
