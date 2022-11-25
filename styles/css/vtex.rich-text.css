@@ -27,7 +27,7 @@
 
 .headingLevel4--footer-title_section-one {
     font-weight: bold;
-    margin-block-end: 0;
+    margin-bottom: 7px;
 }
 
 .paragraph--product__summary-avaliable {
@@ -38,4 +38,16 @@
 .paragraph--drawer__mobile-title {
     color: #82020e;
     font-weight: bold;
+}
+
+.paragraph--tablet-product-summary-avaliable {
+    color: #00882c;
+    font-weight: bold;
+    margin-block-start: 0.3rem;
+    margin-block-end: 0.3rem;
+}
+
+.paragraph--tablet-summary-section-one {
+    margin-block-start: 0.3rem;
+    margin-block-end: 0.3rem;
 }

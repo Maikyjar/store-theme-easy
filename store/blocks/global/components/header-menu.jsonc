@@ -22,7 +22,10 @@
             "menu-item#category__nineteen",
             "menu-item#category__twenty",
             "menu-item#category__twenty-one"
-        ]
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
     },
     "menu-item#category__one": {
         "props": {

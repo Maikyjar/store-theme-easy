@@ -83,7 +83,7 @@
   "product-summary.shelf#desktop__section--one": {
     "children": [
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-name#desktop",
       "product-rating-inline",
       "product-selling-price",
       "rich-text#product__summary--desktop-section-one_card",
@@ -95,6 +95,11 @@
   "product-summary-image": {
     "props": {
       "height": 220
+    }
+  },
+  "product-summary-name#desktop": {
+    "props": {
+      "blockClass": "desktop-product-summary"
     }
   },
   "rich-text#product__summary--desktop-section-one_card": {

@@ -18,7 +18,7 @@
         "title": "tablet home",
         "children": [
             "flex-layout.row#section__one--text",
-            "flex-layout.row#home__section--one",
+            "flex-layout.row#tablet__home--section-one",
             "flex-layout.row#section__two--text",
             "flex-layout.row#home__section--two",
             "flex-layout.row#section__three--text",

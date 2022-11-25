@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#tablet__home--section-one": {
+    "title": "section one of home",
+    "children": [
+      "flex-layout.col#tablet__section--one-item-1",
+      "flex-layout.col#tablet__section--one-item-2"
+    ],
+    "props": {
+      "blockClass": "home__section--one",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#tablet__section--one-item-1": {
+    "children": [
+      "image#home__section--image--one"
+    ],
+    "props": {
+      "width": "45%"
+    }
+  },
+  "flex-layout.col#tablet__section--one-item-2": {
+    "children": [
+      "list-context.product-list#tablet__section--one"
+    ],
+    "props": {
+      "width": "55%"
+    }
+  },
+  "list-context.product-list#tablet__section--one": {
+    "blocks": [
+      "product-summary.shelf#tablet__section--one"
+    ],
+    "children": [
+      "slider-layout#desktop__section--one"
+    ]
+  },
+  "product-summary.shelf#tablet__section--one": {
+    "children": [
+      "product-summary-image#tablet",
+      "product-summary-name#tablet",
+      "product-selling-price",
+      "rich-text#product__summary--tablet-section-one_card",
+      "image#product__summary--tablet-section-one",
+      "rich-text#product__summary--tablet-section-one_avaliable",
+      "add-to-cart-button"
+    ]
+  },
+  "product-summary-image#tablet": {
+    "props": {
+      "height": 80
+    }
+  },
+  "product-summary-name#tablet": {
+    "props": {
+      "blockClass": "tablet-product-summary"
+    }
+  },
+  "rich-text#product__summary--tablet-section-one_card": {
+    "props": {
+      "text": "Pagando con:",
+      "blockClass": "tablet-summary-section-one"
+    }
+  },
+  "image#product__summary--tablet-section-one": {
+    "title": "product summary section one image",
+    "props": {
+      "src": "assets/img/home-section-one/discount_card_16743.webp",
+      "title": "section one",
+      "blockClass": "product__summary-section-one",
+      "maxWidth": 40,
+      "maxHeight": 30,
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "rich-text#product__summary--tablet-section-one_avaliable": {
+    "props": {
+      "text": "Disponible",
+      "textPosition": "RIGHT",
+      "blockClass": "tablet-product-summary-avaliable"
+    }
+  }
+}
