@@ -20,6 +20,7 @@
     ]
   },
   "rich-text#department__title": {
+    "title": "department title",
     "props": {
       "text": "# Estamos en una pagina de departamento"
     }

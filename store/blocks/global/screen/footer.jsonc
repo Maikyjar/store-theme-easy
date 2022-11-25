@@ -113,76 +113,205 @@
   "link#footer__section-one-2--link-one": {
     "props": {
       "href": "/acerca-de-easy",
-      "label": "Acerca de EASY"
+      "label": "Acerca de EASY",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-two": {
     "props": {
       "href": "/",
-      "label": "Catálogos"
+      "label": "Catálogos",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-three": {
     "props": {
       "href": "/",
-      "label": "Tiendas y Horarios"
+      "label": "Tiendas y Horarios",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-four": {
     "props": {
       "href": "/",
-      "label": "Mundo Experto"
+      "label": "Mundo Experto",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-five": {
     "props": {
       "href": "/",
-      "label": "¿Cómo comprar?"
+      "label": "¿Cómo comprar?",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-six": {
     "props": {
       "href": "/",
-      "label": "Trabaja con Nosotros"
+      "label": "Trabaja con Nosotros",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-seven": {
     "props": {
       "href": "/",
-      "label": "Tarjeta Cencosud"
+      "label": "Tarjeta Cencosud",
+      "blockClass": "link__footer"
     }
   },
   "link#footer__section-one-2--link-eight": {
     "props": {
       "href": "/",
-      "label": "¿Cómo redimir Bonos Web?"
+      "label": "¿Cómo redimir Bonos Web?",
+      "blockClass": "link__footer"
     }
   },
   "flex-layout.col#desktop__footer--section-one-3": {
     "children": [
-      "rich-text#footer--section-one-1"
+      "rich-text#footer__section-one-3-title",
+      "link#footer__section-one-3--link-one",
+      "link#footer__section-one-3--link-two",
+      "link#footer__section-one-3--link-three",
+      "link#footer__section-one-3--link-four",
+      "link#footer__section-one-3--link-five",
+      "link#footer__section-one-3--link-six",
+      "link#footer__section-one-3--link-seven",
+      "link#footer__section-one-3--link-eight"
     ],
     "props": {
       "width": "20%"
+    }
+  },
+  "rich-text#footer__section-one-3-title": {
+    "props": {
+      "text": "#### Políticas",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "link#footer__section-one-3--link-one": {
+    "props": {
+      "href": "/",
+      "label": "Preguntas Frecuentes",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-two": {
+    "props": {
+      "href": "/",
+      "label": "Cambios y Devoluciones",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-three": {
+    "props": {
+      "href": "/",
+      "label": "Términos y Condiciones",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-four": {
+    "props": {
+      "href": "/",
+      "label": "Reglamento",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-five": {
+    "props": {
+      "href": "/",
+      "label": "Protección de Datos",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-six": {
+    "props": {
+      "href": "/",
+      "label": "Políticas de Cookies",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-seven": {
+    "props": {
+      "href": "/",
+      "label": "Mapa del sitio",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-eight": {
+    "props": {
+      "href": "/",
+      "label": "Superintendencia de Industria y Comercio - SIC",
+      "blockClass": "link__footer"
     }
   },
   "flex-layout.col#desktop__footer--section-one-4": {
     "children": [
-      "rich-text#footer--section-one-1"
+      "rich-text#footer__section-one-4-title",
+      "flex-layout.row#desktop__footer--section-one-4",
+      "image#footer__section-one-4"
     ],
     "props": {
       "width": "20%"
+
     }
   },
-  "flex-layout.row#desktop__footer--section-two": {
-    "children": [
-      /* "flex-layout.col#desktop__footer--section-two-1",
-      "flex-layout.col#desktop__footer--section-two-2",
-      "flex-layout.col#desktop__footer--section-two-3",
-      "flex-layout.col#desktop__footer--section-two-4" */
-    ],
+  "rich-text#footer__section-one-4-title": {
     "props": {
-      "blockClass": "footer--section-two"
+      "text": "#### Empresas Cencosud",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "flex-layout.row#desktop__footer--section-one-4": {
+    "children": [
+      "logo#footer__section--one-4-one",
+      "logo#footer__section--one-4-two",
+      "logo#footer__section--one-4-three",
+      "logo#footer__section--one-4-four"
+    ]
+  },
+  "logo#footer__section--one-4-one": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-jumbo.webp",
+      "width": "50"
+    }
+  },
+  "logo#footer__section--one-4-two": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-metro.webp",
+      "width": "50"
+    }
+  },
+  "logo#footer__section--one-4-three": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-easy.webp",
+      "width": "50"
+    }
+  },
+  "logo#footer__section--one-4-four": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-puntos.webp",
+      "width": "50"
+    }
+  },
+  "image#footer__section-one-4": {
+    "title": "footer section one item 4",
+    "props": {
+      "src": "assets/img/footer/TotalCode-eCommerce.png",
+      "title": "footer section one",
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "maxHeight": "40%"
     }
   }
 }
