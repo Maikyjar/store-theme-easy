@@ -1,24 +1,12 @@
 {
-    "responsive-layout.mobile": {
-        "children": [
-            "responsive-layout.tablet#tablet__home",
-            "responsive-layout.phone#phone__home"
-        ]
-    },
-    "responsive-layout.phone#phone__home": {
-        "children": [
-            "list-context.image-list#mobile__home--slider--list",
-            "flex-layout.row#mobile__home"
-        ]
-    },
     "flex-layout.row#mobile__home": {
-        "title": "mobile home",
+        "title": "Row mobile home",
         "children": [
             "flex-layout.col#mobile__home"
         ]
     },
     "flex-layout.col#mobile__home": {
-        "title": "mobile home",
+        "title": "Column mobile home",
         "children": [
             "flex-layout.row#section__one--text",
             "flex-layout.row#home__section--one",

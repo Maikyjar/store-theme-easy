@@ -14,3 +14,7 @@
 /* .searchBarInnerContainer {
     border: solid 0.1rem #e3e4e6;
 } */
+
+.imageElement--footer-section-two-image {
+    margin-block-start: 2.99em;
+}

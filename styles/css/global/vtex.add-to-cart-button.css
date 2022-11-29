@@ -1,0 +1,18 @@
+.buttonText--add-to-cart {
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.buttonText--add-to-cart:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.buttonDataContainer--add-to-cart {
+    color: whitesmoke;
+}
+
+.buttonDataContainer--add-to-cart:hover {
+    color: black;
+}

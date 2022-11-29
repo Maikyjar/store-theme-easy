@@ -1,5 +1,6 @@
 {
     "menu#desktop__header--menu": {
+        "title": "menu desktop",
         "children": [
             "menu-item#desktop__categories",
             "menu-item#desktop__category--twenty-two",
@@ -17,6 +18,7 @@
         }
     },
     "menu-item#desktop__categories": {
+        "title": "menu desktop categorias",
         "props": {
             "id": "categories",
             "type": "custom",
@@ -41,6 +43,7 @@
         ]
     },
     "menu-item#desktop__category--twenty-two": {
+        "title": "menu desktop catalogo",
         "props": {
             "id": "category-twenty-two",
             "type": "custom",
@@ -62,6 +65,7 @@
         }
     },
     "menu-item#desktop__category--twenty-three": {
+        "title": "menu desktop venta telefonica",
         "props": {
             "id": "category-twenty-three",
             "type": "custom",
@@ -82,6 +86,7 @@
         }
     },
     "menu-item#desktop__category--twenty-four": {
+        "title": "menu desktop centro de ayuda",
         "props": {
             "id": "category-twenty-four",
             "type": "custom",
@@ -102,6 +107,7 @@
         }
     },
     "menu-item#desktop__category--twenty-five": {
+        "title": "menu desktop asistencia web",
         "props": {
             "id": "category-twenty-five",
             "type": "custom",
@@ -122,6 +128,7 @@
         }
     },
     "menu-item#desktop__category--twenty-six": {
+        "title": "menu desktop tiendas",
         "props": {
             "id": "category-twenty-six",
             "type": "custom",
@@ -142,6 +149,7 @@
         }
     },
     "menu-item#desktop__category--twenty-seven": {
+        "title": "menu desktop mundo experto",
         "props": {
             "id": "category-twenty-seven",
             "type": "custom",
@@ -162,6 +170,7 @@
         }
     },
     "menu-item#desktop__category--twenty-eight": {
+        "title": "menu desktop venta empresa",
         "props": {
             "id": "category-twenty-eight",
             "type": "custom",
@@ -182,6 +191,7 @@
         }
     },
     "menu-item#desktop__category--twenty-nine": {
+        "title": "menu desktop blog",
         "props": {
             "id": "category-twenty-nine",
             "type": "custom",
@@ -202,6 +212,7 @@
         }
     },
     "menu-item#desktop__category--thirty": {
+        "title": "menu desktop servicios",
         "props": {
             "id": "category-thirty",
             "type": "custom",

@@ -1,10 +1,4 @@
 {
-    "responsive-layout.tablet#tablet__home": {
-        "children": [
-            "list-context.image-list#desktop__home--slider--list",
-            "flex-layout.row#tablet__home"
-        ]
-    },
     "flex-layout.row#tablet__home": {
         "title": "tablet home",
         "children": [
