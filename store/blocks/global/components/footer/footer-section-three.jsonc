@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#desktop__footer--section-three": {
+        "title": "footer section three",
+        "children": [
+            "flex-layout.col#desktop__footer--section-three"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "footer--section-three",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop__footer--section-three": {
+        "title": "Column footer section three",
+        "children": [
+            "flex-layout.row#desktop__footer--section-three-internal"
+        ],
+        "props": {
+            "width": "90%"
+        }
+    },
+    "flex-layout.row#desktop__footer--section-three-internal": {
+        "title": "Row footer section three",
+        "children": [
+            "flex-layout.col#desktop__footer--section-three-1",
+            "rich-text#footer__section-three-2",
+            "image#footer__section-three"
+        ],
+        "props": {
+            "blockClass": "footer--section-three",
+            "marginTop": 3,
+            "marginBottom": 3,
+            "horizontalAlign": "between"
+        }
+    },
+    "flex-layout.col#desktop__footer--section-three-1": {
+        "title": "footer section three column 1",
+        "children": [
+            "rich-text#footer__section-three-1"
+        ],
+        "props": {
+            "width": "55%"
+        }
+    },
+    "rich-text#footer__section-three-1": {
+        "title": "footer section three",
+        "props": {
+            "text": "Copyright Cencosud Colombia.",
+            "blockClass": "footer-section-three"
+        }
+    },
+    "rich-text#footer__section-three-2": {
+        "title": "footer section three",
+        "props": {
+            "text": "MEDIOS DE PAGO ",
+            "blockClass": "footer-section-three",
+            "textPosition": "RIGHT"
+        }
+    },
+    "image#footer__section-three": {
+        "title": "footer section three",
+        "props": {
+            "src": "assets/img/footer/Pata Medios de Pago-45.webp",
+            "title": "footer section one",
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            },
+            "maxHeight": "80%"
+        }
+    }
+}

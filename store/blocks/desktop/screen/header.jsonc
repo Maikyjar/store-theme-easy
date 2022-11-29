@@ -1,0 +1,9 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "image#global__header--banner",
+      "flex-layout.row#desktop",
+      "flex-layout.row#desktop__menu"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
     "list-context.image-list#mobile__home--slider--list": {
-        "title": "List of images",
+        "title": "List of images mobile home",
         "children": [
           "slider-layout#mobile__home--slider--list"
         ],

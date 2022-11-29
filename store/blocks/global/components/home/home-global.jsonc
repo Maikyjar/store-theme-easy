@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#global__home": {
+        "title": "Row global home",
+        "children": [
+            "flex-layout.col#global__home"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#global__home": {
+        "title": "Column global home",
+        "children": [
+            "flex-layout.row#section__one--text",
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#section__two--text",
+            "flex-layout.row#home__section--two",
+            "flex-layout.row#section__three--text",
+            "flex-layout.row#home__section--three",
+            "flex-layout.row#section__four--text",
+            "flex-layout.row#home__section--four",
+            "flex-layout.row#section__five--text",
+            "flex-layout.row#home__section--five",
+            "flex-layout.row#home__section--six",
+            "flex-layout.row#section__seven--text",
+            "flex-layout.row#home__section--seven",
+            "flex-layout.row#section__eight--text",
+            "flex-layout.row#home__section--eight",
+            "flex-layout.row#section__nine--text",
+            "flex-layout.row#home__section--nine"
+        ],
+        "props": {
+            "width": "85%"
+        }
+    },
+    "search-result-layout.customQuery#global__home-search": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#desktop__home-search",
+            "search-result-layout.mobile#mobile__home-search",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#desktop__home-search": {
+        "children": [
+            "flex-layout.row#desktop__home-result"
+        ]
+    },
+    "search-result-layout.mobile#mobile__home-search": {
+        "children": [
+            "flex-layout.row#desktop__home-result"
+        ]
+    },
+    "search-not-found-layout": {
+        "children": [
+            "rich-text#section__two--title"
+        ]
+    },
+    "flex-layout.row#desktop__home-result": {
+        "children": [
+            "flex-layout.col#desktop__home-result"
+        ]
+    },
+    "flex-layout.col#desktop__home-result": {
+        "children": [
+            "search-content#desktop__home-result"
+        ]
+    },
+    "search-content#desktop__home-result": {
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "gallery": {
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    }
+}

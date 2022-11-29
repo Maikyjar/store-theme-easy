@@ -131,7 +131,8 @@
   },
   "add-to-cart-button": {
     "props": {
-      "text": "AGREGAR"
+      "text": "AGREGAR",
+      "blockClass": "add-to-cart"
     }
   }
 }

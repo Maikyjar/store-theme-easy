@@ -1,0 +1,17 @@
+{
+    "search-result-layout#department": {
+        "blocks": [
+          "search-result-layout.desktop#desktop__department",
+          "search-result-layout.mobile#mobile__department",
+          "search-not-found-layout"
+          //"flex-layout.row#desktop__department--breadcrumb"
+          //"flex-layout.row#desktop__department--results"
+        ]
+      },
+      "rich-text#department__title": {
+        "title": "department title",
+        "props": {
+          "text": "# Estamos en una pagina de departamento"
+        }
+      }
+}
