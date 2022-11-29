@@ -1,8 +1,0 @@
-{
-    "search-result-layout.mobile#mobile__department": {
-        "children": [
-            "responsive-layout.tablet#tablet__department",
-            "responsive-layout.phone#phone__department"
-        ]
-    }
-}

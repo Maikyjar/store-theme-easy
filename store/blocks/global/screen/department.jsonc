@@ -1,13 +1,9 @@
 {
-  "store.search#department": {
+  "search-result-layout": {
     "blocks": [
-      "search-result-layout#department"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
   }
 }

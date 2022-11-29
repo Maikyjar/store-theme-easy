@@ -1,0 +1,91 @@
+{
+    "search-result-layout.desktop": {
+        "children": [
+            "flex-layout.row#search__breadcrumb",
+            "flex-layout.row#desktop__search--title",
+            "flex-layout.row#desktop__result"
+        ],
+        "props": {
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#search__breadcrumb": {
+        "children": [
+            "breadcrumb.search"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#desktop__search--title": {
+        "children": [
+            "search-title.v2"
+        ]
+    },
+    "flex-layout.row#desktop__result": {
+        "children": [
+            "flex-layout.col#desktop__result--filter",
+            "flex-layout.col#desktop__result--content"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop__result--filter": {
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "width": "20%",
+            "blockClass": "filter-column"
+        }
+    },
+    "flex-layout.col#desktop__result--content": {
+        "children": [
+            "flex-layout.row#desktop__result--search-info",
+            "flex-layout.row#desktop__result--products"
+        ],
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#desktop__result--search-info": {
+        "children": [
+            "flex-layout.col#desktop__result--product-count",
+            "flex-layout.row#desktop__result--order-by"
+        ]
+    },
+    "flex-layout.row#desktop__result--order-by": {
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true,
+            "blockClass": "desktop-order-by",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#desktop__result--product-count": {
+        "children": [
+            "total-products.v2"
+        ],
+        "props": {
+            "blockClass": "desktop-product-count"
+        }
+    },
+    "flex-layout.row#desktop__result--products": {
+        "children": [
+            "search-content"
+        ]
+    },
+    "search-content": {
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    }
+}

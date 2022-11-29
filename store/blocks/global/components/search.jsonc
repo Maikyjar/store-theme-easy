@@ -5,7 +5,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -16,7 +16,7 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -38,31 +38,9 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
-    }
-  },
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-list-price",
-      "product-selling-price",
-      "product-summary-sku-selector",
-      "add-to-cart-button",
-      "add-to-list-btn"
-    ]
-  },
-  "product-summary-name": {
-    "props": {
-      "tag": "h3"
-    }
-  },
-  "product-summary-sku-selector": {
-    "props": {
-      "hideImpossibleCombinations": false
     }
   }
 }
