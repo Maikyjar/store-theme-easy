@@ -1,17 +1,46 @@
 {
-    "search-result-layout#department": {
-        "blocks": [
-          "search-result-layout.desktop#desktop__department",
-          "search-result-layout.mobile#mobile__department",
-          "search-not-found-layout"
-          //"flex-layout.row#desktop__department--breadcrumb"
-          //"flex-layout.row#desktop__department--results"
-        ]
-      },
-      "rich-text#department__title": {
-        "title": "department title",
-        "props": {
-          "text": "# Estamos en una pagina de departamento"
-        }
+  "search-result-layout.customQuery#global__home-search": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
       }
+    },
+    "blocks": [
+      "search-result-layout.desktop#desktop__home-search",
+      "search-result-layout.mobile#mobile__home-search",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#desktop__home-search": {
+    "children": [
+      "flex-layout.row#desktop__home-result"
+    ]
+  },
+  "search-result-layout.mobile#mobile__home-search": {
+    "children": [
+      "flex-layout.row#desktop__home-result"
+    ]
+  },
+  "flex-layout.row#desktop__home-result": {
+    "children": [
+      "flex-layout.col#desktop__home-result"
+    ]
+  },
+  "flex-layout.col#desktop__home-result": {
+    "children": [
+      "search-content#desktop__home-result"
+    ]
+  },
+  "search-content#desktop__home-result": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf#desktop__section--one"
+    ]
+  }
 }
