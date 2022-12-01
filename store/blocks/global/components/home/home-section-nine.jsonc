@@ -13,7 +13,8 @@
         "props": {
             "text": "### Easy: Todo para construir, decorar y remodelar.",
             "blockClass": "subtitle__home-section-nine",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
         }
     },
     "flex-layout.row#home__section--nine": {
@@ -34,7 +35,8 @@
         ],
         "props": {
             "width": "25%",
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "verticalAlign": "top"
         }
     },
     "image#home__section--nine-image-one": {
@@ -59,7 +61,8 @@
     "rich-text#home__section--nine-text-one-subtitle": {
         "props": {
             "text": "Recibe en tu casa el producto",
-            "blockClass": "subtitle_image-section-nine"
+            "blockClass": "subtitle_image-section-nine",
+            "textAlignment": "CENTER"
         }
     },
     "flex-layout.col#section__nine--item-2": {
@@ -70,7 +73,8 @@
         ],
         "props": {
             "width": "25%",
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "verticalAlign": "top"
         }
     },
     "image#home__section--nine-image-two": {
@@ -95,7 +99,8 @@
     "rich-text#home__section--nine-text-two-subtitle": {
         "props": {
             "text": "Retira en tu tienda más cercana",
-            "blockClass": "subtitle_image-section-nine"
+            "blockClass": "subtitle_image-section-nine",
+            "textAlignment": "CENTER"
         }
     },
     "flex-layout.col#section__nine--item-3": {
@@ -106,7 +111,8 @@
         ],
         "props": {
             "width": "25%",
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "verticalAlign": "top"
         }
     },
     "image#home__section--nine-image-three": {
@@ -131,7 +137,8 @@
     "rich-text#home__section--nine-text-three-subtitle": {
         "props": {
             "text": "Rápido y seguro",
-            "blockClass": "subtitle_image-section-nine"
+            "blockClass": "subtitle_image-section-nine",
+            "textAlignment": "CENTER"
         }
     }
 }

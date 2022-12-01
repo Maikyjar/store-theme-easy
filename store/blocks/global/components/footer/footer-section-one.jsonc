@@ -48,7 +48,8 @@
   "rich-text#footer--section-one-1": {
     "title": "footer section one text 1",
     "props": {
-      "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar."
+      "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
+      "blockClass": "footer-section-one"
     }
   },
   "flex-layout.row#desktop__footer--social-media": {
@@ -266,14 +267,20 @@
       "logo#footer__section--one-4-two",
       "logo#footer__section--one-4-three",
       "logo#footer__section--one-4-four"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "marginTop": 3,
+      "marginBottom": 5
+    }
   },
   "logo#footer__section--one-4-one": {
     "title": "Logo footer",
     "props": {
       "href": "https://developers.vtex.com/",
       "url": "assets/img/footer/logo-jumbo.webp",
-      "width": "50"
+      "width": "50",
+      "blockClass": "logo-footer"
     }
   },
   "logo#footer__section--one-4-two": {
@@ -281,7 +288,8 @@
     "props": {
       "href": "https://developers.vtex.com/",
       "url": "assets/img/footer/logo-metro.webp",
-      "width": "50"
+      "width": "50",
+      "blockClass": "logo-footer"
     }
   },
   "logo#footer__section--one-4-three": {
@@ -289,7 +297,8 @@
     "props": {
       "href": "https://developers.vtex.com/",
       "url": "assets/img/footer/logo-easy.webp",
-      "width": "50"
+      "width": "50",
+      "blockClass": "logo-footer"
     }
   },
   "logo#footer__section--one-4-four": {
@@ -297,7 +306,8 @@
     "props": {
       "href": "https://developers.vtex.com/",
       "url": "assets/img/footer/logo-puntos.webp",
-      "width": "50"
+      "width": "50",
+      "blockClass": "logo-footer"
     }
   },
   "image#footer__section-one-4": {
