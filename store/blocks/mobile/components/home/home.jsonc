@@ -29,7 +29,11 @@
             "image#home__section--seven-image-three",
             "flex-layout.row#section__eight--text",
             "flex-layout.row#mobile__home--section-eight",
-            "image#home__section--eight-image-three"
+            "image#home__section--eight-image-three",
+            "flex-layout.row#section__nine--text",
+            "flex-layout.row#mobile__section-nine--item-1",
+            "flex-layout.row#mobile__section-nine--item-2",
+            "flex-layout.row#mobile__section-nine--item-3"
         ],
         "props": {
             "width": "100%"

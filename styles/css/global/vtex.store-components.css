@@ -18,3 +18,7 @@
 .imageElement--footer-section-two-image {
     margin-block-start: 2.99em;
 }
+
+.logoImage--logo-footer {
+    margin-left: -25px;
+}

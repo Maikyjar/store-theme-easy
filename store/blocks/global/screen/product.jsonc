@@ -95,44 +95,65 @@
   },
   "tab-list#product-tabs--list": {
     "children": [
-      "tab-list.item#tabs__list--reviews-and-ratings",
-      "tab-list.item#tabs__list--questions"
-    ]
-  },
-  "tab-list.item#tabs__list--reviews-and-ratings": {
+      "tab-list.item#tabs__list--description",
+      "tab-list.item#tabs__list--specifications",
+      "tab-list.item#tabs__list--comments"
+    ],
     "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Comentarios",
-      "defaultActiveTab": true
+      "blockClass": "tab-list-product"
     }
   },
-  "tab-list.item#tabs__list--questions": {
+  "tab-list.item#tabs__list--description": {
     "props": {
-      "tabId": "questions",
-      "label": "Preguntas",
-      "defaultActiveTab": true
+      "tabId": "description",
+      "label": "DESCRIPCIÓN",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list-item-product"
+    }
+  },
+  "tab-list.item#tabs__list--specifications": {
+    "props": {
+      "tabId": "specifications",
+      "label": "ESPECIFICACIONES",
+      "blockClass": "tab-list-item-product"
+    }
+  },
+  "tab-list.item#tabs__list--comments": {
+    "props": {
+      "tabId": "comments",
+      "label": "COMENTARIOS",
+      "blockClass": "tab-list-item-product"
     }
   },
   "tab-content#product-tabs--content": {
     "children": [
-      "tab-content.item#tabs__list--reviews-and-ratings",
-      "tab-content.item#tabs__list--questions"
+      "tab-content.item#tabs__list--description",
+      "tab-content.item#tabs__list--specifications",
+      "tab-content.item#tabs__list--comments"
     ]
   },
-  "tab-content.item#tabs__list--reviews-and-ratings": {
+  "tab-content.item#tabs__list--description": {
     "props": {
-      "tabId": "reviews-and-ratings"
+      "tabId": "description"
+    },
+    "children": [
+      "product-description"
+    ]
+  },
+  "tab-content.item#tabs__list--specifications": {
+    "props": {
+      "tabId": "specifications"
+    },
+    "children": [
+      "product-specifications"
+    ]
+  },
+  "tab-content.item#tabs__list--comments": {
+    "props": {
+      "tabId": "comments"
     },
     "children": [
       "product-reviews"
-    ]
-  },
-  "tab-content.item#tabs__list--questions": {
-    "props": {
-      "tabId": "questions"
-    },
-    "children": [
-      "rich-text#section__two--title"
     ]
   }
 }

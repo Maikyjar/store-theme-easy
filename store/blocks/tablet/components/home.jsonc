@@ -25,7 +25,9 @@
             "flex-layout.row#section__seven--text",
             "flex-layout.row#home__section--seven",
             "flex-layout.row#section__eight--text",
-            "flex-layout.row#home__section--eight"
+            "flex-layout.row#home__section--eight",
+            "flex-layout.row#section__nine--text",
+            "flex-layout.row#home__section--nine"
         ],
         "props": {
             "width": "98%"
