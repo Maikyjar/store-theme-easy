@@ -22,3 +22,8 @@
 .logoImage--logo-footer {
     margin-left: -25px;
 }
+
+.imageElement--footer-section-two-image-mobile {
+    margin-block-start: 2.99em;
+    padding-block-end: 1.5em;
+}

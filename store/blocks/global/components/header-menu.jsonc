@@ -1,5 +1,6 @@
 {
     "menu#global__header--menu": {
+        "title": "menu global",
         "children": [
             "menu-item#category__one",
             "menu-item#category__two",
@@ -28,6 +29,7 @@
         }
     },
     "menu-item#category__one": {
+        "title": "category muebles",
         "props": {
             "id": "category-one",
             "type": "custom",
@@ -44,11 +46,13 @@
         ] 
     },
     "submenu.accordion#category__one": {
+        "title": "submenu one",
         "children": [
             "menu#category__one"
         ]
     },
     "menu#category__one": {
+        "title": "category one",
         "children": [
             "menu-item#subcategory__one",
             "menu-item#subcategory__two",
@@ -59,6 +63,7 @@
         }
     },
     "menu-item#subcategory__one": {
+        "title": "subcategory butacos",
         "props": {
             "id": "subcategory-one",
             "type": "custom",
@@ -72,6 +77,7 @@
         }
     },
     "menu-item#subcategory__two": {
+        "title": "subcategory muebles de comedor",
         "props": {
             "id": "subcategory-two",
             "type": "custom",
@@ -88,11 +94,13 @@
         ]
     },
     "submenu.accordion#subcategory__two": {
+        "title": "submenu two",
         "children": [
             "menu#subcategory__two"
         ]
     },
     "menu#subcategory__two": {
+        "title": "category two",
         "children": [
             "menu-item#subcategory__two-item-one",
             "menu-item#subcategory__two-item-two",
@@ -103,6 +111,7 @@
         }
     },
     "menu-item#subcategory__two-item-one": {
+        "title": "subcategory juegos de comedor",
         "props": {
             "id": "item-one",
             "type": "custom",
@@ -116,6 +125,7 @@
         }
     },
     "menu-item#subcategory__two-item-two": {
+        "title": "subcategory sillas bar y auxiliares",
         "props": {
             "id": "item-two",
             "type": "custom",
@@ -129,6 +139,7 @@
         }
     },
     "menu-item#subcategory__two-item-three": {
+        "title": "subcategory sillas plegables",
         "props": {
             "id": "item-three",
             "type": "custom",
@@ -142,6 +153,7 @@
         }
     },
     "menu-item#subcategory__three": {
+        "title": "subcategory muebles de dormitorio",
         "props": {
             "id": "subcategory-three",
             "type": "custom",
@@ -158,11 +170,13 @@
         ]
     },
     "submenu.accordion#subcategory__three": {
+        "title": "submenu three",
         "children": [
             "menu#subcategory__three"
         ]
     },
     "menu#subcategory__three": {
+        "title": "category three",
         "children": [
             "menu-item#subcategory__three-item-one",
             "menu-item#subcategory__three-item-two",
@@ -173,6 +187,7 @@
         }
     },
     "menu-item#subcategory__three-item-one": {
+        "title": "subcategory armarios y closets",
         "props": {
             "id": "item-one",
             "type": "custom",
@@ -186,6 +201,7 @@
         }
     },
     "menu-item#subcategory__three-item-two": {
+        "title": "subcategory cajoneras y mesas de noche",
         "props": {
             "id": "item-two",
             "type": "custom",
@@ -199,6 +215,7 @@
         }
     },
     "menu-item#subcategory__three-item-three": {
+        "title": "subcategory camas",
         "props": {
             "id": "item-three",
             "type": "custom",
@@ -212,6 +229,7 @@
         }
     },
     "menu-item#category__two": {
+        "title": "subcategory baños",
         "props": {
             "id": "category-two",
             "type": "custom",
@@ -228,6 +246,7 @@
         ] 
     },
     "menu-item#category__three": {
+        "title": "subcategory cocinas",
         "props": {
             "id": "category-three",
             "type": "custom",
@@ -244,6 +263,7 @@
         ] 
     },
     "menu-item#category__four": {
+        "title": "subcategory electrodomesticos",
         "props": {
             "id": "category-four",
             "type": "custom",
@@ -260,6 +280,7 @@
         ] 
     },
     "menu-item#category__five": {
+        "title": "subcategory tecnologia",
         "props": {
             "id": "category-five",
             "type": "custom",
@@ -276,6 +297,7 @@
         ] 
     },
     "menu-item#category__six": {
+        "title": "subcategory herramientas",
         "props": {
             "id": "category-six",
             "type": "custom",
@@ -292,6 +314,7 @@
         ] 
     },
     "menu-item#category__seven": {
+        "title": "subcategory pinturas",
         "props": {
             "id": "category-seven",
             "type": "custom",
@@ -308,6 +331,7 @@
         ] 
     },
     "menu-item#category__eight": {
+        "title": "subcategory automotor",
         "props": {
             "id": "category-eight",
             "type": "custom",
@@ -324,6 +348,7 @@
         ] 
     },
     "menu-item#category__nine": {
+        "title": "subcategory aire libre",
         "props": {
             "id": "category-nine",
             "type": "custom",
@@ -340,6 +365,7 @@
         ] 
     },
     "menu-item#category__ten": {
+        "title": "subcategory aseo y organizadores",
         "props": {
             "id": "category-ten",
             "type": "custom",
@@ -356,6 +382,7 @@
         ] 
     },
     "menu-item#category__eleven": {
+        "title": "subcategory construccion",
         "props": {
             "id": "category-eleven",
             "type": "custom",
@@ -372,6 +399,7 @@
         ] 
     },
     "menu-item#category__twelve": {
+        "title": "subcategory mascotas",
         "props": {
             "id": "category-twelve",
             "type": "custom",
@@ -388,6 +416,7 @@
         ] 
     },
     "menu-item#category__thirteen": {
+        "title": "subcategory decohogar",
         "props": {
             "id": "category-thirteen",
             "type": "custom",
@@ -404,6 +433,7 @@
         ] 
     },
     "menu-item#category__fourteen": {
+        "title": "subcategory pisos y paredes",
         "props": {
             "id": "category-fourteen",
             "type": "custom",
@@ -420,6 +450,7 @@
         ] 
     },
     "menu-item#category__fifteen": {
+        "title": "subcategory electricidad",
         "props": {
             "id": "category-fifteen",
             "type": "custom",
@@ -436,6 +467,7 @@
         ] 
     },
     "menu-item#category__sixteen": {
+        "title": "subcategory ferreteria",
         "props": {
             "id": "category-sixteen",
             "type": "custom",
@@ -452,6 +484,7 @@
         ] 
     },
     "menu-item#category__seventeen": {
+        "title": "subcategory iluminacion",
         "props": {
             "id": "category-seventeen",
             "type": "custom",
@@ -468,6 +501,7 @@
         ] 
     },
     "menu-item#category__eighteen": {
+        "title": "subcategory jardin",
         "props": {
             "id": "category-eighteen",
             "type": "custom",
@@ -484,6 +518,7 @@
         ] 
     },
     "menu-item#category__nineteen": {
+        "title": "subcategory mesa y cocina",
         "props": {
             "id": "category-nineteen",
             "type": "custom",
@@ -500,6 +535,7 @@
         ] 
     },
     "menu-item#category__twenty": {
+        "title": "subcategory plomeria",
         "props": {
             "id": "category-twenty",
             "type": "custom",
@@ -516,6 +552,7 @@
         ] 
     },
     "menu-item#category__twenty-one": {
+        "title": "subcategory colchones",
         "props": {
             "id": "category-twenty-one",
             "type": "custom",

@@ -106,6 +106,7 @@
     }
   },
   "link#footer__section-one-2--link-one": {
+    "title": "link one",
     "props": {
       "href": "/acerca-de-easy",
       "label": "Acerca de EASY",
@@ -113,6 +114,7 @@
     }
   },
   "link#footer__section-one-2--link-two": {
+    "title": "link two",
     "props": {
       "href": "/",
       "label": "Catálogos",
@@ -120,6 +122,7 @@
     }
   },
   "link#footer__section-one-2--link-three": {
+    "title": "link three",
     "props": {
       "href": "/",
       "label": "Tiendas y Horarios",
@@ -127,6 +130,7 @@
     }
   },
   "link#footer__section-one-2--link-four": {
+    "title": "link four",
     "props": {
       "href": "/",
       "label": "Mundo Experto",
@@ -134,6 +138,7 @@
     }
   },
   "link#footer__section-one-2--link-five": {
+    "title": "link five",
     "props": {
       "href": "/",
       "label": "¿Cómo comprar?",
@@ -141,6 +146,7 @@
     }
   },
   "link#footer__section-one-2--link-six": {
+    "title": "link six",
     "props": {
       "href": "/",
       "label": "Trabaja con Nosotros",
@@ -148,6 +154,7 @@
     }
   },
   "link#footer__section-one-2--link-seven": {
+    "title": "link seven",
     "props": {
       "href": "/",
       "label": "Tarjeta Cencosud",
@@ -155,6 +162,7 @@
     }
   },
   "link#footer__section-one-2--link-eight": {
+    "title": "link eight",
     "props": {
       "href": "/",
       "label": "¿Cómo redimir Bonos Web?",
@@ -186,6 +194,7 @@
     }
   },
   "link#footer__section-one-3--link-one": {
+    "title": "link one",
     "props": {
       "href": "/",
       "label": "Preguntas Frecuentes",
@@ -193,6 +202,7 @@
     }
   },
   "link#footer__section-one-3--link-two": {
+    "title": "link two",
     "props": {
       "href": "/",
       "label": "Cambios y Devoluciones",
@@ -200,6 +210,7 @@
     }
   },
   "link#footer__section-one-3--link-three": {
+    "title": "link three",
     "props": {
       "href": "/",
       "label": "Términos y Condiciones",
@@ -207,6 +218,7 @@
     }
   },
   "link#footer__section-one-3--link-four": {
+    "title": "link four",
     "props": {
       "href": "/",
       "label": "Reglamento",
@@ -214,6 +226,7 @@
     }
   },
   "link#footer__section-one-3--link-five": {
+    "title": "link five",
     "props": {
       "href": "/",
       "label": "Protección de Datos",
@@ -221,6 +234,7 @@
     }
   },
   "link#footer__section-one-3--link-six": {
+    "title": "link six",
     "props": {
       "href": "/",
       "label": "Políticas de Cookies",
@@ -228,6 +242,7 @@
     }
   },
   "link#footer__section-one-3--link-seven": {
+    "title": "link seven",
     "props": {
       "href": "/",
       "label": "Mapa del sitio",
@@ -235,6 +250,7 @@
     }
   },
   "link#footer__section-one-3--link-eight": {
+    "title": "link eight",
     "props": {
       "href": "/",
       "label": "Superintendencia de Industria y Comercio - SIC",
