@@ -1,0 +1,152 @@
+{
+    "flex-layout.row#global__product--breadcrumb": {
+        "title": "miga de pan de producto",
+        "children": [
+            "flex-layout.col#product__breadcrumb"
+        ]
+    },
+    "flex-layout.col#product__breadcrumb": {
+        "title": "product breadcrumb",
+        "children": [
+            "breadcrumb"
+        ]
+    },
+    "flex-layout.row#global__product--info": {
+        "title": "general information PDP",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ]
+    },
+    "flex-layout.col#product__info--image": {
+        "title": "product images",
+        "children": [
+            "product-images#global__product"
+        ]
+    },
+    "product-images#global__product": {
+        "title": "product images",
+        "props": {
+            "showNavigationArrows": false,
+            "showPaginationDots": false
+        }
+    },
+    "flex-layout.col#product__info--data": {
+        "title": "product data",
+        "children": [
+            "flex-layout.row#global__product--top",
+            "product-name",
+            "product-identifier.product",
+            "product-rating-inline",
+            "rich-text#product__info--avaliable",
+            "product-price",
+            "buy-button" /* ,
+          "shipping-simulator" */
+        ],
+        "props": {
+            "verticalAlign": "top"
+        }
+    },
+    "flex-layout.row#global__product--top": {
+        "title": "product top info",
+        "children": [
+            "product-brand",
+            "share"
+        ],
+        "props": {
+            "horizontalAlign": "between"
+        }
+    },
+    "share": {
+        "props": {
+            "social": {
+                "WhatsApp": false,
+                "Facebook": true,
+                "Twitter": true,
+                "Pinterest": true
+            }
+        }
+    },
+    "rich-text#product__info--avaliable": {
+        "props": {
+            "text": "Disponible",
+            "textPosition": "LEFT",
+            "blockClass": "product__summary-avaliable"
+        }
+    },
+    "flex-layout.row#global__product--tabs": {
+        "title": "aditional information",
+        "children": [
+            "tab-layout#product-tabs"
+        ]
+    },
+    "tab-layout#product-tabs": {
+        "children": [
+            "tab-list#product-tabs--list",
+            "tab-content#product-tabs--content"
+        ]
+    },
+    "tab-list#product-tabs--list": {
+        "children": [
+            "tab-list.item#tabs__list--description",
+            "tab-list.item#tabs__list--specifications",
+            "tab-list.item#tabs__list--comments"
+        ],
+        "props": {
+            "blockClass": "tab-list-product"
+        }
+    },
+    "tab-list.item#tabs__list--description": {
+        "props": {
+            "tabId": "description",
+            "label": "DESCRIPCIÓN",
+            "defaultActiveTab": true,
+            "blockClass": "tab-list-item-product"
+        }
+    },
+    "tab-list.item#tabs__list--specifications": {
+        "props": {
+            "tabId": "specifications",
+            "label": "ESPECIFICACIONES",
+            "blockClass": "tab-list-item-product"
+        }
+    },
+    "tab-list.item#tabs__list--comments": {
+        "props": {
+            "tabId": "comments",
+            "label": "COMENTARIOS",
+            "blockClass": "tab-list-item-product"
+        }
+    },
+    "tab-content#product-tabs--content": {
+        "children": [
+            "tab-content.item#tabs__list--description",
+            "tab-content.item#tabs__list--specifications",
+            "tab-content.item#tabs__list--comments"
+        ]
+    },
+    "tab-content.item#tabs__list--description": {
+        "props": {
+            "tabId": "description"
+        },
+        "children": [
+            "product-description"
+        ]
+    },
+    "tab-content.item#tabs__list--specifications": {
+        "props": {
+            "tabId": "specifications"
+        },
+        "children": [
+            "product-specifications"
+        ]
+    },
+    "tab-content.item#tabs__list--comments": {
+        "props": {
+            "tabId": "comments"
+        },
+        "children": [
+            "product-reviews"
+        ]
+    }
+}

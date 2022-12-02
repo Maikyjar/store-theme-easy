@@ -85,10 +85,25 @@
   "flex-layout.col#mobile__footer--section-two-4": {
     "title": "footer section two column 2",
     "children": [
-      "image#footer__section-two-4"
+      "image#mobile__footer-section-two-4"
     ],
     "props": {
       "horizontalAlign": "center"
+    }
+  },
+  "image#mobile__footer-section-two-4": {
+    "title": "footer section two column 4 image",
+    "props": {
+      "src": "assets/img/footer/call_center.webp",
+      "title": "footer section one",
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "maxHeight": "160px",
+      "maxWidth": "165px",
+      "blockClass": "footer-section-two-image-mobile"
     }
   }
 }

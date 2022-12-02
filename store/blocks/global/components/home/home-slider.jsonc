@@ -55,10 +55,14 @@
         "phone": 1
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      }
     }
-  },
-  "slider-layout#home__slider--children": {
+  }
+  /* "slider-layout#home__slider--children": {
     "title": "Slider with declared children",
     "props": {
       "itemsPerPage": {
@@ -129,5 +133,5 @@
     "props": {
       "src": "assets/img/desktop-home-slider/nuevas_tiendas-19412.webp"
     }
-  }
+  } */
 }

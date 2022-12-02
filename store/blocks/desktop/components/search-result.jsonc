@@ -1,5 +1,6 @@
 {
     "search-result-layout.desktop": {
+        "title": "search result desktop",
         "children": [
             "flex-layout.row#search__breadcrumb",
             "flex-layout.row#desktop__search--title",
@@ -10,6 +11,7 @@
         }
     },
     "flex-layout.row#search__breadcrumb": {
+        "title": "search breadcrumb",
         "children": [
             "breadcrumb.search"
         ],
@@ -19,11 +21,13 @@
         }
     },
     "flex-layout.row#desktop__search--title": {
+        "title": "search title",
         "children": [
             "search-title.v2"
         ]
     },
     "flex-layout.row#desktop__result": {
+        "title": "search result",
         "children": [
             "flex-layout.col#desktop__result--filter",
             "flex-layout.col#desktop__result--content"
@@ -34,6 +38,7 @@
         }
     },
     "flex-layout.col#desktop__result--filter": {
+        "title": "search result filter",
         "children": [
             "filter-navigator.v3"
         ],
@@ -43,6 +48,7 @@
         }
     },
     "flex-layout.col#desktop__result--content": {
+        "title": "search result content",
         "children": [
             "flex-layout.row#desktop__result--search-info",
             "flex-layout.row#desktop__result--products"
@@ -53,12 +59,14 @@
         }
     },
     "flex-layout.row#desktop__result--search-info": {
+        "title": "search result info",
         "children": [
             "flex-layout.col#desktop__result--product-count",
             "flex-layout.row#desktop__result--order-by"
         ]
     },
     "flex-layout.row#desktop__result--order-by": {
+        "title": "search result order by",
         "children": [
             "order-by.v2"
         ],
@@ -70,6 +78,7 @@
         }
     },
     "flex-layout.col#desktop__result--product-count": {
+        "title": "search product count",
         "children": [
             "total-products.v2"
         ],
@@ -78,11 +87,13 @@
         }
     },
     "flex-layout.row#desktop__result--products": {
+        "title": "search result products",
         "children": [
             "search-content"
         ]
     },
     "search-content": {
+        "title": "search content",
         "blocks": [
             "gallery",
             "not-found"

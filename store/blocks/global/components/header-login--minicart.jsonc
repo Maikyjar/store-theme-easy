@@ -1,26 +1,28 @@
 {
-    "login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "iconLabel": "Hola",
-          "hideIconLabel": true
-        }
-    },
-    "minicart.v2": {
-        "props": {
-          "variation": "link",
-          "MinicartIcon": "icon-cart",
-          "quantityDisplay": "always"
-        }
-    },
-    "icon-cart": {
-        "props": {
-          "size": 40
-        }
+  "login": {
+    "title": "login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Hola",
+      "hideIconLabel": true
     }
+  },
+  "minicart.v2": {
+    "title": "login",
+    "props": {
+      "variation": "link",
+      "MinicartIcon": "icon-cart",
+      "quantityDisplay": "always"
+    }
+  },
+  "icon-cart": {
+    "props": {
+      "size": 40
+    }
+  }
 }

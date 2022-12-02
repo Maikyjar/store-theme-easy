@@ -80,6 +80,14 @@
     font-size: 1.8em;
 }
 
+@media screen and (max-width: 480px) {
+    .headingLevel2--footer-title_section-two {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-block-end: 0;
+    }   
+}
+
 .paragraph--footer-section-one {
     font-size: 14.6px;
 }
