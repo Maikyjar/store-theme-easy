@@ -1,0 +1,109 @@
+{
+  "flex-layout.row#mobile__footer--section-two-1": {
+    "title": "footer section two",
+    "children": [
+      "flex-layout.col#mobile__footer--section-two-1"
+    ],
+    "props": {
+      "blockClass": "footer--section-two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__footer--section-two-1": {
+    "title": "footer section two column 1",
+    "children": [
+      "rich-text#footer--section-two-1"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobile__footer--section-two-2": {
+    "title": "footer section two",
+    "children": [
+      "flex-layout.col#mobile__footer--section-two-2"
+    ],
+    "props": {
+      "blockClass": "footer--section-two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__footer--section-two-2": {
+    "title": "footer section two column 2",
+    "children": [
+      "rich-text#footer__section-two-2-text-one",
+      "rich-text#footer__section-two-2-text-two",
+      "link#footer__section-two-2--link-one",
+      "link#footer__section-two-2--link-two",
+      "rich-text#footer__section-two-2-text-three",
+      "rich-text#footer__section-two-2-text-four",
+      "rich-text#footer__section-two-2-text-five",
+      "link#footer__section-two-2--link-three",
+      "rich-text#footer__section-two-2-text-six",
+      "rich-text#footer__section-two-2-text-seven",
+      "rich-text#footer__section-two-2-text-eight",
+      "link#footer__section-two-2--link-four"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobile__footer--section-two-3": {
+    "title": "footer section two",
+    "children": [
+      "flex-layout.col#mobile__footer--section-two-3"
+    ],
+    "props": {
+      "blockClass": "footer--section-two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__footer--section-two-3": {
+    "title": "footer section two column 3",
+    "children": [
+      "rich-text#footer__section-two-3-text-one",
+      "rich-text#footer__section-two-3-text-two",
+      "rich-text#footer__section-two-3-text-three",
+      "rich-text#footer__section-two-3-text-four",
+      "rich-text#footer__section-two-3-text-five",
+      "rich-text#footer__section-two-3-text-six"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobile__footer--section-two-4": {
+    "title": "footer section two",
+    "children": [
+      "flex-layout.col#mobile__footer--section-two-4"
+    ],
+    "props": {
+      "blockClass": "footer--section-two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__footer--section-two-4": {
+    "title": "footer section two column 2",
+    "children": [
+      "image#mobile__footer-section-two-4"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#mobile__footer-section-two-4": {
+    "title": "footer section two column 4 image",
+    "props": {
+      "src": "assets/img/footer/call_center.webp",
+      "title": "footer section one",
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "maxHeight": "160px",
+      "maxWidth": "165px",
+      "blockClass": "footer-section-two-image-mobile"
+    }
+  }
+}

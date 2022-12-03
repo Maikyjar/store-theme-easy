@@ -1,18 +1,18 @@
 {
-    "flex-layout.row#tablet__home": {
-        "title": "tablet home",
+    "flex-layout.row#global__home": {
+        "title": "Row global home",
         "children": [
-            "flex-layout.col#tablet__home"
+            "flex-layout.col#global__home"
         ],
         "props": {
             "horizontalAlign": "center"
         }
     },
-    "flex-layout.col#tablet__home": {
-        "title": "tablet home",
+    "flex-layout.col#global__home": {
+        "title": "Column global home",
         "children": [
             "flex-layout.row#section__one--text",
-            "flex-layout.row#tablet__home--section-one",
+            "flex-layout.row#home__section--one",
             "flex-layout.row#section__two--text",
             "flex-layout.row#home__section--two",
             "flex-layout.row#section__three--text",
@@ -30,7 +30,7 @@
             "flex-layout.row#home__section--nine"
         ],
         "props": {
-            "width": "98%"
+            "width": "85%"
         }
     }
 }

@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#tablet__footer--section-two": {
+    "title": "footer section two",
+    "children": [
+      "flex-layout.col#tablet__footer--section-two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer--section-two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#tablet__footer--section-two": {
+    "title": "Column footer section two",
+    "children": [
+      "flex-layout.row#tablet__footer--section-three-internal",
+      "flex-layout.row#tablet__footer--section-four-internal"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "flex-layout.row#tablet__footer--section-three-internal": {
+    "title": "Row footer section two",
+    "children": [
+      "flex-layout.col#tablet__footer--section-two-1",
+      "flex-layout.col#tablet__footer--section-two-2"
+    ],
+    "props": {
+      "blockClass": "footer--section-two-internal",
+      "marginTop": 5,
+      "marginBottom": 5,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#tablet__footer--section-four-internal": {
+    "title": "Row footer section two",
+    "children": [
+      "flex-layout.col#tablet__footer--section-two-3",
+      "flex-layout.col#tablet__footer--section-two-4"
+    ],
+    "props": {
+      "blockClass": "footer--section-two-internal",
+      "marginTop": 5,
+      "marginBottom": 5,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#tablet__footer--section-two-1": {
+    "title": "footer section two column 1",
+    "children": [
+      "rich-text#footer--section-two-1"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+  "flex-layout.col#tablet__footer--section-two-2": {
+    "title": "footer section two column 2",
+    "children": [
+      "rich-text#footer__section-two-2-text-one",
+      "rich-text#footer__section-two-2-text-two",
+      "link#footer__section-two-2--link-one",
+      "link#footer__section-two-2--link-two",
+      "rich-text#footer__section-two-2-text-three",
+      "rich-text#footer__section-two-2-text-four",
+      "rich-text#footer__section-two-2-text-five",
+      "link#footer__section-two-2--link-three",
+      "rich-text#footer__section-two-2-text-six",
+      "rich-text#footer__section-two-2-text-seven",
+      "rich-text#footer__section-two-2-text-eight",
+      "link#footer__section-two-2--link-four"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+  "flex-layout.col#tablet__footer--section-two-3": {
+    "title": "footer section two column 3",
+    "children": [
+      "rich-text#footer__section-two-3-text-one",
+      "rich-text#footer__section-two-3-text-two",
+      "rich-text#footer__section-two-3-text-three",
+      "rich-text#footer__section-two-3-text-four",
+      "rich-text#footer__section-two-3-text-five",
+      "rich-text#footer__section-two-3-text-six"
+    ],
+    "props": {
+      "width": "40%",
+      "verticalAlign": "top"
+    }
+  },
+  "flex-layout.col#tablet__footer--section-two-4": {
+    "title": "footer section two column 2",
+    "children": [
+      "image#footer__section-two-4"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  }
+}

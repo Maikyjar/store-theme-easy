@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#tablet__header": {
+    "children": [
+      "image#global__header--banner",
+      "flex-layout.row#tablet"
+    ]
+  }
+}

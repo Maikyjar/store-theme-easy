@@ -1,0 +1,62 @@
+{
+    "list-context.image-list#mobile__home--slider--list": {
+        "title": "List of images mobile home",
+        "children": [
+          "slider-layout#mobile__home--slider--list"
+        ],
+        "props": {
+          "preload": true,
+          "images": [
+            {
+              "image": "assets/img/mobile-home-slider/descuento_electrodomesticos-20013.webp",
+              "description": "slider one"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/catalogo_ofertazos-20015.webp",
+              "description": "slider two"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/orange_days_easy_herramientas_ferreteria-20027.webp",
+              "description": "slider three"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/limpieza_auto_simoniz-20017.webp",
+              "description": "slider four"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/recurrente_martes_web_puertas_ferreteria-20029.webp",
+              "description": "slider five"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/recurrente_martes_organizacion_textil_menaje-20031.webp",
+              "description": "slider six"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/catalogo_navidad-19899.webp",
+              "description": "slider seven"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/catalogo_remodela-19900.webp",
+              "description": "slider eight"
+            },
+            {
+              "image": "assets/img/mobile-home-slider/cornershop_easy-18738.webp",
+              "description": "slider nine"
+            }
+          ]
+        }
+    },
+    "slider-layout#mobile__home--slider--list": {
+        "title": "Slider with list",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "blockClass": "mobile__home--slider",
+          "showNavigationArrows": "never"
+        }
+    }
+}

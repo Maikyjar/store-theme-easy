@@ -1,0 +1,237 @@
+{
+  "flex-layout.row#desktop__footer--section-two": {
+    "title": "footer section two",
+    "children": [
+      "flex-layout.col#desktop__footer--section-two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer--section-two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#desktop__footer--section-two": {
+    "title": "Column footer section two",
+    "children": [
+      "flex-layout.row#desktop__footer--section-two-internal"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "flex-layout.row#desktop__footer--section-two-internal": {
+    "title": "Row footer section two",
+    "children": [
+      "flex-layout.col#desktop__footer--section-two-1",
+      "flex-layout.col#desktop__footer--section-two-2",
+      "flex-layout.col#desktop__footer--section-two-3",
+      "flex-layout.col#desktop__footer--section-two-4"
+    ],
+    "props": {
+      "blockClass": "footer--section-two-internal",
+      "marginTop": 5,
+      "marginBottom": 5,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-two-1": {
+    "title": "footer section two column 1",
+    "children": [
+      "rich-text#footer--section-two-1"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#footer--section-two-1": {
+    "title": "footer section two text 1",
+    "props": {
+      "text": "## CONTÁCTANOS",
+      "blockClass": "footer-title_section-two"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-two-2": {
+    "title": "footer section two column 2",
+    "children": [
+      "rich-text#footer__section-two-2-text-one",
+      "rich-text#footer__section-two-2-text-two",
+      "link#footer__section-two-2--link-one",
+      "link#footer__section-two-2--link-two",
+      "rich-text#footer__section-two-2-text-three",
+      "rich-text#footer__section-two-2-text-four",
+      "rich-text#footer__section-two-2-text-five",
+      "link#footer__section-two-2--link-three",
+      "rich-text#footer__section-two-2-text-six",
+      "rich-text#footer__section-two-2-text-seven",
+      "rich-text#footer__section-two-2-text-eight",
+      "link#footer__section-two-2--link-four"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#footer__section-two-2-text-one": {
+    "title": "footer section two column 2 title",
+    "props": {
+      "text": "#### CALL CENTER",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "rich-text#footer__section-two-2-text-two": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "Servicio al Cliente",
+      "blockClass": "footer-section-two-service"
+    }
+  },
+  "link#footer__section-two-2--link-one": {
+    "props": {
+      "href": "/",
+      "label": "PQRs",
+      "blockClass": "link__footer-service"
+    }
+  },
+  "link#footer__section-two-2--link-two": {
+    "props": {
+      "href": "/",
+      "label": "Registro de clientes para factura electrónica",
+      "blockClass": "link__footer-service"
+    }
+  },
+  "rich-text#footer__section-two-2-text-three": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "Horarios: 8:00 am a 6:00 pm Lunes a Sábado",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-2-text-four": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "8:00 am a 5:00 pm Domingos y Festivos",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-2-text-five": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "Bogotá: (601) 7460340",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "link#footer__section-two-2--link-three": {
+    "props": {
+      "href": "/",
+      "label": "clientes@easy.com.co",
+      "blockClass": "link__footer"
+    }
+  },
+  "rich-text#footer__section-two-2-text-six": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "CENCOSUD COLOMBIA S.A., Nit. 900.155.107-1",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-2-text-seven": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "Avenida 9 # 125-30, Bogotá, Colombia",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-2-text-eight": {
+    "title": "footer section two column 2 text",
+    "props": {
+      "text": "Correo de notificaciones judiciales: ",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "link#footer__section-two-2--link-four": {
+    "props": {
+      "href": "/",
+      "label": "notificaciones@cencosud.com.co",
+      "blockClass": "link__footer"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-two-3": {
+    "title": "footer section two column 3",
+    "children": [
+      "rich-text#footer__section-two-3-text-one",
+      "rich-text#footer__section-two-3-text-two",
+      "rich-text#footer__section-two-3-text-three",
+      "rich-text#footer__section-two-3-text-four",
+      "rich-text#footer__section-two-3-text-five",
+      "rich-text#footer__section-two-3-text-six"
+    ],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#footer__section-two-3-text-one": {
+    "title": "footer section two column 3 title",
+    "props": {
+      "text": "#### Venta telefónica",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "rich-text#footer__section-two-3-text-two": {
+    "title": "footer section two column 3 text",
+    "props": {
+      "text": "Horario: 8:00 am – 6:00 pm Lunes a Sábado",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-3-text-three": {
+    "title": "footer section two column 3 text",
+    "props": {
+      "text": "8:00 am – 5:00 pm Domingos y Festivos",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-3-text-four": {
+    "title": "footer section two column 3 text",
+    "props": {
+      "text": "Bogotá: (601) 7460344",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-3-text-five": {
+    "title": "footer section two column 3 text",
+    "props": {
+      "text": "Medellín: (604) 6044775",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "rich-text#footer__section-two-3-text-six": {
+    "title": "footer section two column 3 text",
+    "props": {
+      "text": "Resto del país: 018000180340",
+      "blockClass": "footer-section-two"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-two-4": {
+    "title": "footer section two column 2",
+    "children": [
+      "image#footer__section-two-4"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "image#footer__section-two-4": {
+    "title": "footer section two column 4 image",
+    "props": {
+      "src": "assets/img/footer/call_center.webp",
+      "title": "footer section one",
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "maxHeight": "40%",
+      "blockClass": "footer-section-two-image"
+    }
+  }
+}

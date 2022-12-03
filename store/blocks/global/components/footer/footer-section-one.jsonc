@@ -1,0 +1,342 @@
+{
+  "flex-layout.row#desktop__footer--section-one": {
+    "title": "footer section one",
+    "children": [
+      "flex-layout.col#desktop__footer--section-one"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer--section-one",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one": {
+    "title": "Column footer section one",
+    "children": [
+      "flex-layout.row#desktop__footer--section-one-internal"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
+  "flex-layout.row#desktop__footer--section-one-internal": {
+    "title": "Row footer section one",
+    "children": [
+      "flex-layout.col#desktop__footer--section-one-1",
+      "flex-layout.col#desktop__footer--section-one-2",
+      "flex-layout.col#desktop__footer--section-one-3",
+      "flex-layout.col#desktop__footer--section-one-4"
+    ],
+    "props": {
+      "blockClass": "footer--section-one-internal",
+      "marginTop": 9,
+      "marginBottom": 9,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one-1": {
+    "title": "footer section one column 1",
+    "children": [
+      "logo#header-logo--desktop",
+      "rich-text#footer--section-one-1",
+      "flex-layout.row#desktop__footer--social-media"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#footer--section-one-1": {
+    "title": "footer section one text 1",
+    "props": {
+      "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
+      "blockClass": "footer-section-one"
+    }
+  },
+  "flex-layout.row#desktop__footer--social-media": {
+    "title": "footer section one social media",
+    "children": [
+      "social-networks"
+    ]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/EasyColombia"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.twitter.com/EasyColOficial"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/easycol/"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/easycolombia"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one-2": {
+    "title": "footer section one column 2",
+    "children": [
+      "rich-text#footer__section-one-2-title",
+      "link#footer__section-one-2--link-one",
+      "link#footer__section-one-2--link-two",
+      "link#footer__section-one-2--link-three",
+      "link#footer__section-one-2--link-four",
+      "link#footer__section-one-2--link-five",
+      "link#footer__section-one-2--link-six",
+      "link#footer__section-one-2--link-seven",
+      "link#footer__section-one-2--link-eight"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#footer__section-one-2-title": {
+    "title": "footer section one text 2",
+    "props": {
+      "text": "#### Easy",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "link#footer__section-one-2--link-one": {
+    "title": "link one",
+    "props": {
+      "href": "/acerca-de-easy",
+      "label": "Acerca de EASY",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-two": {
+    "title": "link two",
+    "props": {
+      "href": "/",
+      "label": "Catálogos",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-three": {
+    "title": "link three",
+    "props": {
+      "href": "/",
+      "label": "Tiendas y Horarios",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-four": {
+    "title": "link four",
+    "props": {
+      "href": "/",
+      "label": "Mundo Experto",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-five": {
+    "title": "link five",
+    "props": {
+      "href": "/",
+      "label": "¿Cómo comprar?",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-six": {
+    "title": "link six",
+    "props": {
+      "href": "/",
+      "label": "Trabaja con Nosotros",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-seven": {
+    "title": "link seven",
+    "props": {
+      "href": "/",
+      "label": "Tarjeta Cencosud",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-2--link-eight": {
+    "title": "link eight",
+    "props": {
+      "href": "/",
+      "label": "¿Cómo redimir Bonos Web?",
+      "blockClass": "link__footer"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one-3": {
+    "title": "footer section one column 3",
+    "children": [
+      "rich-text#footer__section-one-3-title",
+      "link#footer__section-one-3--link-one",
+      "link#footer__section-one-3--link-two",
+      "link#footer__section-one-3--link-three",
+      "link#footer__section-one-3--link-four",
+      "link#footer__section-one-3--link-five",
+      "link#footer__section-one-3--link-six",
+      "link#footer__section-one-3--link-seven",
+      "link#footer__section-one-3--link-eight"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#footer__section-one-3-title": {
+    "title": "footer section one text 3",
+    "props": {
+      "text": "#### Políticas",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "link#footer__section-one-3--link-one": {
+    "title": "link one",
+    "props": {
+      "href": "/",
+      "label": "Preguntas Frecuentes",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-two": {
+    "title": "link two",
+    "props": {
+      "href": "/",
+      "label": "Cambios y Devoluciones",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-three": {
+    "title": "link three",
+    "props": {
+      "href": "/",
+      "label": "Términos y Condiciones",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-four": {
+    "title": "link four",
+    "props": {
+      "href": "/",
+      "label": "Reglamento",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-five": {
+    "title": "link five",
+    "props": {
+      "href": "/",
+      "label": "Protección de Datos",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-six": {
+    "title": "link six",
+    "props": {
+      "href": "/",
+      "label": "Políticas de Cookies",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-seven": {
+    "title": "link seven",
+    "props": {
+      "href": "/",
+      "label": "Mapa del sitio",
+      "blockClass": "link__footer"
+    }
+  },
+  "link#footer__section-one-3--link-eight": {
+    "title": "link eight",
+    "props": {
+      "href": "/",
+      "label": "Superintendencia de Industria y Comercio - SIC",
+      "blockClass": "link__footer"
+    }
+  },
+  "flex-layout.col#desktop__footer--section-one-4": {
+    "title": "footer section one column 4",
+    "children": [
+      "rich-text#footer__section-one-4-title",
+      "flex-layout.row#desktop__footer--section-one-4",
+      "image#footer__section-one-4"
+    ],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "top"
+    }
+  },
+  "rich-text#footer__section-one-4-title": {
+    "title": "footer section one text 4",
+    "props": {
+      "text": "#### Empresas Cencosud",
+      "blockClass": "footer-title_section-one"
+    }
+  },
+  "flex-layout.row#desktop__footer--section-one-4": {
+    "title": "footer section one column 4 logos",
+    "children": [
+      "logo#footer__section--one-4-one",
+      "logo#footer__section--one-4-two",
+      "logo#footer__section--one-4-three",
+      "logo#footer__section--one-4-four"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "marginTop": 3,
+      "marginBottom": 5
+    }
+  },
+  "logo#footer__section--one-4-one": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-jumbo.webp",
+      "width": "50",
+      "blockClass": "logo-footer"
+    }
+  },
+  "logo#footer__section--one-4-two": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-metro.webp",
+      "width": "50",
+      "blockClass": "logo-footer"
+    }
+  },
+  "logo#footer__section--one-4-three": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-easy.webp",
+      "width": "50",
+      "blockClass": "logo-footer"
+    }
+  },
+  "logo#footer__section--one-4-four": {
+    "title": "Logo footer",
+    "props": {
+      "href": "https://developers.vtex.com/",
+      "url": "assets/img/footer/logo-puntos.webp",
+      "width": "50",
+      "blockClass": "logo-footer"
+    }
+  },
+  "image#footer__section-one-4": {
+    "title": "footer section one column 4 image",
+    "props": {
+      "src": "assets/img/footer/TotalCode-eCommerce.png",
+      "title": "footer section one",
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "maxHeight": "40%"
+    }
+  }
+}

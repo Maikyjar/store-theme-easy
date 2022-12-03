@@ -1,0 +1,137 @@
+{
+  "list-context.image-list#desktop__home--slider--list": {
+    "title": "List of images",
+    "children": [
+      "slider-layout#home__slider--list"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/desktop-home-slider/descuento_muebles_interior_exterior-19989.webp",
+          "description": "slider one"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/descuento_electrodomesticos-19992.webp",
+          "description": "slider two"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/recurrente_martes_organizacion_textil_menaje-19999.webp",
+          "description": "slider three"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/descuento_organizacion-19994.webp",
+          "description": "slider four"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/descuento_pinturas-19995.webp",
+          "description": "slider five"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/catalogo_navidad-19924.webp",
+          "description": "slider six"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/catalogo_remodela-19926.webp",
+          "description": "slider seven"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/cornershop_easy-18723.webp",
+          "description": "slider eight"
+        },
+        {
+          "image": "assets/img/desktop-home-slider/nuevas_tiendas-19412.webp",
+          "description": "slider nine"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list": {
+    "title": "Slider with list",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      }
+    }
+  }
+  /* "slider-layout#home__slider--children": {
+    "title": "Slider with declared children",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three",
+      "image#home__slider--four",
+      "image#home__slider--five",
+      "image#home__slider--six",
+      "image#home__slider--seven",
+      "image#home__slider--eight",
+      "image#home__slider--nine"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/descuento_muebles_interior_exterior-19989.webp"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/descuento_electrodomesticos-19992.webp"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/recurrente_martes_organizacion_textil_menaje-19999.webp"
+    }
+  },
+  "image#home__slider--four": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/descuento_organizacion-19994.webp"
+    }
+  },
+  "image#home__slider--five": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/descuento_pinturas-19995.webp"
+    }
+  },
+  "image#home__slider--six": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/catalogo_navidad-19924.webp"
+    }
+  },
+  "image#home__slider--seven": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/catalogo_remodela-19926.webp"
+    }
+  },
+  "image#home__slider--eight": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/cornershop_easy-18723.webp"
+    }
+  },
+  "image#home__slider--nine": {
+    "props": {
+      "src": "assets/img/desktop-home-slider/nuevas_tiendas-19412.webp"
+    }
+  } */
+}

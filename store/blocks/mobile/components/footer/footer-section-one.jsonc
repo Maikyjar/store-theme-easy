@@ -1,0 +1,124 @@
+{
+  "flex-layout.row#mobile__footer--section-one-1": {
+    "title": "footer section one mobile",
+    "children": [
+      "flex-layout.col#mobile__footer--section-one-1"
+    ],
+    "props": {
+      "blockClass": "footer--section-one",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#mobile__footer--section-one-1": {
+    "title": "footer section one column 1",
+    "children": [
+      "logo#header-logo--desktop",
+      "rich-text#mobile__footer--section-one-1",
+      "flex-layout.row#desktop__footer--social-media"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "70%"
+    }
+  },
+  "rich-text#mobile__footer--section-one-1": {
+    "title": "footer section one text 1",
+    "props": {
+      "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
+      "blockClass": "footer-section-one",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#mobile__footer--section-one-2": {
+    "title": "footer section one mobile",
+    "children": [
+      "flex-layout.col#mobile__footer--section-one-2"
+    ],
+    "props": {
+      "blockClass": "footer--section-one",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__footer--section-one-2": {
+    "title": "footer section one column 2",
+    "children": [
+      "rich-text#footer__section-one-2-title",
+      "link#footer__section-one-2--link-one",
+      "link#footer__section-one-2--link-two",
+      "link#footer__section-one-2--link-three",
+      "link#footer__section-one-2--link-four",
+      "link#footer__section-one-2--link-five",
+      "link#footer__section-one-2--link-six",
+      "link#footer__section-one-2--link-seven",
+      "link#footer__section-one-2--link-eight"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobile__footer--section-one-3": {
+    "title": "footer section one mobile",
+    "children": [
+      "flex-layout.col#mobile__footer--section-one-3"
+    ],
+    "props": {
+      "blockClass": "footer--section-one",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__footer--section-one-3": {
+    "title": "footer section one column 3",
+    "children": [
+      "rich-text#footer__section-one-3-title",
+      "link#footer__section-one-3--link-one",
+      "link#footer__section-one-3--link-two",
+      "link#footer__section-one-3--link-three",
+      "link#footer__section-one-3--link-four",
+      "link#footer__section-one-3--link-five",
+      "link#footer__section-one-3--link-six",
+      "link#footer__section-one-3--link-seven",
+      "link#footer__section-one-3--link-eight"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobile__footer--section-one-4": {
+    "title": "footer section one mobile",
+    "children": [
+      "flex-layout.col#mobile__footer--section-one-4"
+    ],
+    "props": {
+      "blockClass": "footer--section-one",
+      "fullWidth": true,
+      "paddingBottom": 6
+    }
+  },
+  "flex-layout.col#mobile__footer--section-one-4": {
+    "title": "footer section one column 4",
+    "children": [
+      "rich-text#footer__section-one-4-title",
+      "flex-layout.row#desktop__footer--section-one-4",
+      "image#mobile__footer-section-one-4"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#mobile__footer-section-one-4": {
+    "title": "footer section one column 4 image",
+    "props": {
+      "src": "assets/img/footer/TotalCode-eCommerce.png",
+      "title": "footer section one",
+      "link": {
+        "url": "https://developers.vtex.com/",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "maxHeight": "30px",
+      "maxWidth": "123px"
+    }
+  }
+}

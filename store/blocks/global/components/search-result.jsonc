@@ -1,0 +1,44 @@
+{
+  "search-result-layout.customQuery#global__home-search": {
+    "title": "search result custom query",
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#desktop__home-search",
+      "search-result-layout.mobile#mobile__home-search",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#desktop__home-search": {
+    "title": "search result custom query desktop",
+    "children": [
+      "flex-layout.row#desktop__home-result"
+    ]
+  },
+  "search-result-layout.mobile#mobile__home-search": {
+    "title": "search result custom query mobile",
+    "children": [
+      "flex-layout.row#desktop__home-result"
+    ]
+  },
+  "flex-layout.row#desktop__home-result": {
+    "children": [
+      "flex-layout.col#desktop__home-result"
+    ]
+  },
+  "flex-layout.col#desktop__home-result": {
+    "children": [
+      "search-content#desktop__home-result"
+    ]
+  },
+  "search-content#desktop__home-result": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  }
+}

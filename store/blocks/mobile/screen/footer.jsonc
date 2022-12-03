@@ -1,0 +1,23 @@
+{
+    "footer-layout.mobile": { 
+    "children": [
+      "responsive-layout.tablet#tablet__footer",
+      "responsive-layout.phone#phone__footer" 
+    ]
+  },
+  "responsive-layout.phone#phone__footer": {
+    "children": [
+      "flex-layout.row#mobile__footer--section-one-1",
+      "flex-layout.row#mobile__footer--section-one-2",
+      "flex-layout.row#mobile__footer--section-one-3",
+      "flex-layout.row#mobile__footer--section-one-4",
+      "flex-layout.row#mobile__footer--section-two-1",
+      "flex-layout.row#mobile__footer--section-two-2",
+      "flex-layout.row#mobile__footer--section-two-3",
+      "flex-layout.row#mobile__footer--section-two-4",
+      "flex-layout.row#mobile__footer--section-three-1",
+      "flex-layout.row#mobile__footer--section-three-2",
+      "flex-layout.row#mobile__footer--section-three-3"
+    ]
+  }
+}

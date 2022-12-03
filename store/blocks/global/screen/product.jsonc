@@ -1,7 +1,9 @@
 {
   "store.product": {
     "children": [
-      "product-summary.shelf"
+      "flex-layout.row#global__product--breadcrumb",
+      "flex-layout.row#global__product--info",
+      "flex-layout.row#global__product--tabs"
     ]
   }
 }
