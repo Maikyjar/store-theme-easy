@@ -19,3 +19,11 @@
 .flexRowContent--footer--section-two {
     background-color: #cfcfcf;
 }
+
+.flexCol--summaryRightListDesktop {
+    justify-content: space-around;
+}
+
+.flexRow--product-summary-section-two {
+    border: 1px solid #dfdede;
+}

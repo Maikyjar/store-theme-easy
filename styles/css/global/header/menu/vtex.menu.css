@@ -41,3 +41,8 @@
 .styledLinkContent--menu-mobile-categories {
     font-weight: bold;
 }
+
+.menuContainer {
+    max-width: 100%;
+    flex-wrap: wrap;
+}
