@@ -110,7 +110,7 @@
       "product-rating-inline",
       "flex-layout.row#product__price",
       "rich-text#product__summary--desktop-section-one_card",
-      "image#product__summary--desktop-section-one",
+      "flex-layout.row#product__discount",
       "rich-text#product__summary--desktop-section-one_avaliable",
       "add-to-cart-button"
     ]
@@ -127,12 +127,27 @@
     ],
     "props": {
       "colSizing": "auto",
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "blockClass": "row-product-price",
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#product__summary--desktop-section-one_card": {
     "props": {
-      "text": "Pagando con:"
+      "text": "Pagando con: ",
+      "blockClass": "text-product-summary"
+    }
+  },
+  "flex-layout.row#product__discount": {
+    "children": [
+      "image#product__summary--desktop-section-one",
+      "rich-text#product__summary--desktop-discount"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "blockClass": "discount-product-summary",
+      "preserveLayoutOnMobile": true
     }
   },
   "image#product__summary--desktop-section-one": {
@@ -148,6 +163,12 @@
         "newTab": true,
         "attributeNoFollow": true
       }
+    }
+  },
+  "rich-text#product__summary--desktop-discount": {
+    "props": {
+      "text": "-$8,997",
+      "blockClass": "product-summary-discount"
     }
   },
   "rich-text#product__summary--desktop-section-one_avaliable": {

@@ -1,0 +1,26 @@
+{
+    "search-result-layout.mobile": {
+        "children": [
+            "responsive-layout.tablet#tablet__department",
+            "responsive-layout.phone#phone__department"
+        ]
+    },
+    "responsive-layout.phone#phone__department": {
+        "children": [
+            "flex-layout.row#search__breadcrumb",
+            "flex-layout.row#searchinfomobile",
+            "flex-layout.row#productCountMobile",
+            "flex-layout.row#contentmobile",
+            "flex-layout.row#mobile__section-nine--item-1",
+            "flex-layout.row#mobile__section-nine--item-2",
+            "flex-layout.row#mobile__section-nine--item-3"
+        ],
+        "props": {
+            "mobileLayout": {
+                "mode1": "normal",
+                "mode2": "normal"
+            },
+            "defaultGalleryLayout": "grid"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "responsive-layout.tablet#tablet__department": {
+        "children": [
+            "flex-layout.row#search__breadcrumb",
+            "flex-layout.row#desktop__search--title",
+            "flex-layout.row#tablet__result",
+            "flex-layout.row#tablet__search--result-info",
+            "flex-layout.row#home__section--nine"
+        ]
+    }
+}

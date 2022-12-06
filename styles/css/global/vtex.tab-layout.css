@@ -3,5 +3,16 @@
     border-bottom: 1px solid #dfdede;
 }
 
-/* .listItemActive--tab-list-item-product {
-} */
+.listItem--tab-list-item-product :global(.vtex-button) {
+    text-align: left;
+    color: #bababa;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.listItemActive--tab-list-item-product :global(.vtex-button){
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px red;
+}

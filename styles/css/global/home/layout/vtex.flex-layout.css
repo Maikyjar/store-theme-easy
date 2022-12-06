@@ -27,3 +27,23 @@
 .flexRow--product-summary-section-two {
     border: 1px solid #dfdede;
 }
+
+.flexRow--row-product-price {
+    padding-left: 1em;
+}
+
+.flexRow--discount-product-summary {
+    padding-left: 1em;
+}
+
+.flexRowContent--alert-price {
+    background-color: #f7f7f7;
+}
+
+.flexColChild--buy-button :global(.vtex-button){
+    background-color: #bb141b;
+}
+
+.flexRowContent--product-detail-images {
+    align-items: center;
+}
