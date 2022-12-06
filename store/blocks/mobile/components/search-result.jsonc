@@ -1,19 +1,4 @@
 {
-    "search-result-layout.mobile": {
-        "children": [
-            "flex-layout.row#searchinfomobile",
-            "flex-layout.row#search__breadcrumb",
-            "flex-layout.row#productCountMobile",
-            "flex-layout.row#contentmobile"
-        ],
-        "props": {
-            "mobileLayout": {
-                "mode1": "small",
-                "mode2": "normal"
-            },
-            "defaultGalleryLayout": "grid"
-        }
-    },
     "flex-layout.row#contentmobile": {
         "children": [
             "search-content"

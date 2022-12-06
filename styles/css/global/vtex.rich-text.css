@@ -111,3 +111,32 @@
     color: #444747;
     font-size: 14px;
 }
+
+.container--text-product-summary {
+    padding-left: 1em;
+}
+
+.container--product__summary-avaliable {
+    padding-right: 1em;
+}
+
+.paragraph--product-summary-discount {
+    font-weight: bold;
+    color: #ff8000;
+}
+
+.container--description-department {
+    border-bottom: 1px solid #eae9e9;
+}
+
+.paragraph--description-department {
+    color: #a2a0a0;
+}
+
+.paragraph--alert__price {
+    font-size: 12px;
+}
+
+.paragraph--text-product-detail {
+    margin-block-end: 0;
+}

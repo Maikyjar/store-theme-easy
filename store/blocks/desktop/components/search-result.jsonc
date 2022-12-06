@@ -2,15 +2,31 @@
     "search-result-layout.desktop": {
         "title": "search result desktop",
         "children": [
-            "flex-layout.row#search__breadcrumb",
-            "flex-layout.row#desktop__search--title",
-            "flex-layout.row#desktop__result",
-            "flex-layout.row#desktop__result--search-info",
-            "flex-layout.row#home__section--nine"
+            "flex-layout.row#desktop__search--result"
         ],
         "props": {
             "pagination": "infinite-scroll",
             "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#desktop__search--result": {
+        "children": [
+            "flex-layout.col#desktop__search--result"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#desktop__search--result": {
+        "children": [
+            "flex-layout.row#search__breadcrumb",
+            "flex-layout.row#desktop__search--title",
+            "flex-layout.row#desktop__result",
+            "flex-layout.row#desktop__search--result-info",
+            "flex-layout.row#home__section--nine"
+        ],
+        "props": {
+            "width": "95%"
         }
     },
     "flex-layout.row#search__breadcrumb": {
@@ -21,6 +37,11 @@
         "props": {
             "preserveLayoutOnMobile": true,
             "fullWidth": true
+        }
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true
         }
     },
     "flex-layout.row#desktop__search--title": {
@@ -36,32 +57,39 @@
             "flex-layout.col#desktop__result--content"
         ],
         "props": {
-            "preventHorizontalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "colSizing": "auto"
         }
     },
     "flex-layout.col#desktop__result--filter": {
         "title": "search result filter",
         "children": [
-            "filter-navigator.v3"
+            "filter-navigator.v3",
+            "rich-text#description"
         ],
         "props": {
-            "width": "20%",
+            "width": "23%",
             "blockClass": "filter-column"
+        }
+    },
+    "rich-text#description": {
+        "props": {
+            "text": "**Muebles modernos** que transforman tus espacios. Aprovecha las mejores ofertas y la calidad de los espectaculares muebles que Easy Colombia tiene para ti. Aquí encontrarás **Muebles para Sala**, **Muebles para Comedor**, para habitaciones, estudios, oficina y **todo tipo de muebles con la calidad y variedad que necesitas.** Compra tus muebles en línea fácil y rápido, con despachos a toda Colombia, con la garantía y respaldo de Easy. \n Encuentra lo que buscas en **Muebles**  en un solo click.",
+            "blockClass": "description-department"
         }
     },
     "flex-layout.col#desktop__result--content": {
         "title": "search result content",
         "children": [
-            "flex-layout.row#desktop__result--search-info",
+            "flex-layout.row#desktop__search--result-info",
             "flex-layout.row#desktop__result--products"
         ],
         "props": {
-            "width": "grow",
+            "width": "77%",
             "preventVerticalStretch": true
         }
     },
-    "flex-layout.row#desktop__result--search-info": {
+    "flex-layout.row#desktop__search--result-info": {
         "title": "search result info",
         "children": [
             "flex-layout.row#desktop__result--order-by",
@@ -120,8 +148,8 @@
                     "itemsPerRow": {
                         "(min-width:1300px)": 4,
                         "desktop": 3,
-                        "tablet": 3,
-                        "phone": 2
+                        "tablet": 2,
+                        "phone": 1
                     }
                 },
                 {
