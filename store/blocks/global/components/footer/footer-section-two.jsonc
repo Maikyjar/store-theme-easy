@@ -85,6 +85,7 @@
     }
   },
   "link#footer__section-two-2--link-one": {
+    "title": "section two link one",
     "props": {
       "href": "/",
       "label": "PQRs",
@@ -92,6 +93,7 @@
     }
   },
   "link#footer__section-two-2--link-two": {
+    "title": "section two link two",
     "props": {
       "href": "/",
       "label": "Registro de clientes para factura electrónica",
@@ -120,6 +122,7 @@
     }
   },
   "link#footer__section-two-2--link-three": {
+    "title": "section two link three",
     "props": {
       "href": "/",
       "label": "clientes@easy.com.co",
@@ -148,6 +151,7 @@
     }
   },
   "link#footer__section-two-2--link-four": {
+    "title": "section two link four",
     "props": {
       "href": "/",
       "label": "notificaciones@cencosud.com.co",
