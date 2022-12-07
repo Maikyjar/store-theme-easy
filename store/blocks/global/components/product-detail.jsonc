@@ -1,4 +1,25 @@
 {
+    "flex-layout.row#desktop__product--detail": {
+        "title": "row desktop product detail",
+        "children": [
+            "flex-layout.col#desktop__product--detail"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#desktop__product--detail": {
+        "title": "col desktop product detail",
+        "children": [
+            "flex-layout.row#global__product--breadcrumb",
+            "flex-layout.row#global__product--info",
+            "flex-layout.row#global__product--tabs",
+            "flex-layout.row#home__section--nine"
+        ],
+        "props": {
+            "width": "95%"
+        }
+    },
     "flex-layout.row#global__product--breadcrumb": {
         "title": "miga de pan de producto",
         "children": [
@@ -16,7 +37,10 @@
         "children": [
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--data"
-        ]
+        ],
+        "props": {
+            "colGap": 6
+        }
     },
     "flex-layout.col#product__info--image": {
         "title": "product images",
@@ -69,8 +93,7 @@
                 "Facebook": true,
                 "Twitter": true,
                 "Pinterest": true
-            },
-            "showInColor": false
+            }
         }
     },
     "rich-text#product__info--avaliable": {
@@ -122,11 +145,16 @@
     },
     "flex-layout.col#buy__button": {
         "children": [
-            "buy-button"
+            "add-to-cart-button#detail"
         ],
         "props": {
             "width": "50%",
-            "blockClass": "buy-button"
+            "blockClass": "add-to-cart"
+        }
+    },
+    "add-to-cart-button#detail": {
+        "props": {
+          "text": "AGREGAR AL CARRO"
         }
     },
     "flex-layout.row#product__detail--images": {

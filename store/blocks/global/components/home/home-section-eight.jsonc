@@ -10,12 +10,14 @@
         }
     },
     "rich-text#section__eight--title": {
+        "title": "section eight title",
         "props": {
             "text": "## Información",
             "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--eight": {
+        "title": "section eight",
         "children": [
             "flex-layout.col#section__eight--item-1",
             "flex-layout.col#section__eight--item-2",
@@ -23,6 +25,7 @@
         ]
     },
     "flex-layout.col#section__eight--item-1": {
+        "title": "section eight item 1",
         "children": [
             "image#home__section--eight-image-one"
         ],
@@ -44,6 +47,7 @@
         }
     },
     "flex-layout.col#section__eight--item-2": {
+        "title": "section eight item 2",
         "children": [
             "image#home__section--eight-image-two"
         ],
@@ -65,6 +69,7 @@
         }
     },
     "flex-layout.col#section__eight--item-3": {
+        "title": "section eight item 3",
         "children": [
             "image#home__section--eight-image-three"
         ],

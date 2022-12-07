@@ -47,3 +47,17 @@
 .flexRowContent--product-detail-images {
     align-items: center;
 }
+
+.flexCol--add-to-cart :global(.vtex-button) {
+    font-weight: bold;
+    background-color: #bb141b;
+    border-color: #bb141b;
+    font-size: 18px;
+}
+
+.flexCol--add-to-cart :global(.vtex-button):hover {
+    font-weight: bold;
+    background-color: transparent;
+    border-color: black;
+    font-size: 18px;
+}

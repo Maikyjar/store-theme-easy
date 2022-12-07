@@ -1,15 +1,6 @@
 {
-    "search-result-layout.desktop": {
-        "title": "search result desktop",
-        "children": [
-            "flex-layout.row#desktop__search--result"
-        ],
-        "props": {
-            "pagination": "infinite-scroll",
-            "defaultGalleryLayout": "grid"
-        }
-    },
     "flex-layout.row#desktop__search--result": {
+        "title": "row search result desktop",
         "children": [
             "flex-layout.col#desktop__search--result"
         ],
@@ -18,6 +9,7 @@
         }
     },
     "flex-layout.col#desktop__search--result": {
+        "title": "col search result desktop",
         "children": [
             "flex-layout.row#search__breadcrumb",
             "flex-layout.row#desktop__search--title",
@@ -40,6 +32,7 @@
         }
     },
     "breadcrumb.search": {
+        "title": "breadcrumb search",
         "props": {
             "showOnMobile": true
         }
@@ -73,6 +66,7 @@
         }
     },
     "rich-text#description": {
+        "title": "description",
         "props": {
             "text": "**Muebles modernos** que transforman tus espacios. Aprovecha las mejores ofertas y la calidad de los espectaculares muebles que Easy Colombia tiene para ti. Aquí encontrarás **Muebles para Sala**, **Muebles para Comedor**, para habitaciones, estudios, oficina y **todo tipo de muebles con la calidad y variedad que necesitas.** Compra tus muebles en línea fácil y rápido, con despachos a toda Colombia, con la garantía y respaldo de Easy. \n Encuentra lo que buscas en **Muebles**  en un solo click.",
             "blockClass": "description-department"
@@ -121,6 +115,7 @@
         }
     },
     "flex-layout.row#desktop__result--product-count": {
+        "title": "product count and switcher",
         "children": [
             "total-products.v2",
             "gallery-layout-switcher"
@@ -140,6 +135,7 @@
         ]
     },
     "gallery": {
+        "title": "gallery",
         "props": {
             "layouts": [
                 {
@@ -163,12 +159,14 @@
         }
     },
     "gallery-layout-switcher": {
+        "title": "gallery switcher",
         "children": [
             "gallery-layout-option#grid",
             "gallery-layout-option#list"
         ]
     },
     "gallery-layout-option#grid": {
+        "title": "gallery option grid",
         "props": {
             "name": "grid"
         },
@@ -178,6 +176,7 @@
         ]
     },
     "gallery-layout-option#list": {
+        "title": "gallery option list",
         "props": {
             "name": "list"
         },
@@ -187,16 +186,19 @@
         ]
     },
     "responsive-layout.desktop#textOptionGrid": {
+        "title": "option grid",
         "children": [
             "rich-text#option-grid"
         ]
     },
     "responsive-layout.desktop#textOptionList": {
+        "title": "option list",
         "children": [
             "rich-text#option-list"
         ]
     },
     "rich-text#option-grid": {
+        "title": "text option grid",
         "props": {
             "text": "Grid",
             "textColor": "c-auto",
@@ -204,6 +206,7 @@
         }
     },
     "rich-text#option-list": {
+        "title": "text option list",
         "props": {
             "text": "List",
             "textColor": "c-auto",
