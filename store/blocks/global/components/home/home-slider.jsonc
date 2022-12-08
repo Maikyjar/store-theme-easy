@@ -59,7 +59,8 @@
       "autoplay": {
         "timeout": 6000,
         "stopOnHover": true
-      }
+      },
+      "arrowSize": 40
     }
   }
   /* "slider-layout#home__slider--children": {

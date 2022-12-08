@@ -24,6 +24,10 @@
     justify-content: space-around;
 }
 
+.flexRow--product-summary-section-one {
+    border: 1px solid #dfdede;
+}
+
 .flexRow--product-summary-section-two {
     border: 1px solid #dfdede;
 }

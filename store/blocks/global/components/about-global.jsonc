@@ -3,7 +3,10 @@
         "title": "Row about-us",
         "children": [
             "flex-layout.col#text-about-us"
-        ]
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
     },
     "flex-layout.col#text-about-us": {
         "title": "column about-us",
@@ -14,7 +17,8 @@
             "flex-layout.row#home__section--nine"
         ],
         "props": {
-            "preventVerticalStretch": true
+            "preventVerticalStretch": true,
+            "width": "90%"
         }
     },
     "rich-text#about-title": {
