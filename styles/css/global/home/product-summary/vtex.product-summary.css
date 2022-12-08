@@ -2,9 +2,9 @@
     border: 1px solid #dfdede;
 } */
 
-.imageWrapper {
+/* .imageWrapper {
     border: 1px solid #dfdede;
-}
+} */
 
 .nameContainer--tablet-product-summary {
     height: 65px;
@@ -22,4 +22,11 @@
 
 .container--listLayout {
     max-width: none!important;
+    border-bottom: solid 1px #dfdede;
 }
+
+.nameContainer--summaryListMobile {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+

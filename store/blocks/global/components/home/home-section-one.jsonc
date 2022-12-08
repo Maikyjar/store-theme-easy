@@ -77,7 +77,8 @@
         "stopOnHover": true
       },
       "blockClass": "carousel",
-      "showPaginationDots": "never"
+      "showPaginationDots": "never",
+      "arrowSize": 25
     }
   },
   "product-summary.shelf#desktop__section--one": {
@@ -89,7 +90,10 @@
   "flex-layout.row#product__summary-section__one": {
     "children": [
       "product-summary-image"
-    ]
+    ],
+    "props": {
+      "blockClass": "product-summary-section-one"
+    }
   },
   "product-summary-image": {
     "props": {

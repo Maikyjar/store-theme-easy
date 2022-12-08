@@ -48,3 +48,11 @@
     font-weight: bold;
     font-size: 1.3rem;
 }
+
+.productBrandName--summaryListMobile {
+    color: #ce2b2b;
+}
+
+.productBrandName--summaryListDesktop {
+    color: #ce2b2b;
+}

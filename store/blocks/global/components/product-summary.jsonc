@@ -12,14 +12,7 @@
         "children": [
             "flex-layout.row#summaryListDesktop"
         ]
-    },
-    "responsive-layout.mobile#productSummaryList": {
-        "children": [
-            "flex-layout.row#summaryListMobile"
-        ]
-    },
-    
-    
+    },  
     "flex-layout.row#summaryListDesktop": {
         "props": {
             "fullWidth": true,
@@ -28,7 +21,7 @@
         },
         "children": [
             "flex-layout.row#summaryLeftListDesktop", //imagen marca nombre y esttrellas
-            "flex-layout.col#summaryRightListDesktop"//price and buttons
+            "flex-layout.col#summaryRightListDesktop" //price and buttons
         ]
     },
     "flex-layout.row#summaryLeftListDesktop": {
@@ -70,35 +63,9 @@
             "preventVerticalStretch": true
         },
         "children": [
-            "flex-layout.row#savingsSummaryListDesktop",
             "flex-layout.col#priceSummaryListDesktop",
-            "flex-layout.row#buyButtonsSummaryListDesktop"//buy buttons
+            "flex-layout.row#buyButtonsSummaryListDesktop" //buy buttons
         ]
-    },
-    "flex-layout.row#savingsSummaryListDesktop": {
-        "props": {
-            "colSizing": "auto",
-            "colGap": 3,
-            "blockClass": "savingsSummaryListDesktop"
-        },
-        "children": [
-            "product-price-savings#summaryPercentage",
-            "product-price-savings#summary"
-        ]
-    },
-    "product-price-savings#summaryPercentage": {
-        "props": {
-            "message": "{savingsPercentage}",
-            "blockClass": "summaryPercentage"
-        }
-    },
-    "product-price-savings#summary": {
-        "props": {
-            "markers": [
-                "discount"
-            ],
-            "blockClass": "summary"
-        }
     },
     "flex-layout.col#priceSummaryListDesktop": {
         "children": [
@@ -139,7 +106,7 @@
             "text": "BUY NOW",
             "isOneClickBuy": true,
             "onClickEventPropagation": "enabled",
-            "blockClass": "buyNow"
+            "blockClass": "add-to-cart"
         }
     },
     "stack-layout#summaryListDesktop": {
@@ -154,80 +121,11 @@
             "maxHeight": 220
         }
     },
-    "flex-layout.row#summaryListMobile": {
-        "props": {
-            "preserveLayoutOnMobile": true,
-            "colSizing": "auto",
-            "blockClass": "summaryListMobile",
-            "colGap": 5
-        },
-        "children": [
-            "stack-layout#summaryListMobile",
-            "flex-layout.col#summaryDetailsListMobile"
-        ]
-    },
-    "stack-layout#summaryListMobile": {
-        "children": [
-            "product-summary-image#summaryListMobile"
-        ]
-    },
-    "product-summary-image#summaryListMobile": {
-        "props": {
-            "showBadge": false,
-            "aspectRatio": "1:1",
-            "maxHeight": 220,
-            "blockClass": "summaryListMobile"
-        }
-    },
-    "flex-layout.col#summaryDetailsListMobile": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width": "grow",
-            "blockClass": "summaryDetailsListMobile"
-        },
-        "children": [
-            "flex-layout.col#summaryUpDetailsListMobile",
-            "flex-layout.col#summaryDownDetailsListMobile"
-        ]
-    },
-    "flex-layout.col#summaryUpDetailsListMobile": {
-        "props": {
-            "preventVerticalStretch": true,
-            "blockClass": "summaryUpDetailsListMobile"
-        },
-        "children": [
-            "vtex.store-components:product-brand#summaryListMobile",
-            "product-summary-name#summaryListMobile",
-            "product-rating-inline"
-        ]
-    },
-    "flex-layout.col#summaryDownDetailsListMobile": {
-        "props": {
-            "preventVerticalStretch": true
-        },
-        "children": [
-            "product-selling-price#summary",
-            "product-installments#summary"
-        ]
-    },
     "product-installments#summary": {
         "props": {
             "blockClass": "summary"
         }
     },
-    "vtex.store-components:product-brand#summaryListMobile": {
-        "props": {
-            "displayMode": "text",
-            "blockClass": "summaryListMobile"
-        }
-    },
-    "product-summary-name#summaryListMobile": {
-        "props": {
-            "tag": "div",
-            "blockClass": "summaryListMobile"
-        }
-    },
-    
     "flex-layout.col#productRating": {
         "props": {
             "blockClass": "productRating"
