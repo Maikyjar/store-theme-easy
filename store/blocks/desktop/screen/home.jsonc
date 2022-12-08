@@ -1,5 +1,6 @@
 {
     "responsive-layout.desktop": {
+        "title": "home desktop",
         "children": [
             "list-context.image-list#desktop__home--slider--list",
             "flex-layout.row#global__home"

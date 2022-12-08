@@ -59,6 +59,7 @@
     ]
   },
   "social-networks": {
+    "title": "social networks",
     "props": {
       "socialNetworks": [
         {

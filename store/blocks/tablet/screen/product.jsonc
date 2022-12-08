@@ -1,0 +1,7 @@
+{
+    "responsive-layout.tablet#tablet__product": {
+        "children": [
+            "flex-layout.row#tablet__product--detail"
+        ]
+    }
+}

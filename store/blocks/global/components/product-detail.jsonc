@@ -1,4 +1,25 @@
 {
+    "flex-layout.row#desktop__product--detail": {
+        "title": "row desktop product detail",
+        "children": [
+            "flex-layout.col#desktop__product--detail"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#desktop__product--detail": {
+        "title": "col desktop product detail",
+        "children": [
+            "flex-layout.row#global__product--breadcrumb",
+            "flex-layout.row#global__product--info",
+            "flex-layout.row#global__product--tabs",
+            "flex-layout.row#home__section--nine"
+        ],
+        "props": {
+            "width": "95%"
+        }
+    },
     "flex-layout.row#global__product--breadcrumb": {
         "title": "miga de pan de producto",
         "children": [
@@ -16,7 +37,10 @@
         "children": [
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--data"
-        ]
+        ],
+        "props": {
+            "colGap": 6
+        }
     },
     "flex-layout.col#product__info--image": {
         "title": "product images",
@@ -39,9 +63,13 @@
             "product-identifier.product",
             "product-rating-inline",
             "rich-text#product__info--avaliable",
-            "product-price",
-            "buy-button" /* ,
-          "shipping-simulator" */
+            "flex-layout.row#product__price",
+            "rich-text#product__detail",
+            "flex-layout.row#product__detail--discount",
+            "flex-layout.row#buy__button",
+            "flex-layout.row#product__detail--images",
+            "flex-layout.row#text__alert-price"
+            /*"shipping-simulator" */
         ],
         "props": {
             "verticalAlign": "top"
@@ -54,7 +82,8 @@
             "share"
         ],
         "props": {
-            "horizontalAlign": "between"
+            "horizontalAlign": "between",
+            "colSizing": "auto"
         }
     },
     "share": {
@@ -72,6 +101,106 @@
             "text": "Disponible",
             "textPosition": "LEFT",
             "blockClass": "product__summary-avaliable"
+        }
+    },
+    "rich-text#product__detail": {
+        "props": {
+            "text": "Pagando con: ",
+            "blockClass": "text-product-detail"
+        }
+    },
+    "flex-layout.row#product__detail--discount": {
+        "children": [
+            "image#product__detail--discount",
+            "rich-text#product__summary--desktop-discount"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#product__detail--discount": {
+        "title": "product detail discount",
+        "props": {
+            "src": "assets/img/home-section-one/discount_card_16743.webp",
+            "title": "section one",
+            "blockClass": "product__summary-section-one",
+            "maxWidth": 60,
+            "maxHeight": 50,
+            "link": {
+                "url": "https://developers.vtex.com/",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "flex-layout.row#buy__button": {
+        "children": [
+            "flex-layout.col#buy__button"
+        ],
+        "props": {
+            "horizontalAlign": "right"
+        }
+    },
+    "flex-layout.col#buy__button": {
+        "children": [
+            "add-to-cart-button#detail"
+        ],
+        "props": {
+            "width": "50%",
+            "blockClass": "add-to-cart"
+        }
+    },
+    "add-to-cart-button#detail": {
+        "props": {
+          "text": "AGREGAR AL CARRO"
+        }
+    },
+    "flex-layout.row#product__detail--images": {
+        "children": [
+            "image#product__detail--avaliable",
+            "image#product__detail--house",
+            "image#product__detail--shop"
+        ],
+        "props": {
+            "marginTop": 8,
+            "blockClass": "product-detail-images"
+        }
+    },
+    "image#product__detail--avaliable": {
+        "props": {
+            "src": "assets/img/product-detail/ver-disponibilidad.png",
+            "maxWidth": 223,
+            "maxHeight": 39
+        }
+    },
+    "image#product__detail--house": {
+        "props": {
+            "src": "assets/img/product-detail/delivery-icon-product.png",
+            "maxWidth": 206,
+            "maxHeight": 25
+        }
+    },
+    "image#product__detail--shop": {
+        "props": {
+            "src": "assets/img/product-detail/pickup-icon-product.png",
+            "maxWidth": 206,
+            "maxHeight": 25
+        }
+    },
+    "flex-layout.row#text__alert-price": {
+        "children": [
+            "rich-text#alert__price"
+        ],
+        "props": {
+            "blockClass": "alert-price"
+        }
+    },
+    "rich-text#alert__price": {
+        "props": {
+            "text": "*Los precios aquí publicados son exclusivos para www.easy.com.co. Para confirmar precio en tiendas puede comunicarse a nuestra linea de atención o en nuestro chat online.",
+            "blockClass": "alert__price"
         }
     },
     "flex-layout.row#global__product--tabs": {

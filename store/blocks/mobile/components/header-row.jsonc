@@ -46,7 +46,7 @@
       "flex-layout.col#mobile__logo": {
         "props": {
           "verticalAlign": "middle",
-          "width": "15%"
+          "width": "13%"
         },
         "children": [
           "logo#mobile__header--logo"
@@ -82,7 +82,7 @@
           "login#mobile"
         ],
         "props": {
-          "width": "10%",
+          "width": "11%",
           "verticalAlign": "middle",
           "horizontalAlign": "center"
         }
@@ -92,7 +92,7 @@
           "minicart.v2#mobile"
         ],
         "props": {
-          "width": "10%",
+          "width": "11%",
           "verticalAlign": "middle",
           "horizontalAlign": "right"
         }

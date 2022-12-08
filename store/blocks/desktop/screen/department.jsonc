@@ -1,0 +1,12 @@
+{
+    "search-result-layout.desktop": {
+        "title": "search result desktop",
+        "children": [
+            "flex-layout.row#desktop__search--result"
+        ],
+        "props": {
+            "pagination": "infinite-scroll",
+            "defaultGalleryLayout": "grid"
+        }
+    }
+}

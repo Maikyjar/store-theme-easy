@@ -1,5 +1,6 @@
 {
     "link#home__link--button": {
+        "title": "link example",
         "props": {
             "href": "/",
             "label": "Click here",

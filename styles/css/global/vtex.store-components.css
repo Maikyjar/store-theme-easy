@@ -27,3 +27,32 @@
     margin-block-start: 2.99em;
     padding-block-end: 1.5em;
 }
+
+.imageElement--product__summary-section-one {
+    padding-top: 0.8em;
+}
+
+.specificationsTableContainer {
+    padding-left: 1.8rem;
+}
+.productDescriptionContainer {
+    padding-left: 1.8rem;
+}
+
+.productBrand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.buyButtonText {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.productBrandName--summaryListMobile {
+    color: #ce2b2b;
+}
+
+.productBrandName--summaryListDesktop {
+    color: #ce2b2b;
+}

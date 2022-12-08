@@ -38,6 +38,7 @@
         ]
     },
     "submenu#desktop__categories": {
+        "title": "submenu desktop",
         "children": [
             "menu#global__header--menu"
         ]
