@@ -12,6 +12,7 @@
     height: 2px;
     background-color: #ed2923;
     position: absolute;
+    transform: translate(1px, 34px);
 }
 
 .headingLevel3--subtitle__home-section-nine {
