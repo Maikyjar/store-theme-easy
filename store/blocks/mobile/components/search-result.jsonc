@@ -1,5 +1,6 @@
 {
     "flex-layout.row#contentmobile": {
+        "title": "row content mobile",
         "children": [
             "search-content"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.row#searchinfomobile": {
+        "title": "row search info mobile",
         "children": [
             "flex-layout.col#orderByMobile",
             "flex-layout.col#filterMobile"
@@ -19,6 +21,7 @@
         }
     },
     "flex-layout.col#orderByMobile": {
+        "title": "col order by mobile",
         "children": [
             "order-by.v2"
         ],
@@ -27,6 +30,7 @@
         }
     },
     "flex-layout.row#productCountMobile": {
+        "title": "row product count mobile",
         "children": [
             "total-products.v2"
         ],
@@ -35,6 +39,7 @@
         }
     },
     "flex-layout.col#filterMobile": {
+        "title": "col filter mobile",
         "children": [
             "filter-navigator.v3"
         ],
@@ -43,12 +48,14 @@
         }
     },
     "search-not-found-layout": {
+        "title": "search not found mobile",
         "children": [
             "flex-layout.row#search__breadcrumb",
             "flex-layout.row#notfound"
         ]
     },
     "flex-layout.row#notfound": {
+        "title": "row search not found mobile",
         "children": [
             "not-found"
         ],
@@ -57,6 +64,7 @@
         }
     },
     "breadcrumb": {
+        "title": "breadcrumb",
         "props": {
             "showOnMobile": true
         }

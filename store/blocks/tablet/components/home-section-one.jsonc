@@ -11,6 +11,7 @@
     }
   },
   "flex-layout.col#tablet__section--one-item-1": {
+    "title": "col tablet search one 1",
     "children": [
       "image#home__section--image--one"
     ],
@@ -19,6 +20,7 @@
     }
   },
   "flex-layout.col#tablet__section--one-item-2": {
+    "title": "col tablet search one 2",
     "children": [
       "list-context.product-list#tablet__section--one"
     ],
@@ -27,6 +29,7 @@
     }
   },
   "list-context.product-list#tablet__section--one": {
+    "title": "list tablet search one",
     "blocks": [
       "product-summary.shelf#tablet__section--one"
     ],
@@ -35,6 +38,7 @@
     ]
   },
   "product-summary.shelf#tablet__section--one": {
+    "title": "product summary tablet search one",
     "children": [
       "product-summary-image#tablet",
       "product-summary-name#tablet",
@@ -51,11 +55,13 @@
     }
   },
   "product-summary-name#tablet": {
+    "title": "product summary tablet name",
     "props": {
       "blockClass": "tablet-product-summary"
     }
   },
   "rich-text#product__summary--tablet-section-one_card": {
+    "title": "product summary tablet payment",
     "props": {
       "text": "Pagando con:",
       "blockClass": "tablet-summary-section-one"
@@ -77,6 +83,7 @@
     }
   },
   "rich-text#product__summary--tablet-section-one_avaliable": {
+    "title": "product summary tablet avaliable",
     "props": {
       "text": "Disponible",
       "textPosition": "RIGHT",

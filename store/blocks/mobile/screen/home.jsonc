@@ -1,11 +1,13 @@
 {
     "responsive-layout.mobile": {
+        "title": "responsive mobile",
         "children": [
             "responsive-layout.tablet#tablet__home",
             "responsive-layout.phone#phone__home"
         ]
     },
     "responsive-layout.phone#phone__home": {
+        "title": "responsive phone",
         "children": [
             "list-context.image-list#mobile__home--slider--list",
             "flex-layout.row#mobile__home"

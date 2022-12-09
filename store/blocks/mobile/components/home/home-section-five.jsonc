@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__home--section-five": {
+        "title": "row mobile section five",
         "children": [
             "flex-layout.col#mobile__home--section-five--item-1",
             "flex-layout.col#mobile__home--section-five--item-2"
@@ -9,6 +10,7 @@
         }
     },
     "flex-layout.col#mobile__home--section-five--item-1": {
+        "title": "col mobile section five 1",
         "children": [
             "image#home__section--five-image-one"
         ],
@@ -17,6 +19,7 @@
         }
     },
     "flex-layout.col#mobile__home--section-five--item-2": {
+        "title": "col mobile section five 2",
         "children": [
             "image#home__section--five-image-two"
         ],

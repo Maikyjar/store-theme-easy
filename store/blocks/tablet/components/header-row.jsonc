@@ -1,5 +1,6 @@
 {
     "flex-layout.row#tablet": {
+        "title": "row menu tablet",
         "children": [
             "drawer#header__tablet--menu",
             "flex-layout.col#tablet__logo",
@@ -15,6 +16,7 @@
         }
     },
     "drawer#header__tablet--menu": {
+        "title": "drawer header tablet",
         "children": [
             "menu#header__menu"
         ],
@@ -26,6 +28,7 @@
         }
     },
     "flex-layout.col#tablet__logo": {
+        "title": "col tablet logo",
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "center",
@@ -45,6 +48,7 @@
         }
     },
     "flex-layout.col#tablet__search-bar--header": {
+        "title": "col tablet search bar",
         "children": [
             "search-bar#tablet__header--search"
         ],
@@ -54,6 +58,7 @@
         }
     },
     "search-bar#tablet__header--search": {
+        "title": "tablet search bar",
         "blocks": [
             "autocomplete-result-list.v2"
         ],
@@ -63,6 +68,7 @@
         }
     },
     "flex-layout.col#tablet__login-minicart--header": {
+        "title": "col tablet login y minicart",
         "children": [
             "flex-layout.row#desktop__login-minicart--header"
         ],

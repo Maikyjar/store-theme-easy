@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .heading--subtitle__home {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headingLevel3--subtitle__home-section-nine {
+        color: #8a8989;
+        font-size: 1.2em;
+        margin-block-end: 2em;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .headingLevel4--title_image-section-nine {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 1.1em;
+    }   
+}
+
+.paragraph--tablet-product-summary-avaliable {
+    color: #00882c;
+    font-weight: bold;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+.paragraph--tablet-summary-section-one {
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}

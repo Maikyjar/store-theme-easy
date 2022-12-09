@@ -1,6 +1,7 @@
 # store-theme-easy
 
 # EASY Colombia
+
 Descripción
 
 Preview

@@ -6,10 +6,6 @@
     transform: translateY(10px);
 }
 
-.paginationDotsContainer--mobile__home--slider {
-    transform: translateY(-10px);
-}
-
 .paginationDot {
     height: 0.90rem !important;
    width: 0.90rem !important;

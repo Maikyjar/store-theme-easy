@@ -1,5 +1,6 @@
 {
   "store.product": {
+    "title": "store product",
     "children": [
       "responsive-layout.mobile#product",
       "responsive-layout.desktop#product"

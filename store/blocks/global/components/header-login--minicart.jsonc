@@ -13,7 +13,7 @@
     }
   },
   "minicart.v2": {
-    "title": "login",
+    "title": "minicart",
     "props": {
       "variation": "link",
       "MinicartIcon": "icon-cart",

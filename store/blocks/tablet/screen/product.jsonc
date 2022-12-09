@@ -1,5 +1,6 @@
 {
     "responsive-layout.tablet#tablet__product": {
+        "title": "tablet product detail",
         "children": [
             "flex-layout.row#tablet__product--detail"
         ]

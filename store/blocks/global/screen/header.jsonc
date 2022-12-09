@@ -1,8 +1,10 @@
 {
   "header": {
+    "title": "header",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
+    "title": "header full",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   }
 }
