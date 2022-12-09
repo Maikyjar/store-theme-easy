@@ -1,11 +1,13 @@
 {
     "responsive-layout.mobile#product": {
+        "title": "responsive product mobile",
         "children": [
             "responsive-layout.tablet#tablet__product",
             "responsive-layout.phone#phone__product"
         ]
     },
     "responsive-layout.phone#phone__product": {
+        "title": "responsive product phone",
         "children": [
             "flex-layout.row#mobile__product--detail"
         ]

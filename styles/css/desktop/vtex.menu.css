@@ -1,0 +1,23 @@
+.styledLinkContent--menu-desktop-categories {
+    color: #82020e;
+    font-weight: bold;
+}
+
+.styledLinkContent--menu-desktop {
+    font-weight: bold;
+}
+
+.styledLinkContainer--menu-desktop {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.styledLinkContainer--menu-desktop-categories {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+}

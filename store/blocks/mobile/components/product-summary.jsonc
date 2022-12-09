@@ -1,10 +1,12 @@
 {
     "responsive-layout.mobile#productSummaryList": {
+        "title": "product summary mobile",
         "children": [
             "flex-layout.row#summaryListMobile"
         ]
     },
     "flex-layout.row#summaryListMobile": {
+        "title": "row product summary mobile",
         "props": {
             "preserveLayoutOnMobile": true,
             "colSizing": "auto",
@@ -17,11 +19,13 @@
         ]
     },
     "stack-layout#summaryListMobile": {
+        "title": "stack product summary mobile",
         "children": [
             "product-summary-image#summaryListMobile"
         ]
     },
     "product-summary-image#summaryListMobile": {
+        "title": "image product summary mobile",
         "props": {
             "showBadge": false,
             "aspectRatio": "1:1",
@@ -30,6 +34,7 @@
         }
     },
     "flex-layout.col#summaryDetailsListMobile": {
+        "title": "col product summary mobile",
         "props": {
             "preventVerticalStretch": true,
             "width": "grow",
@@ -41,6 +46,7 @@
         ]
     },
     "flex-layout.col#summaryUpDetailsListMobile": {
+        "title": "col product summary details mobile",
         "props": {
             "preventVerticalStretch": true,
             "blockClass": "summaryUpDetailsListMobile"
@@ -52,18 +58,21 @@
         ]
     },
     "vtex.store-components:product-brand#summaryListMobile": {
+        "title": "product summary brand mobile",
         "props": {
             "displayMode": "text",
             "blockClass": "summaryListMobile"
         }
     },
     "product-summary-name#summaryListMobile": {
+        "title": "product summary name mobile",
         "props": {
             "tag": "div",
             "blockClass": "summaryListMobile"
         }
     },
     "flex-layout.col#summaryDownDetailsListMobile": {
+        "title": "col product summary price mobile",
         "props": {
             "preventVerticalStretch": true
         },

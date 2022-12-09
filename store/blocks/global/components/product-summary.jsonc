@@ -1,5 +1,6 @@
 {
     "product-summary.shelf#listLayout": {
+        "title": "product summary list layout",
         "props": {
             "blockClass": "listLayout"
         },
@@ -9,11 +10,13 @@
         ]
     },
     "responsive-layout.desktop#productSummaryList": {
+        "title": "product summary list layout desktop",
         "children": [
             "flex-layout.row#summaryListDesktop"
         ]
     },  
     "flex-layout.row#summaryListDesktop": {
+        "title": "row summary list desktop",
         "props": {
             "fullWidth": true,
             "colSizing": "auto",
@@ -25,6 +28,7 @@
         ]
     },
     "flex-layout.row#summaryLeftListDesktop": {
+        "title": "row summary left list desktop",
         "props": {
             "blockClass": "summaryLeftListDesktop",
             "colSizing": "auto",
@@ -36,6 +40,7 @@
         ]
     },
     "flex-layout.col#summaryDetailsListDesktop": {
+        "title": "col summary details list desktop",
         "props": {
             "preventVerticalStretch": true
         },
@@ -47,17 +52,20 @@
         ]
     },
     "product-summary-name#summaryListDesktop": {
+        "title": "product summary name list desktop",
         "props": {
             "blockClass": "summaryListDesktop"
         }
     },
     "product-brand#summaryListDesktop": {
+        "title": "product summary brand list desktop",
         "props": {
             "displayMode": "text",
             "blockClass": "summaryListDesktop"
         }
     },
     "flex-layout.col#summaryRightListDesktop": {
+        "title": "col summary right list desktop",
         "props": {
             "blockClass": "summaryRightListDesktop",
             "preventVerticalStretch": true
@@ -68,22 +76,26 @@
         ]
     },
     "flex-layout.col#priceSummaryListDesktop": {
+        "title": "col summary price list desktop",
         "children": [
             "product-selling-price#summary",
             "product-list-price#summary"
         ]
     },
     "product-list-price#summary": {
+        "title": "summary price list desktop",
         "props": {
             "blockClass": "summary"
         }
     },
     "product-selling-price#summary": {
+        "title": "summary selling list desktop",
         "props": {
             "blockClass": "summary"
         }
     },
     "flex-layout.row#buyButtonsSummaryListDesktop": {
+        "title": "row buy buttons summary list desktop",
         "props": {
             "colSizing": "auto",
             "colGap": 5
@@ -94,6 +106,7 @@
         ]
     },
     "flex-layout.row#buyNowButton": {
+        "title": "row buy button now summary list desktop",
         "props": {
             "blockClass": "buyNowButton"
         },
@@ -102,6 +115,7 @@
         ]
     },
     "add-to-cart-button#buyNow": {
+        "title": "buy button now summary list desktop",
         "props": {
             "text": "BUY NOW",
             "isOneClickBuy": true,
@@ -110,11 +124,13 @@
         }
     },
     "stack-layout#summaryListDesktop": {
+        "title": "stack layout summary list desktop",
         "children": [
             "product-summary-image#summaryListDesktop"
         ]
     },
     "product-summary-image#summaryListDesktop": {
+        "title": "product images summary list desktop",
         "props": {
             "showBadge": true,
             "aspectRatio": "1:1",
@@ -122,11 +138,13 @@
         }
     },
     "product-installments#summary": {
+        "title": "product installments summary",
         "props": {
             "blockClass": "summary"
         }
     },
     "flex-layout.col#productRating": {
+        "title": "col product rating",
         "props": {
             "blockClass": "productRating"
         },

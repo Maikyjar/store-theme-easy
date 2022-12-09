@@ -1,11 +1,13 @@
 {
   "header-layout.mobile": {
+    "title": "header mobile",
     "children": [
       "responsive-layout.tablet#tablet__header",
       "responsive-layout.phone#phone__header"
     ]
   },
   "responsive-layout.phone#phone__header": {
+    "title": "header phone",
     "children": [
       "image#mobile__header--banner",
       "sticky-layout#mobile__header"

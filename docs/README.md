@@ -1,12 +1,15 @@
 # store-theme-easy
 
 # EASY Colombia
-Descripción
 
-Preview
---> es decir una imagen de la tienda ya funcionando
+Proyecto realizado sobre la base de un minimum boilerplate theme de vtex io, su construccion es el resultado del desarrollo del bootcamp de vtex university y la documentacion oficial, tiene como objetivo replicar la pagina oficial de Easy.
 
-Configuración
+![imagen](/assets/img/michael--itgloberspartnercl.myvtex.com_.png)
+
+[ejemplo de link](https://michael--itgloberspartnercl.myvtex.com/)
+
+# Configuraciones
+
 Paso 1 - Configuración Básica
 Explicación....
 Paso 2 - Clonación del repositorio

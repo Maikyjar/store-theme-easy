@@ -1,0 +1,49 @@
+.flexRowContent--footer--section-one {
+    background-color: #e8e8e8;
+}
+
+.flexRowContent--footer--section-two {
+    background-color: #cfcfcf;
+}
+
+.flexRow--product-summary-section-one {
+    border: 1px solid #dfdede;
+}
+
+.flexRow--product-summary-section-two {
+    border: 1px solid #dfdede;
+}
+
+.flexRow--row-product-price {
+    padding-left: 1em;
+}
+
+.flexRow--discount-product-summary {
+    padding-left: 1em;
+}
+
+.flexRowContent--alert-price {
+    background-color: #f7f7f7;
+}
+
+.flexColChild--buy-button :global(.vtex-button){
+    background-color: #bb141b;
+}
+
+.flexRowContent--product-detail-images {
+    align-items: center;
+}
+
+.flexCol--add-to-cart :global(.vtex-button) {
+    font-weight: bold;
+    background-color: #bb141b;
+    border-color: #bb141b;
+    font-size: 18px;
+}
+
+.flexCol--add-to-cart :global(.vtex-button):hover {
+    font-weight: bold;
+    background-color: transparent;
+    border-color: black;
+    font-size: 18px;
+}

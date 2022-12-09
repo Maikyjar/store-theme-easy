@@ -1,0 +1,11 @@
+.profileIcon {
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width: 500px) {
+    .profileIcon {
+        width: 30px;
+        height: 30px;
+    }
+}

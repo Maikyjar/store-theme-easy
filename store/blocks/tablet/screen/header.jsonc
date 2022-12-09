@@ -1,5 +1,6 @@
 {
   "responsive-layout.tablet#tablet__header": {
+    "title": "tablet header",
     "children": [
       "image#global__header--banner",
       "flex-layout.row#tablet"

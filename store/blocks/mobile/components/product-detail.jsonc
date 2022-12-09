@@ -51,11 +51,13 @@
         }
     },
     "flex-layout.row#mobile__buy--button": {
+        "title": "row mobile buy button",
         "children": [
             "flex-layout.col#mobile__buy--button"
         ]
     },
     "flex-layout.col#mobile__buy--button": {
+        "title": "col mobile buy button",
         "children": [
             "buy-button"
         ],
@@ -64,6 +66,7 @@
         }
     },
     "flex-layout.row#mobile__product--detail-images": {
+        "title": "row mobile product detail images",
         "children": [
             "image#mobile__product--detail-avaliable",
             "image#mobile__product--detail-house",
@@ -76,6 +79,7 @@
         }
     },
     "image#mobile__product--detail-avaliable": {
+        "title": "mobile product images avaliable",
         "props": {
             "src": "assets/img/product-detail/ver-disponibilidad.png",
             "maxWidth": 103,
@@ -83,6 +87,7 @@
         }
     },
     "image#mobile__product--detail-house": {
+        "title": "mobile product images house",
         "props": {
             "src": "assets/img/product-detail/delivery-icon-product.png",
             "maxWidth": 95,
@@ -90,6 +95,7 @@
         }
     },
     "image#mobile__product--detail-shop": {
+        "title": "mobile product images shop",
         "props": {
             "src": "assets/img/product-detail/pickup-icon-product.png",
             "maxWidth": 95,

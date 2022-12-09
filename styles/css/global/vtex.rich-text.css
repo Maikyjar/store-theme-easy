@@ -12,12 +12,7 @@
     height: 2px;
     background-color: #ed2923;
     position: absolute;
-}
-
-@media screen and (max-width: 768px) {
-    .heading--subtitle__home {
-        font-size: 1.1em;
-    }
+    transform: translate(1px, 34px);
 }
 
 .headingLevel3--subtitle__home-section-nine {
@@ -26,28 +21,11 @@
     margin-block-end: 2.5em;
 }
 
-@media screen and (max-width: 768px) {
-    .headingLevel3--subtitle__home-section-nine {
-        color: #8a8989;
-        font-size: 1.2em;
-        margin-block-end: 2em;
-    }   
-}
-
 .headingLevel4--title_image-section-nine {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: bold;
     font-size: 1.4em;
-}
-
-@media screen and (max-width: 768px) {
-    .headingLevel4--title_image-section-nine {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-weight: bold;
-        font-size: 1.1em;
-    }   
 }
 
 .paragraph--subtitle_image-section-nine {
@@ -66,34 +44,9 @@
     font-weight: bold;
 }
 
-.paragraph--drawer__mobile-title {
-    color: #82020e;
-    font-weight: bold;
-}
-
-.paragraph--tablet-product-summary-avaliable {
-    color: #00882c;
-    font-weight: bold;
-    margin-block-start: 0.3em;
-    margin-block-end: 0.3em;
-}
-
-.paragraph--tablet-summary-section-one {
-    margin-block-start: 0.3em;
-    margin-block-end: 0.3em;
-}
-
 .headingLevel2--footer-title_section-two {
     font-weight: bold;
     font-size: 1.8em;
-}
-
-@media screen and (max-width: 480px) {
-    .headingLevel2--footer-title_section-two {
-        font-weight: bold;
-        font-size: 1.5em;
-        margin-block-end: 0;
-    }   
 }
 
 .paragraph--footer-section-one {

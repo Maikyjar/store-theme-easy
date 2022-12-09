@@ -1,0 +1,17 @@
+.openIconContainer--drawer__tablet {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.menuIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.openIconContainer--drawer__mobile {
+    margin-top: 5px;
+}
+
+.drawerHeader {
+    margin-left: 1.5rem;
+}
