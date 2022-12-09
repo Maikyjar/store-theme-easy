@@ -10,12 +10,14 @@
         }
     },
     "rich-text#section__four--title": {
+        "title": "text section four title",
         "props": {
             "text": "## Organiza todos tus espacios",
             "blockClass": "subtitle__home"
         }
     },
     "flex-layout.row#home__section--four": {
+        "title": "row section four",
         "children": [
             "flex-layout.col#section__four--item-1",
             "flex-layout.col#section__four--item-2",
@@ -23,6 +25,7 @@
         ]
     },
     "flex-layout.col#section__four--item-1": {
+        "title": "col section four 1",
         "children": [
             "image#home__section--four-image-one"
         ],
@@ -44,6 +47,7 @@
         }
     },
     "flex-layout.col#section__four--item-2": {
+        "title": "col section four 2",
         "children": [
             "image#home__section--four-image-two"
         ],
@@ -65,6 +69,7 @@
         }
     },
     "flex-layout.col#section__four--item-3": {
+        "title": "col section four 3",
         "children": [
             "image#home__section--four-image-three"
         ],

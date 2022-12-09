@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__section--test": {
+        "title": "row section test",
         "children": [
             "rich-text#home__section--test"
         ],

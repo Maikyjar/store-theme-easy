@@ -1,5 +1,6 @@
 {
   "store.home": { 
+    "title": "store home",
     "blocks": [
       //"flex-layout.row#home__section--one",
       //"link#home__link--boton",

@@ -3,29 +3,12 @@
     background-color: #ce2b2b;
 }
 
-.logoImage--logo__mobile {
-    margin-left: -25px;
-}
-
-.logoImage--logo__tablet {
-    margin-left: -25px;
-}
-
-/* .searchBarInnerContainer {
-    border: solid 0.1rem #e3e4e6;
-} */
-
 .imageElement--footer-section-two-image {
     margin-block-start: 2.99em;
 }
 
 .logoImage--logo-footer {
     margin-left: -25px;
-}
-
-.imageElement--footer-section-two-image-mobile {
-    margin-block-start: 2.99em;
-    padding-block-end: 1.5em;
 }
 
 .imageElement--product__summary-section-one {
@@ -47,12 +30,4 @@
 .buyButtonText {
     font-weight: bold;
     font-size: 1.3rem;
-}
-
-.productBrandName--summaryListMobile {
-    color: #ce2b2b;
-}
-
-.productBrandName--summaryListDesktop {
-    color: #ce2b2b;
 }

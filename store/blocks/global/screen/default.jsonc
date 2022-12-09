@@ -1,9 +1,11 @@
 {
   "store.orderplaced": {
+    "title": "store order placed",
     "blocks": ["order-placed"]
   },
 
   "store.account": {
+    "title": "store account",
     "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
@@ -11,10 +13,12 @@
   },
 
   "store.login": {
+    "title": "store login",
     "blocks": ["login-content#default"]
   },
 
   "login-content#default": {
+    "title": "login content",
     "props": {
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,

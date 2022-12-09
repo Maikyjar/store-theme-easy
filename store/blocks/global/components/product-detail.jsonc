@@ -97,6 +97,7 @@
         }
     },
     "rich-text#product__info--avaliable": {
+        "title": "text product info avaliable",
         "props": {
             "text": "Disponible",
             "textPosition": "LEFT",
@@ -104,12 +105,14 @@
         }
     },
     "rich-text#product__detail": {
+        "title": "text product detail",
         "props": {
             "text": "Pagando con: ",
             "blockClass": "text-product-detail"
         }
     },
     "flex-layout.row#product__detail--discount": {
+        "title": "row product detail discount",
         "children": [
             "image#product__detail--discount",
             "rich-text#product__summary--desktop-discount"
@@ -136,6 +139,7 @@
         }
     },
     "flex-layout.row#buy__button": {
+        "title": "row buy botton",
         "children": [
             "flex-layout.col#buy__button"
         ],
@@ -144,6 +148,7 @@
         }
     },
     "flex-layout.col#buy__button": {
+        "title": "col buy botton",
         "children": [
             "add-to-cart-button#detail"
         ],
@@ -153,11 +158,13 @@
         }
     },
     "add-to-cart-button#detail": {
+        "title": "add to cart button detail",
         "props": {
           "text": "AGREGAR AL CARRO"
         }
     },
     "flex-layout.row#product__detail--images": {
+        "title": "row product detail images",
         "children": [
             "image#product__detail--avaliable",
             "image#product__detail--house",
@@ -169,6 +176,7 @@
         }
     },
     "image#product__detail--avaliable": {
+        "title": "product detail image avaliable",
         "props": {
             "src": "assets/img/product-detail/ver-disponibilidad.png",
             "maxWidth": 223,
@@ -176,6 +184,7 @@
         }
     },
     "image#product__detail--house": {
+        "title": "product detail image house",
         "props": {
             "src": "assets/img/product-detail/delivery-icon-product.png",
             "maxWidth": 206,
@@ -183,6 +192,7 @@
         }
     },
     "image#product__detail--shop": {
+        "title": "product detail image shop",
         "props": {
             "src": "assets/img/product-detail/pickup-icon-product.png",
             "maxWidth": 206,
@@ -190,6 +200,7 @@
         }
     },
     "flex-layout.row#text__alert-price": {
+        "title": "row text alert price",
         "children": [
             "rich-text#alert__price"
         ],
@@ -198,6 +209,7 @@
         }
     },
     "rich-text#alert__price": {
+        "title": "text alert price",
         "props": {
             "text": "*Los precios aquí publicados son exclusivos para www.easy.com.co. Para confirmar precio en tiendas puede comunicarse a nuestra linea de atención o en nuestro chat online.",
             "blockClass": "alert__price"
@@ -210,12 +222,14 @@
         ]
     },
     "tab-layout#product-tabs": {
+        "title": "product tabs",
         "children": [
             "tab-list#product-tabs--list",
             "tab-content#product-tabs--content"
         ]
     },
     "tab-list#product-tabs--list": {
+        "title": "product tabs list",
         "children": [
             "tab-list.item#tabs__list--description",
             "tab-list.item#tabs__list--specifications",
@@ -226,6 +240,7 @@
         }
     },
     "tab-list.item#tabs__list--description": {
+        "title": "product tab list description",
         "props": {
             "tabId": "description",
             "label": "DESCRIPCIÓN",
@@ -234,6 +249,7 @@
         }
     },
     "tab-list.item#tabs__list--specifications": {
+        "title": "product tab list specifications",
         "props": {
             "tabId": "specifications",
             "label": "ESPECIFICACIONES",
@@ -241,6 +257,7 @@
         }
     },
     "tab-list.item#tabs__list--comments": {
+        "title": "product tab list comments",
         "props": {
             "tabId": "comments",
             "label": "COMENTARIOS",
@@ -248,6 +265,7 @@
         }
     },
     "tab-content#product-tabs--content": {
+        "title": "product tabs content",
         "children": [
             "tab-content.item#tabs__list--description",
             "tab-content.item#tabs__list--specifications",
@@ -255,6 +273,7 @@
         ]
     },
     "tab-content.item#tabs__list--description": {
+        "title": "product tab content description",
         "props": {
             "tabId": "description"
         },
@@ -263,6 +282,7 @@
         ]
     },
     "tab-content.item#tabs__list--specifications": {
+        "title": "product tab content specifications",
         "props": {
             "tabId": "specifications"
         },
@@ -271,6 +291,7 @@
         ]
     },
     "tab-content.item#tabs__list--comments": {
+        "title": "product tab content comments",
         "props": {
             "tabId": "comments"
         },

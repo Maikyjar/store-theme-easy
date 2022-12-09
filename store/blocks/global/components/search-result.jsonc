@@ -26,16 +26,19 @@
     ]
   },
   "flex-layout.row#desktop__home-result": {
+    "title": "row desktop search result custom query",
     "children": [
       "flex-layout.col#desktop__home-result"
     ]
   },
   "flex-layout.col#desktop__home-result": {
+    "title": "col desktop search result custom query",
     "children": [
       "search-content#desktop__home-result"
     ]
   },
   "search-content#desktop__home-result": {
+    "title": "blocks desktop search result custom query",
     "blocks": [
       "gallery",
       "not-found"

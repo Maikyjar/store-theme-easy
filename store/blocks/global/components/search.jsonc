@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "store search",
     "blocks": [
       "search-result-layout"
     ],
@@ -11,6 +12,7 @@
     }
   },
   "store.search#category": {
+    "title": "store search category",
     "blocks": [
       "search-result-layout"
     ],
@@ -22,6 +24,7 @@
     }
   },
   "store.search#subcategory": {
+    "title": "store search subcategory",
     "blocks": [
       "search-result-layout"
     ],
@@ -33,6 +36,7 @@
     }
   },
   "store.search#brand": {
+    "title": "store search brand",
     "blocks": [
       "search-result-layout"
     ],

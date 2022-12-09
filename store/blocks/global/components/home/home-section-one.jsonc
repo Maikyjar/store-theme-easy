@@ -10,13 +10,14 @@
     }
   },
   "rich-text#section__one--title": {
+    "title": "text section one title",
     "props": {
       "text": "## No te los puedes perder",
       "blockClass": "subtitle__home"
     }
   },
   "flex-layout.row#home__section--one": {
-    "title": "section one of home",
+    "title": "row section one",
     "children": [
       "flex-layout.col#section__one--item-1",
       "flex-layout.col#section__one--item-2"
@@ -27,6 +28,7 @@
     }
   },
   "flex-layout.col#section__one--item-1": {
+    "title": "col section one 1",
     "children": [
       "image#home__section--image--one"
     ],
@@ -48,6 +50,7 @@
     }
   },
   "flex-layout.col#section__one--item-2": {
+    "title": "col section one 2",
     "children": [
       "list-context.product-list#desktop__section--one"
     ],
@@ -56,6 +59,7 @@
     }
   },
   "list-context.product-list#desktop__section--one": {
+    "title": "product list section one",
     "blocks": [
       "product-summary.shelf#desktop__section--one"
     ],
@@ -82,12 +86,14 @@
     }
   },
   "product-summary.shelf#desktop__section--one": {
+    "title": "product summary section one",
     "children": [
       "flex-layout.row#product__summary-section__one",
       "flex-layout.row#product__summary-section__two"
     ]
   },
   "flex-layout.row#product__summary-section__one": {
+    "title": "row product summary section one",
     "children": [
       "product-summary-image"
     ],
@@ -96,11 +102,13 @@
     }
   },
   "product-summary-image": {
+    "title": "product summary image",
     "props": {
       "height": 220
     }
   },
   "flex-layout.row#product__summary-section__two": {
+    "title": "row product summary section two",
     "children": [
       "flex-layout.col#product__summary-section__two"    
     ],
@@ -109,6 +117,7 @@
     }
   },
   "flex-layout.col#product__summary-section__two": {
+    "title": "col product summary section two",
     "children": [
       "product-summary-name#desktop",
       "product-rating-inline",
@@ -120,11 +129,13 @@
     ]
   },
   "product-summary-name#desktop": {
+    "title": "product summary name",
     "props": {
       "blockClass": "desktop-product-summary"
     }
   },
   "flex-layout.row#product__price": {
+    "title": "product price",
     "children": [
       "product-list-price",
       "product-selling-price"
@@ -137,12 +148,14 @@
     }
   },
   "rich-text#product__summary--desktop-section-one_card": {
+    "title": "text product summary section one",
     "props": {
       "text": "Pagando con: ",
       "blockClass": "text-product-summary"
     }
   },
   "flex-layout.row#product__discount": {
+    "title": "row product summary discount",
     "children": [
       "image#product__summary--desktop-section-one",
       "rich-text#product__summary--desktop-discount"
@@ -170,12 +183,14 @@
     }
   },
   "rich-text#product__summary--desktop-discount": {
+    "title": "text product summary discount",
     "props": {
       "text": "-$8,997",
       "blockClass": "product-summary-discount"
     }
   },
   "rich-text#product__summary--desktop-section-one_avaliable": {
+    "title": "text product summary avaliable",
     "props": {
       "text": "Disponible",
       "textPosition": "RIGHT",
@@ -183,6 +198,7 @@
     }
   },
   "add-to-cart-button": {
+    "title": "add to card button section one",
     "props": {
       "text": "AGREGAR",
       "blockClass": "add-to-cart"

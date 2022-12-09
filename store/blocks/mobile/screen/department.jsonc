@@ -1,5 +1,6 @@
 {
     "search-result-layout.mobile": {
+        "title": "search result mobile",
         "children": [
             "responsive-layout.tablet#tablet__department",
             "responsive-layout.phone#phone__department"
@@ -9,6 +10,7 @@
         }
     },
     "responsive-layout.phone#phone__department": {
+        "title": "department mobile",
         "children": [
             "flex-layout.row#search__breadcrumb",
             "flex-layout.row#searchinfomobile",

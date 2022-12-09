@@ -10,6 +10,7 @@
         }
     },
     "rich-text#section__nine--title": {
+        "title": "text section nine title",
         "props": {
             "text": "### Easy: Todo para construir, decorar y remodelar.",
             "blockClass": "subtitle__home-section-nine",
@@ -18,6 +19,7 @@
         }
     },
     "flex-layout.row#home__section--nine": {
+        "title": "row section nine",
         "children": [
             "flex-layout.col#section__nine--item-1",
             "flex-layout.col#section__nine--item-2",
@@ -28,6 +30,7 @@
         }
     },
     "flex-layout.col#section__nine--item-1": {
+        "title": "col section nine 1",
         "children": [
             "image#home__section--nine-image-one",
             "rich-text#home__section--nine-text-one-title",
@@ -53,12 +56,14 @@
         }
     },
     "rich-text#home__section--nine-text-one-title": {
+        "title": "text section nine title one",
         "props": {
             "text": "#### Envío a domicilio",
             "blockClass": "title_image-section-nine"
         }
     },
     "rich-text#home__section--nine-text-one-subtitle": {
+        "title": "text section nine subtitle one",
         "props": {
             "text": "Recibe en tu casa el producto",
             "blockClass": "subtitle_image-section-nine",
@@ -66,6 +71,7 @@
         }
     },
     "flex-layout.col#section__nine--item-2": {
+        "title": "col section nine 2",
         "children": [
             "image#home__section--nine-image-two",
             "rich-text#home__section--nine-text-two-title",
@@ -91,12 +97,14 @@
         }
     },
     "rich-text#home__section--nine-text-two-title": {
+        "title": "text section nine title two",
         "props": {
             "text": "#### Retiro en tienda",
             "blockClass": "title_image-section-nine"
         }
     },
     "rich-text#home__section--nine-text-two-subtitle": {
+        "title": "text section nine subtitle two",
         "props": {
             "text": "Retira en tu tienda más cercana",
             "blockClass": "subtitle_image-section-nine",
@@ -104,6 +112,7 @@
         }
     },
     "flex-layout.col#section__nine--item-3": {
+        "title": "col section nine",
         "children": [
             "image#home__section--nine-image-three",
             "rich-text#home__section--nine-text-three-title",
@@ -129,12 +138,14 @@
         }
     },
     "rich-text#home__section--nine-text-three-title": {
+        "title": "text section nine title three",
         "props": {
             "text": "#### Compra fácil",
             "blockClass": "title_image-section-nine"
         }
     },
     "rich-text#home__section--nine-text-three-subtitle": {
+        "title": "text section nine subtitle three",
         "props": {
             "text": "Rápido y seguro",
             "blockClass": "subtitle_image-section-nine",

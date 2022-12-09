@@ -1,11 +1,13 @@
 {
-    "footer-layout.mobile": { 
+  "footer-layout.mobile": {
+    "title": "footer mobile",
     "children": [
       "responsive-layout.tablet#tablet__footer",
-      "responsive-layout.phone#phone__footer" 
+      "responsive-layout.phone#phone__footer"
     ]
   },
   "responsive-layout.phone#phone__footer": {
+    "title": "footer mobile",
     "children": [
       "flex-layout.row#mobile__footer--section-one-1",
       "flex-layout.row#mobile__footer--section-one-2",
