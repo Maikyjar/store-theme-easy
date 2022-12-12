@@ -53,7 +53,8 @@
     "vtex.search": "2.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-price": "1.x",
-    "vtex.product-specifications": "1.x"
+    "vtex.product-specifications": "1.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
