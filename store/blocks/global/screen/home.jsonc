@@ -6,9 +6,9 @@
       //"link#home__link--boton",
       //"slider-layout#home__slider--children",
       //"flex-layout.row#home__section--three",
+      "whatsapp-button",
       "responsive-layout.mobile",
       "responsive-layout.desktop"
-      
     ]
   }
 }

@@ -1,5 +1,8 @@
 {
     "store.custom#about-us": {
         "path": "/acerca-de-easy"
+    },
+    "store.custom#bullets-diagramation": {
+        "path": "/list-context"
     }
 }

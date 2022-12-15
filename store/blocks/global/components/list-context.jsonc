@@ -1,0 +1,64 @@
+{
+    "list-context.bullet-group": {
+        "title": "Mi contexto de lista",
+        "children": [
+            "slider-layout#bullet-group"
+        ],
+        "props": {
+            "bullets": [
+                {
+                    "image": "assets/img/footer/logo-puntos.webp",
+                    "titleBullet": "Puntos",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/footer/logo-easy.webp",
+                    "titleBullet": "Easy",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/footer/logo-metro.webp",
+                    "titleBullet": "Metro",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/footer/logo-jumbo.webp",
+                    "titleBullet": "Jumbo",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/footer/call_center.webp",
+                    "titleBullet": "Call center",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/footer/logo-puntos.webp",
+                    "titleBullet": "Puntos",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#bullet-group": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 5,
+                "mobile": 5
+            },
+            "infinite": true
+        }
+    }
+}
