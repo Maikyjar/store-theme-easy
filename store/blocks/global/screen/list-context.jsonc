@@ -1,0 +1,15 @@
+{
+    "store.custom#bullets-diagramation": {
+        "title": "Page con contexto de lista",
+        "blocks": [
+            "flex-layout.row#bullets-diagramation"
+            
+        ]
+    },
+    "flex-layout.row#bullets-diagramation": {
+        "title": "row bullets diagramation",
+        "children": [
+            "list-context.bullet-group"
+        ]
+    }
+}

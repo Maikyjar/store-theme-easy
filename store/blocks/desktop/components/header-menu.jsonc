@@ -26,7 +26,7 @@
             "iconId": null,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/list-context",
                 "noFollow": false,
                 "tagTitle": "CATEGORÍAS",
                 "text": "☰ CATEGORÍAS"
