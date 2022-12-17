@@ -68,7 +68,8 @@
             "flex-layout.row#product__detail--discount",
             "flex-layout.row#buy__button",
             "flex-layout.row#product__detail--images",
-            "flex-layout.row#text__alert-price"
+            "flex-layout.row#text__alert-price",
+            "modal-trigger#add-to-cart-info"
             /*"shipping-simulator" */
         ],
         "props": {
