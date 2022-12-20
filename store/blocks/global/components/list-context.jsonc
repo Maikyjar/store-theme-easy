@@ -1,4 +1,34 @@
 {
+    "flex-layout.row#list-context": {
+        "title": "row list context",
+        "children": [
+            "flex-layout.col#list-context"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "marginBottom": 5,
+            "marginTop": 5
+        }
+    },
+    "flex-layout.col#list-context": {
+        "title": "column list context",
+        "children": [
+            "department-search",
+            "list-context.bullet-group",
+            "pdf-reader"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "90%"
+        }
+    },
+    "pdf-reader": {
+        "props": {
+            "pdfUrl": "assets/docts/1.pdf",
+            "width": 800,
+            "height": 1000
+        }
+    },
     "list-context.bullet-group": {
         "title": "Mi contexto de lista",
         "children": [
