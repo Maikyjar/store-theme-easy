@@ -58,7 +58,8 @@
                 "tablet": 5,
                 "mobile": 5
             },
-            "infinite": true
+            "infinite": true,
+            "showPaginationDots": false
         }
     }
 }
