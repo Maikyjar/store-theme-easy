@@ -46,7 +46,8 @@
         ],
         "props": {
             "openAutocompleteOnFocus": true,
-            "displayMode": "search-and-clear-buttons"
+            "displayMode": "search-and-clear-buttons",
+            "autocompleteAlignment": "center"
         }
     },
     "flex-layout.col#desktop__login-minicart--header": {

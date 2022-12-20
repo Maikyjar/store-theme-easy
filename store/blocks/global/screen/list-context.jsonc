@@ -2,14 +2,37 @@
     "store.custom#bullets-diagramation": {
         "title": "Page con contexto de lista",
         "blocks": [
-            "flex-layout.row#bullets-diagramation"
-            
+            "flex-layout.row#list-context"
         ]
     },
-    "flex-layout.row#bullets-diagramation": {
-        "title": "row bullets diagramation",
+    "flex-layout.row#list-context": {
+        "title": "row list context",
         "children": [
-            "list-context.bullet-group"
-        ]
+            "flex-layout.col#list-context"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "marginBottom": 5,
+            "marginTop": 5
+        }
+    },
+    "flex-layout.col#list-context": {
+        "title": "column list context",
+        "children": [
+            "department-search",
+            "list-context.bullet-group",
+            "pdf-reader"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "90%"
+        }
+    },
+    "pdf-reader": {
+        "props": {
+            "pdfUrl": "assets/docts/1.pdf",
+            "width": 800,
+            "height": 1000
+        }
     }
 }
