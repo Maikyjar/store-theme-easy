@@ -104,4 +104,4 @@ Por ultimo procedemmos a colocar el comando `vtex link` en nuestra consola estan
 ```
 
 Contributors
-1. Michael Alvarez
+1. Michael Alvarez.
