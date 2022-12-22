@@ -16,6 +16,7 @@
             "department-search",
             "quick-order",
             "list-context.bullet-group",
+            "custom-grid",
             "pdf-reader"
         ],
         "props": {
@@ -24,6 +25,7 @@
         }
     },
     "pdf-reader": {
+        "title": "component PDF reader",
         "props": {
             "pdfUrl": "assets/docts/1.pdf",
             "width": 800,
@@ -83,6 +85,7 @@
         }
     },
     "slider-layout#bullet-group": {
+        "title": "Slider bullet group",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
@@ -91,6 +94,28 @@
             },
             "infinite": true,
             "showPaginationDots": false
+        }
+    },
+    "custom-grid": {
+        "title": "Custom grid",
+        "children": [
+            "image#home__section--three-image-three",
+            "image#home__section--three-image-one",
+            "rich-text#custom-grid-3",
+            "image#home__section--three-image-two",
+            "rich-text#custom-grid-5"
+        ]
+    },
+    "rich-text#custom-grid-3": {
+        "title": "rich text 3 custom grid",
+        "props": {
+            "text": ""
+        }
+    },
+    "rich-text#custom-grid-5": {
+        "title": "rich text 5 custom grid",
+        "props": {
+            "text": ""
         }
     }
 }
