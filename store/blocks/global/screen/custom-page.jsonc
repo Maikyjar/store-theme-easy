@@ -1,0 +1,10 @@
+{
+    "store.custom#bullets-diagramation": {
+        "title": "Page con componentes custom",
+        "blocks": [
+            "responsive-layout.phone#custom__page",
+            "responsive-layout.tablet#custom__page",
+            "responsive-layout.desktop#custom__page"
+        ]
+    }
+}
