@@ -1,0 +1,41 @@
+{
+    "responsive-layout.phone#custom__page": {
+        "title": "custom page phone",
+        "children": [
+            "flex-layout.row#phone__list--context"
+        ]
+    },
+    "flex-layout.row#phone__list--context": {
+        "title": "row list context phone",
+        "children": [
+            "flex-layout.col#phone__list--context"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "marginBottom": 5,
+            "marginTop": 5,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#phone__list--context": {
+        "title": "column list context phone",
+        "children": [
+            "department-search",
+            "quick-order",
+            "list-context.bullet-group",
+            "pdf-reader#phone"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "98%"
+        }
+    },
+    "pdf-reader#phone": {
+        "title": "component PDF reader",
+        "props": {
+            "pdfUrl": "assets/docts/1.pdf",
+            "width": "98%",
+            "height": 550
+        }
+    }
+}

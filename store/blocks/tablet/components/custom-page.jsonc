@@ -1,0 +1,42 @@
+{
+    "responsive-layout.tablet#custom__page": {
+        "title": "custom page tablet",
+        "children": [
+            "flex-layout.row#tablet__list--context"
+        ]
+    },
+    "flex-layout.row#tablet__list--context": {
+        "title": "row list context tablet",
+        "children": [
+            "flex-layout.col#tablet__list--context"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "marginBottom": 5,
+            "marginTop": 5,
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#tablet__list--context": {
+        "title": "column list context tablet",
+        "children": [
+            "department-search",
+            "quick-order",
+            "list-context.bullet-group",
+            "custom-grid",
+            "pdf-reader#tablet"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "width": "95%"
+        }
+    },
+    "pdf-reader#tablet": {
+        "title": "component PDF reader",
+        "props": {
+            "pdfUrl": "assets/docts/1.pdf",
+            "width": "95%",
+            "height": 800
+        }
+    }
+}
