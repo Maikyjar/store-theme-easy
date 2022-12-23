@@ -2,17 +2,25 @@
 
 # EASY Colombia
 
-Proyecto realizado sobre la base de un minimum boilerplate theme de vtex io, su construccion es el resultado del desarrollo del bootcamp de vtex university y la documentacion oficial, tiene como objetivo replicar la pagina oficial de Easy.
+Proyecto realizado sobre la base de un minimum boilerplate theme de vtex io, su construccion es el resultado del desarrollo del bootcamp de vtex university y la documentacion oficial, tiene como objetivo replicar la pagina oficial de Easy colombia.
 
 ![imagen](/assets/img/michael--itgloberspartnercl.myvtex.com_.png)
 
-[ejemplo de link](https://michael--itgloberspartnercl.myvtex.com/)
+### Custom Component
+
+ - [Quick Order](https://github.com/Maikyjar/itgloberspartnercl-quick-order)
+ - [Custom Grid](https://github.com/Maikyjar/itgloberspartnercl-custom-diagramation-template)
+ - [Add To Cart Info](https://github.com/Maikyjar/itgloberspartnercl-add-to-cart-info)
+ - [Custom Department Search](https://github.com/Maikyjar/itgloberspartnercl-custom-department-search)
+ - [PDF Reader](https://github.com/Maikyjar/itgloberspartnercl-html-pdf)
+ - [WhatsApp Buttom](https://github.com/Maikyjar/itgloberspartnercl-whatsapp-button)
+ - [Bullets Diagramation](https://github.com/Maikyjar/itgloberspartnercl-bullets-diagramation)
 
 # Configuraciones
 
 ### Paso 1 - Configuración Básica
 
-Para iniciar con el desarrollo de este proyecto inicialmente debes instalar un editor de codigo, ademas de tener instalado Git y Git Bash, ademas de realizar la instalacion y configuracion del CLI de VTEX IO.
+Para iniciar con el desarrollo de este proyecto, inicialmente debes instalar un editor de codigo, ademas de tener instalado Git y Git Bash, ademas de realizar la instalacion y configuracion del CLI de VTEX IO.
 
 ### Paso 2 - Clonación del repositorio
 
